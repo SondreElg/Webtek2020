@@ -40,3 +40,22 @@ section {
 li {
     margin-bottom: 15px;
 }
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: bold;
+}
+
+td,
+th {
+    border: 2px solid #b0b0b0;
+    padding: 4px;
+}
+
+figcaption {
+    font-size: 15px;
+    text-align: center;
+}
