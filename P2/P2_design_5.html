@@ -41,7 +41,11 @@
                 should also have a clear layout and be made in such a way that
                 it is intuitive to use by both old and new members. In this
                 context, the website should provide a good solution for sorting
-                the information being displayed on the website.
+                the information being displayed on the website. The website is
+                important for Anime NTNU because they don’t have a specific room
+                at their disposal, so both new and returning members need a
+                place they can go to find information about screenings and
+                contact Anime NTNU.
             </p>
             <p>
                 The audience is all people fond of or curious about anime. As
@@ -175,16 +179,16 @@
                     welcoming the visitor to their website. The section on the
                     left side of the screen will showcase the latest news from
                     the newsfeed page, and the section on the right side of the
-                    screen will showcase upcoming screenings from the screenings
-                    page. The sections will have a blue background color
-                    (#1F293C) that is lighter than the color of the main body.
-                    We want this content to be available from the front page as
-                    this is the type of information we expect most visitors will
-                    be interested in. It might also make the visitor curious
-                    about the rest of the website, and prompt them to check out
-                    other pages. We want the website to have a clear and
-                    intuitive design that prompts the visitor to explore and
-                    interact with the different pages.
+                    screen will showcase the next upcoming screening from the
+                    screenings page. The sections will have a blue background
+                    color (#1F293C) that is lighter than the color of the main
+                    body. We want this content to be available from the front
+                    page as this is the type of information we expect most
+                    visitors will be interested in. It might also make the
+                    visitor curious about the rest of the website, and prompt
+                    them to check out other pages. We want the website to have a
+                    clear and intuitive design that prompts the visitor to
+                    explore and interact with the different pages.
                 </p>
                 <figure>
                     <img src="images/mock_frontpage.png" alt="Front page" />
@@ -196,25 +200,46 @@
                 <header><h3>Navigation bar</h3></header>
                 <p>
                     The navigation bar will be placed at the top of the screen
-                    of each page on the website. From here, the visitor can
-                    easily navigate between the different pages, fulfilling the
-                    purpose of visitors wishing to view more information about
-                    particular topics not shown on the front page. On the far
-                    left of the navigation bar there will be a logo representing
-                    Anime NTNU which can be clicked on to navigate the visitor
-                    back to the front page. Our client has also requested there
-                    to be a clickable link which redirects the user to Anime
-                    NTNU’s discord server. The client specifically wished for
-                    this link to be available from the navigation bar. The link
-                    will be displayed as an interactive picture. The client also
-                    wanted there to be a feature which lets the visitor sign up
-                    to become a member of Anime NTNU. This feature will be
-                    implemented as a button (as shown in figure 3) that OnClick
-                    opens a pop-up form prompting the visitor to submit an
-                    username and a password. Both the interactive discord
-                    picture and the sign up button is placed in the navigation
-                    bar because we want the visitor to be able to reach these
-                    features easily whenever and wherever from the website.
+                    of each page on the website. Thus it will be a modular
+                    component. This design choice was made with accessibility in
+                    mind. From here, the visitor can easily navigate between the
+                    different pages, fulfilling the purpose of visitors wishing
+                    to view more information about particular topics not shown
+                    on the front page. On the far left of the navigation bar
+                    there will be a logo representing Anime NTNU which can be
+                    clicked on to navigate the visitor back to the front page.
+                    Our client has also requested there to be a clickable link
+                    which redirects the user to Anime NTNU’s discord server. The
+                    client specifically wished for this link to be available
+                    from the navigation bar. The link will be displayed as an
+                    interactive picture. The client also wanted there to be a
+                    feature which lets the visitor sign up to become a member of
+                    Anime NTNU. This feature will be implemented as a button (as
+                    shown in figure 3) that OnClick opens a pop-up form
+                    prompting the visitor to submit an username and a password.
+                    Both the interactive discord picture and the sign up button
+                    is placed in the navigation bar because we want the visitor
+                    to be able to reach these features easily whenever and
+                    wherever from the website.
+                </p>
+                <p>
+                    Another feature the client requested was that he wanted the
+                    navigation bar to be attached to the top of the pages on the
+                    website. More specifically, if there is enough content on a
+                    page to scroll down, the navigation bar should disappear
+                    when scrolling down. Hence if the visitors want to use the
+                    navigation bar, they have to scroll all the way to the top
+                    of the page in order to access this. This design choice was
+                    made largely by the client, as he thought this would be the
+                    best way to implement a navigation bar according to his
+                    previous experiences. This way, the navigation bar will not
+                    take up much space on the screen, and the visitor can fully
+                    enjoy the content on the page. If the choice of design was
+                    entirely up to our team, we would have implemented the
+                    navigation bar as stated above on a mobile version of the
+                    website. For regular use on a computer, we think it would be
+                    fine to let the navigation bar be fixed to the top of the
+                    screen at all times.
                 </p>
                 <figure>
                     <img src="images/mock_header1.png" alt="Navigation bar" />
@@ -331,57 +356,44 @@
             <section>
                 <header><h3>Screenings</h3></header>
                 <p>
+                    Because Anime NTNU does not have a fixed location for
+                    screenings, it is important to include this information on
+                    the website. Furthermore, Anime NTNU usually hangs up
+                    posters at the beginning of each semester, but as these are
+                    quickly covered by other posters, it is crucial to have a
+                    page where you can easily find this information.
+                </p>
+                <p>
                     From the screenings page the visitor will be able to view
-                    all upcoming screenings hosted by Anime NTNU. As there might
-                    be several screenings scheduled for the same day, the
-                    screenings will be grouped together in a list format. Each
-                    planned screening-session will contain information about the
-                    date, time, and location of the screening, making this
-                    important piece of information easily viewable. All the
-                    planned screenings on the page will have a thumbnail picture
-                    of said screening. This thumbnail picture can be clicked on
-                    to display additional information about the anime.
+                    all upcoming screenings hosted by Anime NTNU. Each planned
+                    screening-session will contain information about the date,
+                    time, and location of the screening, making this important
+                    piece of information easily viewable. Each anime info-box
+                    will say which episode is being screened, so that members
+                    who have missed out on a screening can catch up to the
+                    correct episode, and clicking on the box will display a
+                    pop-up with more information about the anime.
                 </p>
                 <figure>
                     <img
-                        src="images/mock_screenings1.png"
-                        alt="Screenings page, mockup 1"
+                        src="images/mock_screenings.png"
+                        alt="Screenings page"
                     />
-                    <figcaption>
-                        Figure 10: Screenings page, mockup 1
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img
-                        src="images/mock_screenings2.png"
-                        alt="Screenings page, mockup 2"
-                    />
-                    <figcaption>
-                        Figure 11: Screenings page, mockup 2
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img
-                        src="images/mock_screenings3.png"
-                        alt="Screenings page, mockup 3"
-                    />
-                    <figcaption>
-                        Figure 12: Screenings page, mockup 3
-                    </figcaption>
+                    <figcaption>Figure 10: Screenings page</figcaption>
                 </figure>
             </section>
 
             <section>
                 <header><h3>Informational pop-up box</h3></header>
                 <p>
-                    When clicking on a thumbnail picture on the screenings page,
-                    a pop-up box containing additional information about that
-                    screening will be displayed. This pop-up box contains the
-                    name of the anime being screened, the thumbnail picture, and
-                    a general description of the anime. This feature will be
-                    implemented through a Javascript function. When the visitor
-                    is finished reading about the anime, they can exit the
-                    pop-up by clicking on the “X” in the upper right corner.
+                    When clicking on a box containing an anime, a pop-up box
+                    containing additional information about that anime will be
+                    displayed. This pop-up box contains the name of the anime,
+                    the thumbnail picture, and a general description of the
+                    anime. This feature will be implemented through a Javascript
+                    function. When the visitor is finished reading about the
+                    anime, they can exit the pop-up by clicking on the “X” in
+                    the upper right corner.
                 </p>
                 <figure>
                     <img
@@ -390,7 +402,7 @@
                     detailed information about the anime being screened"
                     />
                     <figcaption>
-                        Figure 13: Pop-up box containing detailed information
+                        Figure 11: Pop-up box containing detailed information
                         about the anime being screened
                     </figcaption>
                 </figure>
@@ -399,25 +411,25 @@
             <section>
                 <header><h3>Voting</h3></header>
                 <p>
-                    The voting page is the page where the visitor will be able
-                    to cast their vote to decide which animes will be screened
+                    The voting page is the page where the visitors will be able
+                    to cast their vote to decide which anime will be screened
                     the upcoming semester. Throughout the semester, the visitors
-                    will be able to rearrange a list of animes according to
-                    which anime they would like to watch the most. The animes in
-                    the list is a selection made by Anime NTNU. The list will
-                    have a drag and drop feature, making it possible for the
-                    viewer to easily drag animes to the correct position in the
-                    list. The result can then be submitted to Anime NTNU through
-                    a “submit” button. The voting page is an important part of
-                    the new Anime NTNU website as it enables Anime NTNU to
-                    adjust the screenings according to the visitors interests.
-                    This might also help Anime NTNU increase their member base
-                    and amount of visitors as they will be able to get valid
+                    will be able to rearrange a list of anime according to which
+                    anime they would like to watch the most. The anime in the
+                    list is a selection made by Anime NTNU. The list will have a
+                    drag and drop feature, making it possible for the viewer to
+                    easily drag anime to the correct position in the list. The
+                    result can then be submitted to Anime NTNU through a
+                    “submit” button. The voting page is an important part of the
+                    new Anime NTNU’s website as it enables Anime NTNU to adjust
+                    the screenings according to the visitors interests. This
+                    might also help Anime NTNU increase their member base and
+                    amount of visitors as they will be able to get valid
                     feedback on what people actually want to watch.
                 </p>
                 <figure>
                     <img src="images/mock_voting.png" alt="Voting page" />
-                    <figcaption>Figure 14: Voting page</figcaption>
+                    <figcaption>Figure 12: Voting page</figcaption>
                 </figure>
             </section>
 
@@ -425,10 +437,19 @@
                 <header>
                     <h3>About</h3>
                 </header>
-                <p></p>
+                <p>
+                    On this page visitors will be able to look up information on
+                    what Anime NTNU is, what Anime NTNU does, and information on
+                    how to contact the organization. This page is mainly aimed
+                    at potential new members who are curious about what Anime
+                    NTNU is and how to attend screenings. There were no specific
+                    requirements from the client as to what he wanted to display
+                    on this page. Therefore we have set up the layout in the
+                    mockup-image to consist of two informational boxes.
+                </p>
                 <figure>
                     <img src="images/mock_about.png" alt="About page" />
-                    <figcaption>Figure 15: About page</figcaption>
+                    <figcaption>Figure 13: About page</figcaption>
                 </figure>
             </section>
         </section>
@@ -437,12 +458,12 @@
             <ol>
                 <li>
                     Screenings - This script will perform a function which
-                    retrieves the title and date of a particular screening in
-                    screenings.html and shows it on the frontpage.
+                    retrieves the next upcoming screening from screenings.html
+                    and shows it on the frontpage.
                 </li>
                 <li>
                     Vote - On the voting page there will be a list with names of
-                    different animes the visitor can re-arrange in order to send
+                    different anime the visitor can re-arrange in order to send
                     AnimeNTNU feedback about what they would like to see in the
                     upcoming semester. This list will contain items which will
                     have a drag and drop feature.
@@ -457,9 +478,8 @@
                 <li>
                     Pop-up information - A function that creates a pop-up
                     window. When clicking on a box containing an anime it will
-                    display more information about the chosen anime. The pop-up
-                    should create a grey overlay over the rest of the page.
-                    There should be an exit button that closes the pop-up.
+                    display more information about the chosen anime. There
+                    should be an exit button that closes the pop-up.
                 </li>
                 <li>
                     Latest news - This script will retrieve the latest post in
@@ -595,13 +615,13 @@
                             front page
                         </td>
                         <td>Sondre</td>
-                        <td>31.10.2020</td>
+                        <td>28.10.2020</td>
                     </tr>
                     <tr>
                         <td>voting.js</td>
                         <td>A script to implement a drag and drop list</td>
                         <td>Maja</td>
-                        <td>31.10.2020</td>
+                        <td>28.10.2020</td>
                     </tr>
                     <tr>
                         <td>becomeMember.js</td>
@@ -610,7 +630,7 @@
                             as a member
                         </td>
                         <td>Tobias</td>
-                        <td>31.10.2020</td>
+                        <td>28.10.2020</td>
                     </tr>
                     <tr>
                         <td>popupNotification.js</td>
@@ -619,7 +639,7 @@
                             information about a chosen anime
                         </td>
                         <td>Aleksander</td>
-                        <td>31.10.2020</td>
+                        <td>28.10.2020</td>
                     </tr>
                     <tr>
                         <td>master.css</td>
@@ -628,7 +648,7 @@
                             website
                         </td>
                         <td>All</td>
-                        <td>31.10.2020</td>
+                        <td>28.10.2020</td>
                     </tr>
                     <tr>
                         <td>Final check</td>
@@ -636,7 +656,13 @@
                             Final check of each HTML-file, CSS and Javascript
                         </td>
                         <td>All</td>
-                        <td>05.11.2020</td>
+                        <td>29.10.2020</td>
+                    </tr>
+                    <tr>
+                        <td>Test</td>
+                        <td>Final day of user testing</td>
+                        <td>All</td>
+                        <td>02.11.2020</td>
                     </tr>
                 </tbody>
             </table>
