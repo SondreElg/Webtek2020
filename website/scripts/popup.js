@@ -30,5 +30,5 @@ urna, sit amet aliquam orci. Lorem ipsum dolor sit amet,
 consectetur adipiscing elit. Proin lectus sem, luctus eu ex
 eu, volutpat posuere quam. Nullam pellentesque feugiat magna
 sit amet luctus. Morbi pharetra quis massa id interdum.`,
-    ""
+    "images/anime1.jpg"
 );
