@@ -7,7 +7,7 @@ body {
     padding: 5%;
 }
 
-div {
+.content {
     background-color: #1f293c;
     padding: 40px;
     margin: 50px 0;
@@ -40,4 +40,65 @@ h2 {
 .author {
     float: right;
     font-style: italic;
+}
+
+#popup {
+    position: fixed;
+    width: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popupHeader {
+    background-color: #353535;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+}
+
+.popupHeader h3 {
+    margin: 0;
+}
+
+.popupBody {
+    background-color: #0b1622;
+    padding: 30px;
+    border-radius: 0 0 20px 20px;
+}
+
+.popupThumbnail {
+    float: left;
+    display: block;
+    margin-right: 30px;
+}
+
+.popupDescription {
+    margin: 0;
+    font-size: 18px;
+}
+
+.popupX {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #b0b0b0;
+    color: black;
+    font-weight: bold;
+    border-radius: 40px;
+    text-align: center;
+    right: -20px;
+    top: -20px;
+}
+
+.popupX span {
+    position: relative;
+    top: 3px;
+    vertical-align: middle;
+}
+
+.popupX:hover {
+    background-color: #d0d0d0;
+    cursor: pointer;
 }

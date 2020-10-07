@@ -16,7 +16,7 @@
         />
     </head>
     <body>
-        <div id="frontpage_welcome">
+        <div id="frontpage_welcome" class="content">
             <section>
                 <header><h1>Welcome</h1></header>
                 <p>
@@ -31,7 +31,7 @@
             </section>
         </div>
 
-        <div id="frontpage_news">
+        <div id="frontpage_news" class="content">
             <section>
                 <header><h2>Latest news</h2></header>
                 <!-- TODO: Retrieve latest news with script -->
@@ -52,11 +52,14 @@
             </section>
         </div>
 
-        <div id="frontpage_nextscreening">
+        <div id="frontpage_nextscreening" class="content">
             <section>
                 <header><h2>Next screening</h2></header>
                 <!-- TODO: Retrieve next screening with script -->
             </section>
         </div>
+
+        <div id="popup"></div>
+        <script src="scripts/popup.js"></script>
     </body>
 </html>
