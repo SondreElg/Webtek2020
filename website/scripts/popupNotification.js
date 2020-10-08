@@ -1,14 +1,17 @@
 function generatePopup(title, description, imgsrc) {
-    const html = `<div class="popupHeader">
-        <h3 class="popupTitle">${title}</h3>
-    </div>
-    <div class="popupBody">
-        <img class="popupThumbnail" src="${imgsrc}" alt="${title}" />
-        <p class="popupDescription">
-            ${description}
-        </p>
-    </div>
-    <div class="popupX" onClick="closePopup()"><span>X</span></div>`;
+    const html = `
+    <div id="popupContent">
+        <div id="popupHeader">
+            <h3 id="popupTitle">${title}</h3>
+        </div>
+        <div id="popupBody">
+            <img id="popupThumbnail" src="${imgsrc}" alt="${title}" />
+            <p id="popupDescription">
+                ${description}
+            </p>
+        </div>
+        <div id="popupX" onClick="closePopup()"><span>X</span></div>
+    </div>`;
 
     document.getElementById("popup").innerHTML = html;
 }
