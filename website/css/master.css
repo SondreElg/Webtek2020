@@ -9,6 +9,7 @@ body {
     color: #d9d9d9;
     font-size: 20px;
     font-weight: 100;
+    margin: 0;
     /*padding: 5%;*/
 }
 
@@ -224,6 +225,7 @@ h2 {
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.7);
+    display: none;
 }
 
 #popupContent {
@@ -289,3 +291,39 @@ h2 {
     background-color: #d0d0d0;
     cursor: pointer;
 }
+
+#screeningsContainer {
+  padding-top: 20px;
+  max-width: 800px;
+  margin: auto;
+  font-size: x-large;
+}
+
+.screeningContainer {
+  padding-bottom: 15px;
+}
+
+.animeScreening {
+  position: relative;
+  max-width: 800px;
+  height: 120px;
+  margin: auto;
+  background-color: #1F293C;
+  margin-bottom: 5px;
+  align-content: center;
+}
+
+.animeScreening:hover {
+  background-color: #202020;
+}
+
+.animeScreening > img {
+  height: 120px;
+  width: 85px;
+  float: left;
+}
+
+.animeEpisodes { /* How on earth can I center this? */
+  margin: auto;
+  font-size: larger;
+} 
