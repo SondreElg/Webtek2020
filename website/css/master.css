@@ -1,6 +1,6 @@
 html {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -16,206 +16,201 @@ body {
 .content {
     background-color: #1f293c;
     padding: 40px;
-    margin: 50px 0;
+    margin: 30px 0;
 }
 
 h1,
 h2 {
     text-align: center;
     font-size: 40px;
-    margin-top: 15px;
+    margin-top: 50px;
 }
 
 /*CSS for navbar*/
 #navbar {
-    margin: 0;
-    height: 83px;
-    background-color: #353535;
+  margin: 0;
+  height: 83px;
+  background-color: #353535;
 }
 
 .nav-items {
-    height: auto;
-    width: 100%;
-    box-sizing: border-box;
-    top: 0;
-    z-index: 500;
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+  z-index: 500;
 }
 
 .nav-header {
-    display: inline;
+  display: inline;
 }
 
 .nav-title {
-    display: inline-block;
-    height: 100%;
-    padding: 11px 50px;
-    /*border-right: 1px solid #d9d9d9;*/
-    border-spacing: 0;
-    text-decoration: none;
+  display: inline-block;
+  height:100%;
+  padding: 11px 50px;
+  /*border-right: 1px solid #d9d9d9;*/
+  border-spacing: 0;
+  text-decoration: none;
+
 }
-.nav-title:hover {
+.nav-title:hover{
     background-color: #202020;
     height: 100%;
 }
 
 .nav-sandwhichbtn {
-    display: none;
+  display: none;
 }
 
 .nav-links {
-    display: inline;
-    float: right;
+  display: inline;
+  float: right;
 }
 
 .nav-links > a {
-    display: inline-block;
-    padding: 30px 50px;
-    text-decoration: none;
-    color: #d9d9d9;
-    float: left;
+  display: inline-block;
+  padding: 30px 50px ;
+  text-decoration: none;
+  color: #d9d9d9;
+  float: left;
 }
 
 .nav-links > a:hover {
-    background-color: #202020;
+  background-color: #202020;
 }
 
 .discord-link > a {
-    display: none;
+  display: none;
 }
 
 #nav-check {
-    display: none;
+  display: none;
 }
 
-#navbar-logo {
+#navbar-logo{
     height: 61px;
     float: left;
+  }
+
+@media (max-width:1100px) {
+.nav-sandwhichbtn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+
+.nav-sandwhichbtn > label {
+    display: inline-block;
+    height: 83px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+  }
+
+.nav-sandwhichbtn > label:hover {
+    height: 83px;
+    background-color: #202020;
+  }
+
+.nav-sandwhichbtn > label > span {
+    display: block;
+    width: 40px;
+    margin: 16px;
+    border-top: 6px solid #d9d9d9;
+    border-radius: 4px;
+  }
+
+  #navbar-discord-logo {
+      display: none;
+  }
+
+.nav-links {
+    display: block;
+    width: 100%;
+    background-color: #353535;
+    transition: all 0.5s ease-in;
+    overflow-x: hidden;
+    left: 0px;
+    text-align: center;
+    z-index: 500;
+  }
+
+.nav-links > a {
+    display: block;
+    width: 100%;
+    padding: 30px 0px;
+  }
+
+.discord-link > a {
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: #d9d9d9;
+    padding: 30px 0px;
+    background-color: #1F293C;
 }
 
-@media (max-width: 1100px) {
-    .nav-sandwhichbtn {
-        display: inline-block;
-        position: absolute;
-        right: 0px;
-        top: 0px;
-    }
+#nav-check:checked + .nav-links {
+     display: block;
+     height: calc(37vh - 75px);
+     overflow-x: hidden;
+   }
 
-    .nav-sandwhichbtn > label {
-        display: inline-block;
-        height: 83px;
-        padding: 10px 20px;
-        box-sizing: border-box;
-    }
+@media (max-width:600px) {
 
-    .nav-sandwhichbtn > label:hover {
-        height: 83px;
-        background-color: #202020;
-    }
+  #navbar {
+    height: 80px;
+  }
 
-    .nav-sandwhichbtn > label > span {
-        display: block;
-        width: 40px;
-        margin: 16px;
-        border-top: 6px solid #d9d9d9;
-        border-radius: 4px;
-    }
-
-    #navbar-discord-logo {
-        display: none;
-    }
-
-    .nav-links {
-        display: block;
-        width: 100%;
-        background-color: #353535;
-        transition: all 0.5s ease-in;
-        overflow-x: hidden;
-        left: 0px;
-        text-align: center;
-        z-index: 500;
-    }
-
-    .nav-links > a {
-        display: block;
-        width: 100%;
-        padding: 30px 0px;
-    }
-
-    .discord-link > a {
-        display: inline-block;
-        width: 100%;
-        text-decoration: none;
-        color: #d9d9d9;
-        padding: 30px 0px;
-        background-color: #1f293c;
-    }
-
-    #nav-check:checked + .nav-links {
-        display: block;
-        height: calc(37vh - 75px);
-        overflow-x: hidden;
-    }
-
-    @media (max-width: 600px) {
-        #navbar {
-            height: 80px;
-        }
-
-        .nav-title {
-            font-size: 11px;
-            padding: 10px 20px;
-        }
-    }
-
-    .nav-sandwhichbtn {
-        right: 8px;
-        top: 8px;
-    }
-
-    .nav-sandwhichbtn > label {
-        height: 80px;
-        padding: 0px;
-    }
-
-    .nav-sandwhichbtn > label:hover {
-        height: 80px;
-    }
-
-    /*Meny når hamburger-meny ikke er klikt på*/
-    #nav-check:not(:checked) + .nav-links {
-        height: 0px;
-    }
-
-    /*Meny når hamburger-meny har blitt klikt på. Inkluderer lenker til de ulike sidene*/
-    #nav-check:checked + .nav-links {
-        height: calc(70vh - 100%);
-    }
+  .nav-title{
+    font-size: 11px;
+    padding: 10px 20px;;
+  }
 }
+
+.nav-sandwhichbtn {
+    right: 8px;
+    top: 8px;
+  }
+
+.nav-sandwhichbtn > label {
+    height: 80px;
+    padding: 0px;
+  }
+
+  .nav-sandwhichbtn > label:hover {
+      height: 80px;
+    }
+
+/*Meny når hamburger-meny ikke er klikt på*/
+#nav-check:not(:checked) + .nav-links {
+    height: 0px;
+  }
+
+/*Meny når hamburger-meny har blitt klikt på. Inkluderer lenker til de ulike sidene*/
+ #nav-check:checked + .nav-links {
+    height: calc(70vh - 100%);
+  }
+}
+
 
 /*Front page styling*/
-
-.frontpage_container {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
 #frontpage_welcome {
     width: 70%;
-    /* margin: auto; */
+    margin: auto;
 }
 
 #frontpage_news {
     width: 40%;
-    /*float: left;
-    margin-left: 70px;*/
+    float: left;
+    margin-left: 70px;
 }
 
 #frontpage_nextscreening {
     width: 40%;
-    /* float: right;
-    margin-right: 70px; */
+    float: right;
+    margin-right: 70px;
 }
 
 .author {
@@ -256,11 +251,9 @@ h2 {
     background-color: #0b1622;
     padding: 60px 30px;
     border-radius: 0 0 20px 20px;
-    display: flex;
-    align-items: center;
 }
 
-/*#popupThumbnail {
+#popupThumbnail {
     display: inline-block;
     vertical-align: middle;
     margin-right: 30px;
@@ -272,18 +265,7 @@ h2 {
     vertical-align: middle;
     margin: 0;
     font-size: 18px;
-}*/
-
-#popupThumbnail {
-    height: 250px;
-    float: left;
-    margin-right: 20px;
-}
-
-#popupDescription {
-    overflow: hidden;
-    font-size: 18px;
-    margin: 0;
+    width: 70%;
 }
 
 #popupX {
@@ -331,10 +313,6 @@ h2 {
   align-content: center;
 }
 
-.animeScreening:hover {
-  background-color: #202020;
-}
-
 .animeScreening > img {
   height: 120px;
   width: 85px;
@@ -345,3 +323,7 @@ h2 {
   margin: auto;
   font-size: larger;
 } 
+
+*[onclick]:hover {
+  background-color: #202020;
+}

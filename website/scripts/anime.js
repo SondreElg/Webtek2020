@@ -1,3 +1,6 @@
+const firstScreening = new Date(2020, 7, 26);
+const totalScreenings = 13;
+
 const animeTitle = 0;
 const animeSynopsis = 1;
 const animeTotalEpisodes = 2;

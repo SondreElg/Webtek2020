@@ -1,8 +1,9 @@
-const firstScreening = new Date(2020, 7, 26); //Well, this isn't working
-const totalScreenings = 13;
+//Clean this script later, shouldn't need all the logic in showScreenings
+//Alternatively, find a way to separate what 
+
 const _MS_PER_WEEK = 1000 * 60 * 60 * 24 * 7;
 
-function generateScreening(anime, date, time, location) { //Need functions for calculating episodes
+function generateScreening(anime, date, time, location, target) { //Need functions for calculating episodes
     var screening = `
     <div class="screeningContainer">
         Date: ${date.toString().slice(0, 15)} | Time: ${time} | Location: ${location}`;
@@ -10,7 +11,7 @@ function generateScreening(anime, date, time, location) { //Need functions for c
     screening += `${generateAnimeScreening(anime)} 
         </div>`;
 
-    document.getElementById("screeningsContainer").innerHTML += screening;
+    document.getElementById(target).innerHTML += screening;
 }
 
 function generateAnimeScreening(animeList) {
@@ -69,13 +70,13 @@ function episodeIncrement(anime, amount) {
     nextEpisode[anime] += amount;
 }
 
-function generateFutureScreenings(date, totalScreenings, animeList) {
+function generateFutureScreenings(date, animeList, target) {
     var week = firstScreening;
     var screeningsEnd = new Date(Math.ceil(Math.abs(firstScreening) + totalScreenings * _MS_PER_WEEK));
 
     while (Math.abs(screeningsEnd) - Math.abs(week) > 0) {
         if (week >= date) {
-            generateScreening(animeList, new Date(week).toDateString(), "19:30", "Discord")
+            generateScreening(animeList, new Date(week).toDateString(), "19:30", "Discord", target)
         }
         else {
             for (series in animeList) {
@@ -86,4 +87,27 @@ function generateFutureScreenings(date, totalScreenings, animeList) {
     }
 }
 
-generateFutureScreenings(new Date(), totalScreenings, ["Rokka", "Hataraku", "Minami", "Zetsubou", "Shirobako"]);
+function generateNextScreening(date, animeList, target) {
+    var week = firstScreening;
+
+    var a = 1;
+
+    while (a < 20) {
+        console.log(week, date)
+        if (Math.abs(week) >= Math.abs(date)) {
+            generateScreening(animeList, new Date(week).toDateString(), "19:30", "Discord", target);
+            console.log("break")
+            break;
+        }
+        else {
+            for (series in animeList) {
+                episodeIncrement(animeList[series], 2);
+                console.log("increment")
+            }
+        }
+        week = weekIncrement(week); 
+        console.log("nani")
+        a++;
+    }
+}
+
