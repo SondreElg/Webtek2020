@@ -2,7 +2,7 @@ function loadNavbar() {
     let navbar = document.getElementById("navbar");
 
     navbar.innerHTML =
-    "<main id=\"navbar\">\n"+
+    "<main id=\"main_navbar\">\n"+
     "<div class=\"nav-items\">\n"+
 
 
@@ -15,8 +15,6 @@ function loadNavbar() {
     "    </a>\n"+
     "  </div>\n"+
 
-
-
     "  <div class=\"nav-sandwhichbtn\">\n"+
     "    <label for=\"nav-check\">\n"+
     "      <span></span>"+
@@ -25,9 +23,7 @@ function loadNavbar() {
     "    </label>"+
     "  </div>"+
 
-
     "  <input type=\"checkbox\" id=\"nav-check\">\n"+
-
 
     "  <div class=\"nav-links\">\n"+
     "    <a href=\"screenings.html\" >Screenings</a>\n"+
