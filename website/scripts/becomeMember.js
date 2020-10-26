@@ -1,4 +1,4 @@
-let signupHtml = 
+let signupHtml =
 `<div id="signupContainer">
     <div id="signupHead">
         <h3 id="signupHeader">Join Anime NTNU</h3>
@@ -22,7 +22,7 @@ let signupHtml =
 
         <p id="signupSuccessful">Signup was <span style="color: rgb(28, 155, 28);">successful</span>.</p>
 
-        <div id="signupClose" onclick="closeSignup()"><i class="fa fa-times-circle fa-2x"></i></div>
+        <div id="popupX" onClick="closeSignup()"><span>X</span></div>
     </div>
 </div>`;
 

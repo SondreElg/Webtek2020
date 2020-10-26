@@ -23,7 +23,7 @@ function closePopup() {
 
 /**
  * Generates a popup for the provided anime
- * 
+ *
  * @param {string} anime - the anime for which you're generating a popup
  */
 function generatePopup(anime) {
