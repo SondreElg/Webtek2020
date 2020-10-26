@@ -31,6 +31,3 @@ function generatePopup(anime) {
         anime_dictionary[anime][animeTitle], anime_dictionary[anime][animeSynopsis], anime_dictionary[anime][animeImgsrc]
     );
 }
-
-//generatePopup("Kaguya");
-
