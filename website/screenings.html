@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8" />
-        <title></title>
+        <title>Anime NTNU - Screenings</title>
         <link rel="stylesheet" href="css/master.css" />
         <link
             href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
@@ -11,15 +11,19 @@
     </head>
     <body>
         <div id="navbar"></div>
-        <div id="screeningsContainer">
+        <div id="screeningsContainer"></div>
 
-        </div>
-        
         <div id="popup"></div>
         <script src="scripts/navbar.js"></script>
         <script src="scripts/anime.js"></script>
         <script src="scripts/showScreenings.js"></script>
         <script src="scripts/popupNotification.js"></script>
-        <script>generateFutureScreenings(new Date(), ["Rokka", "Hataraku", "Minami", "Zetsubou", "Shirobako"], "screeningsContainer");</script>
+        <script>
+            generateFutureScreenings(
+                new Date(),
+                ["Rokka", "Hataraku", "Minami", "Zetsubou", "Shirobako"],
+                "screeningsContainer"
+            );
+        </script>
     </body>
 </html>

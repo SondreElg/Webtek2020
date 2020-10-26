@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
     <head>
         <title>Anime NTNU</title>
         <meta charset="utf-8" />
@@ -16,9 +16,8 @@
         />
     </head>
 
-    <div id="navbar"></div>
-
     <body>
+        <div id="navbar"></div>
         <div class="frontpage_container">
             <div id="frontpage_welcome" class="content">
                 <section>
@@ -37,31 +36,36 @@
 
             <div id="frontpage_news">
                 <section>
-                    <header id="latest_news_header" onclick="location.href = 'newsfeed.html';"><h2>Latest news</h2></header>
+                    <header id="latest_news_header" onclick="location.href = 'newsfeed.html';">
+                        <h2>Latest news</h2>
+                    </header>
                     <!-- TODO: Retrieve latest news with script -->
                     <div class="content">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Fusce eu quam orci. Praesent eget neque nec neque
-                            vehicula eleifend et ut neque. Praesent elementum nibh
-                            vitae odio pulvinar ullamcorper. In eu sapien arcu.
-                            Integer pharetra justo sed risus elementum, porttitor
-                            sagittis ante porta. Aliquam faucibus nunc quis neque
-                            semper, et pharetra tortor vestibulum. Morbi ac
-                            ullamcorper nisi. Donec vel congue urna, sit amet
-                            aliquam orci. Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit. Proin lectus sem, luctus eu ex eu,
-                            volutpat posuere quam. Nullam pellentesque feugiat magna
-                            sit amet luctus. Morbi pharetra quis massa id interdum.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Fusce eu quam orci. Praesent eget neque nec
+                            neque vehicula eleifend et ut neque. Praesent
+                            elementum nibh vitae odio pulvinar ullamcorper. In
+                            eu sapien arcu. Integer pharetra justo sed risus
+                            elementum, porttitor sagittis ante porta. Aliquam
+                            faucibus nunc quis neque semper, et pharetra tortor
+                            vestibulum. Morbi ac ullamcorper nisi. Donec vel
+                            congue urna, sit amet aliquam orci. Lorem ipsum
+                            dolor sit amet, consectetur adipiscing elit. Proin
+                            lectus sem, luctus eu ex eu, volutpat posuere quam.
+                            Nullam pellentesque feugiat magna sit amet luctus.
+                            Morbi pharetra quis massa id interdum.
                         </p>
                         <span class="author">-author, date</span>
                     </div>
                 </section>
             </div>
 
-            <div id="frontpage_nextscreening" >
+            <div id="frontpage_nextscreening">
                 <section id="next_screening">
-                    <header id="next_screening_header" onclick="location.href = 'screenings.html';"><h2>Next screening</h2></header>
+                    <header id="next_screening_header" onclick="location.href = 'screenings.html';">
+                        <h2>Next screening</h2>
+                    </header>
                     <!-- TODO: Retrieve next screening with script -->
                 </section>
             </div>
@@ -72,6 +76,12 @@
         <script src="scripts/anime.js"></script>
         <script src="scripts/popupNotification.js"></script>
         <script src="scripts/showScreenings.js"></script>
-        <script>generateNextScreening(new Date(), ["Rokka", "Hataraku", "Minami", "Zetsubou", "Shirobako"], "next_screening")</script>
+        <script>
+            generateNextScreening(
+                new Date(),
+                ["Rokka", "Hataraku", "Minami", "Zetsubou", "Shirobako"],
+                "next_screening"
+            );
+        </script>
     </body>
 </html>
