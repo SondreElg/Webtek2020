@@ -198,21 +198,28 @@ h2 {
 }
 
 /*Front page styling*/
+.frontpage_container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 #frontpage_welcome {
     width: 70%;
-    margin: auto;
+    /*margin: auto;*/
 }
 
 #frontpage_news {
     width: 40%;
-    float: left;
-    margin-left: 70px;
+    /*float: left;
+    margin-left: 70px;*/
 }
 
 #frontpage_nextscreening {
     width: 40%;
-    float: right;
-    margin-right: 70px;
+    /*float: right;
+    margin-right: 70px;*/
 }
 
 .author {
@@ -253,9 +260,11 @@ h2 {
     background-color: #0b1622;
     padding: 60px 30px;
     border-radius: 0 0 20px 20px;
+    display: flex;
+    align-items: center;
 }
 
-#popupThumbnail {
+/*#popupThumbnail {
     display: inline-block;
     vertical-align: middle;
     margin-right: 30px;
@@ -268,6 +277,18 @@ h2 {
     margin: 0;
     font-size: 18px;
     width: 70%;
+}*/
+
+#popupThumbnail {
+    height: 250px;
+    float: left;
+    margin-right: 20px;
+}
+
+#popupDescription {
+    overflow: hidden;
+    font-size: 18px;
+    margin: 0;
 }
 
 #popupX {
