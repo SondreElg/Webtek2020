@@ -28,6 +28,6 @@ function closePopup() {
  */
 function generatePopup(anime) {
     generatePopup_(
-        anime_dictionary[anime][animeTitle], anime_dictionary[anime][animeSynopsis], anime_dictionary[anime][animeImgsrc]
+        animeDictionary[anime][animeTitle], animeDictionary[anime][animeSynopsis], animeDictionary[anime][animeImgsrc]
     );
 }

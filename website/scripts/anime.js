@@ -17,7 +17,7 @@ var nextEpisode={
 }
 
 //Totally not a database containing information about each anime for this semester
-const anime_dictionary={
+const animeDictionary={
     "Rokka":["Rokka -Braves of the Six Flowers-",
     `When the Majin awoke from the depths of darkness, 
     the deity of fate chose six heroes and bequeathed 
