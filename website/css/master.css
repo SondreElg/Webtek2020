@@ -18,17 +18,11 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-.content {
-    background-color: #1f293c;
-    padding: 40px;
-    margin: 30px 0;
-}
-
 h1,
 h2 {
     text-align: center;
     font-size: 40px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 0;
 }
 
@@ -38,6 +32,33 @@ hr {
 
 a {
     color: lightskyblue;
+}
+
+.page_container {
+    min-width: 400px;
+    width: 70%;
+    margin: auto;
+}
+
+.page_header {
+    width: 70%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.page_header > h1 {
+    text-align: left;
+}
+
+.content {
+    background-color: #1f293c;
+    padding: 20px 40px;
+    margin: 30px 0;
+}
+
+*[onclick]:hover {
+    background-color: #202020;
+    cursor: pointer;
 }
 
 /*CSS for navbar*/
@@ -53,6 +74,7 @@ a {
     box-sizing: border-box;
     top: 0;
     z-index: 500;
+    position: absolute;
 }
 
 .nav-header {
@@ -63,7 +85,6 @@ a {
     display: inline-block;
     height: 100%;
     padding: 11px 50px;
-    /*border-right: 1px solid #d9d9d9;*/
     border-spacing: 0;
     text-decoration: none;
 }
@@ -86,7 +107,6 @@ a {
     padding: 28px 50px;
     text-decoration: none;
     color: #d9d9d9;
-    /*float: left; */
 }
 
 .nav-links > a:hover {
@@ -122,8 +142,8 @@ a {
     float: left;
 }
 
-/*Front page styling*/
-.frontpage_container {
+/* Frontpage styling */
+#frontpage_container {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -132,169 +152,56 @@ a {
 
 #frontpage_welcome {
     width: 70%;
-    /*margin: 0 auto;*/
-}
-
-#frontpage_news {
-    width: 40%;
-    /*float: left;
-    margin-left: 70px;*/
-}
-
-#frontpage_nextscreening {
-    width: 40%;
-    /*float: right;
-    margin-right: 70px;*/
-}
-
-#next_screening_header,
-#latest_news_header {
-    width: fit-content;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.author {
-    float: right;
-    font-style: italic;
-}
-
-#popup {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    display: none;
-}
-
-#popupContent {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#popupHeader {
-    background-color: #353535;
-    margin: 0;
-    padding: 10px;
-    text-align: center;
-    border-radius: 20px 20px 0 0;
-}
-
-#popupHeader h3 {
-    margin: 0;
-}
-
-#popupBody {
-    background-color: #0b1622;
-    padding: 60px 30px;
-    border-radius: 0 0 20px 20px;
-    display: flex;
-    align-items: center;
-    min-width: 400px;
-}
-
-/*#popupThumbnail {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 30px;
-    width: 200px;
-}
-
-#popupDescription {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0;
-    font-size: 18px;
-    width: 70%;
-}*/
-
-#popupThumbnail {
-    height: 250px;
-    float: left;
-    margin-right: 20px;
-}
-
-#popupDescription {
-    overflow: hidden;
-    font-size: 18px;
-    margin: 0;
-}
-
-#popupX {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    background-color: #b0b0b0;
-    color: black;
-    font-weight: bold;
-    border-radius: 40px;
-    text-align: center;
-    right: -20px;
-    top: -20px;
-}
-
-#popupX span {
-    position: relative;
-    top: 3px;
-    vertical-align: middle;
-}
-
-#popupX:hover {
-    background-color: #d0d0d0;
-    cursor: pointer;
-}
-
-#screeningsContainer {
-    padding-top: 20px;
-    max-width: 800px;
-    margin: auto;
-    font-size: x-large;
-}
-
-.screeningContainer {
-    padding-bottom: 5px;
     padding-top: 10px;
 }
 
-.animeScreening {
-    position: relative;
-    max-width: 800px;
-    height: 120px;
-    margin: auto;
-    background-color: #1f293c;
-    margin-bottom: 5px;
-    align-content: center;
+#frontpage_news,
+#frontpage_nextscreening {
+    width: 40%;
+    min-width: 400px;
 }
 
-.animeScreening > img {
+#latest_news_header,
+#next_screening_header {
+    width: fit-content;
+    padding-right: 3px;
+}
+
+/* Screenings styling */
+#screenings_container {
+    min-width: 400px;
+    font-size: x-large;
+}
+
+.screening_container {
+    max-width: 800px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.anime_screening {
+    height: 120px;
+    background-color: #1f293c;
+    margin-bottom: 5px;
+}
+
+.anime_screening > img {
     height: 120px;
     width: 85px;
     float: left;
 }
 
-.animeEpisodes {
-    /* How on earth can I center this? */
+.anime_episodes {
+    /* How on earth can I center this vertically? */
     margin: auto;
     font-size: larger;
 }
 
-*[onclick]:hover {
-    background-color: #202020;
-    cursor: pointer;
-}
-
 /*Styling for voting-page*/
-#infobox {
-  width: 70%;
-  margin: auto;
-}
-
 .voting_wrapper {
-  margin-top: 40px;
+  margin-top: 50px;
+  padding-bottom: 20px;
 }
 
 .voting_container {
@@ -303,7 +210,7 @@ a {
 
 .voting_element {
   width: 70%;
-  margin: auto;
+  margin: 5px auto;
   padding: 10px;
   background-color: #1f293c;
   border: 1px solid #d9d9d9;
@@ -321,7 +228,7 @@ li:active {
 }
 
 #voting_btn {
-  font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+  font-family: inherit;
   font-size: 14px;
   font-weight: bold;
   text-align: center;
@@ -331,34 +238,21 @@ li:active {
   border-radius: 6px;
 }
 
-/*Newsfeed Styling*/
-#newsfeed_container {
-    width: 70%;
-    margin: auto;
+/* Newsfeed Styling */
+.news_content {
+    background-color: #1f293c;
+    padding: 20px 40px 40px;
+    margin: 30px 0;
 }
 
-.newsfeed_title {
-    text-align: left;
-    margin: 25px 0 0 0;
-}
-
-.newsfeed_hr {
-    border-top: 2px solid #d9d9d9;
+.author {
+    float: right;
+    font-style: italic;
 }
 
 /*About us Styling*/
-.about_container {
-    width: 70%;
-    margin: auto;
-}
-
-.about_container > h1 {
+#contact_title {
     text-align: left;
-    margin: 25px 0 0 0;
-}
-
-.about_container > hr {
-    border-top: 2px solid #d9d9d9;
 }
 
 /*Signup Styling*/
@@ -442,6 +336,83 @@ li:active {
     right: -5px;
 }
 
+/* Popup styling */
+
+#popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+
+#popupContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#popupHeader {
+    background-color: #353535;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+}
+
+#popupHeader h3 {
+    margin: 0;
+}
+
+#popupBody {
+    background-color: #0b1622;
+    padding: 60px 30px;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    align-items: center;
+    min-width: 400px;
+}
+
+#popupThumbnail {
+    height: 250px;
+    float: left;
+    margin-right: 20px;
+}
+
+#popupDescription {
+    overflow: hidden;
+    font-size: 18px;
+    margin: 0;
+}
+
+#popupX {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #b0b0b0;
+    color: black;
+    font-weight: bold;
+    border-radius: 40px;
+    text-align: center;
+    right: -20px;
+    top: -20px;
+}
+
+#popupX span {
+    position: relative;
+    top: 3px;
+    vertical-align: middle;
+}
+
+#popupX:hover {
+    background-color: #d0d0d0;
+    cursor: pointer;
+}
+
+/* Make the page dynamic */
 @media (max-width: 1250px) {
     .nav-sandwhichbtn {
         display: inline-block;
@@ -478,7 +449,6 @@ li:active {
         overflow-x: hidden;
         left: 0px;
         text-align: center;
-        z-index: 500;
     }
 
     .nav-links > a {
@@ -517,12 +487,6 @@ li:active {
       background-color: #202020;
     }
 
-    #nav-check:checked + .nav-links {
-        display: block;
-        height: calc(37vh - 75px);
-        overflow-x: hidden;
-    }
-
     @media (max-width: 895px) {
         .frontpage_container { /*make next screening appear below latest news*/
             display: block;
@@ -545,8 +509,7 @@ li:active {
         }
 
         .nav-title {
-            font-size: 11px;
-            padding: 10px 20px;
+            padding: 9px 20px 10px;
         }
     }
 
@@ -562,7 +525,7 @@ li:active {
 
     /*Meny når hamburger-meny ikke er klikt på*/
     #nav-check:not(:checked) + .nav-links {
-        height: 0px;
+        display: none;
     }
 
     /*Meny når hamburger-meny har blitt klikt på. Inkluderer lenker til de ulike sidene*/

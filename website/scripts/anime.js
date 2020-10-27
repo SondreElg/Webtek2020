@@ -1,4 +1,4 @@
-const firstScreening = new Date(2020, 7, 26, 12);
+const firstScreening = new Date(2020, 7, 26, 23);
 const totalScreenings = 13;
 
 const animeTitle = 0;

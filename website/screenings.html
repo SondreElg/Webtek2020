@@ -15,7 +15,13 @@
     </head>
     <body>
         <div id="navbar"></div>
-        <div id="screeningsContainer"></div>
+
+        <header class="page_header">
+            <h1>Screenings</h1>
+            <hr>
+        </header>
+        
+        <div id="screenings_container" class="page_container"></div>
 
         <div id="popup"></div>
         <script src="scripts/navbar.js"></script>
@@ -26,7 +32,7 @@
             generateFutureScreenings(
                 new Date(),
                 ["Rokka", "Hataraku", "Minami", "Zetsubou", "Shirobako"],
-                "screeningsContainer"
+                "screenings_container"
             );
         </script>
         <script src="scripts/becomeMember.js"></script>

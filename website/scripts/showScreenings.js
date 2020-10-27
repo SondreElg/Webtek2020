@@ -5,7 +5,7 @@ const _MS_PER_WEEK = 1000 * 60 * 60 * 24 * 7
 
 function generateScreening (anime, date, time, location, target) { // Need functions for calculating episodes
   var screening = `
-    <div class="screeningContainer">
+    <div class="screening_container">
         Date: ${date.toString().slice(0, 15)} | Time: ${time} | Location: ${location}`
 
     screening += `${generateAnimeScreening(anime)} 
@@ -43,17 +43,17 @@ function generateAnimeScreening (animeList) {
 
 function addSingleEpisode (anime, imgsrc, title, episode) {
   return `
-    <div class="animeScreening" onclick="(generatePopup('${anime}'))">
+    <div class="anime_screening" onclick="(generatePopup('${anime}'))">
         <img id="${imgsrc}" src="${imgsrc}" alt="${title}" />
-        <h2 class="animeEpisodes">${title}<br />Episode ${episode}</h2>
+        <h2 class="anime_episodes">${title}<br />Episode ${episode}</h2>
     </div>`
 }
 
 function addTwoEpisodes (anime, imgsrc, title, episode) {
   return `
-    <div class="animeScreening" onclick="(generatePopup('${anime}'))">
+    <div class="anime_screening" onclick="(generatePopup('${anime}'))">
         <img id="${imgsrc}" src="${imgsrc}" alt="${title}" />
-        <h2 class="animeEpisodes">${title}<br />Episodes ${episode}-${episode + 1}</h2>
+        <h2 class="anime_episodes">${title}<br />Episodes ${episode}-${episode + 1}</h2>
     </div>`
 }
 
