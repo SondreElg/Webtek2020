@@ -79,6 +79,7 @@ a {
 
 .nav-header {
     display: inline;
+    height: 83px;
 }
 
 .nav-title {
@@ -414,25 +415,43 @@ li:active {
 
 /* Make the page dynamic */
 @media (max-width: 1250px) {
+
+    .nav-header {
+      display: block;
+    }
+
+    .nav-title:hover {
+      display: block;
+      height: 62px;
+    }
+
+    .nav-title:hover {
+      height: 62px;
+      width: 120px;
+    }
+
     .nav-sandwhichbtn {
-        display: inline-block;
+        display: block;
         position: absolute;
+        height: 83px;
         right: 0px;
         top: 0px;
     }
 
+    .nav-sandwhichbtn:hover {
+      background-color: #202020;
+    }
+
     .nav-sandwhichbtn > label {
-        display: inline-block;
-        height: 83px;
+        display: absolute;
         padding: 0;
-        margin-right: 20px;
         box-sizing: border-box;
     }
 
     .nav-sandwhichbtn > label > span {
         display: block;
         width: 40px;
-        margin: 12px;
+        margin: 17px;
         border-top: 6px solid #d9d9d9;
         border-radius: 4px;
     }
@@ -487,6 +506,16 @@ li:active {
       background-color: #202020;
     }
 
+    /*Meny når hamburger-meny ikke er klikt på*/
+    #nav-check:not(:checked) + .nav-links {
+        display: none;
+    }
+
+    /*Meny når hamburger-meny har blitt klikt på. Inkluderer lenker til de ulike sidene*/
+    #nav-check:checked + .nav-links {
+        height: calc(70vh - 100%);
+    }
+
     @media (max-width: 895px) {
         .frontpage_container { /*make next screening appear below latest news*/
             display: block;
@@ -500,36 +529,6 @@ li:active {
         #frontpage_nextscreening { /*make next screening appear below latest news*/
             width: 80%;
             margin: 0 auto;
-        } 
-    }
-
-    @media (max-width: 600px) {
-        #navbar {
-            height: 80px;
         }
-
-        .nav-title {
-            padding: 9px 20px 10px;
-        }
-    }
-
-    .nav-sandwhichbtn {
-        right: 8px;
-        top: 8px;
-    }
-
-    .nav-sandwhichbtn > label {
-        height: 80px;
-        padding: 0px;
-    }
-
-    /*Meny når hamburger-meny ikke er klikt på*/
-    #nav-check:not(:checked) + .nav-links {
-        display: none;
-    }
-
-    /*Meny når hamburger-meny har blitt klikt på. Inkluderer lenker til de ulike sidene*/
-    #nav-check:checked + .nav-links {
-        height: calc(70vh - 100%);
     }
 }
