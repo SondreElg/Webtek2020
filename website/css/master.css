@@ -31,7 +31,12 @@ hr {
 }
 
 a {
-    color: lightskyblue;
+    color: #87cefa;
+}
+
+a:hover {
+    color: #bee5fd;
+    cursor: pointer;
 }
 
 .page_container {
@@ -228,7 +233,7 @@ li:active {
     text-align: center;
 }
 
-#voting_btn {
+#voting_submit {
     font-family: inherit;
     font-size: 14px;
     font-weight: bold;
@@ -237,6 +242,13 @@ li:active {
     background-color: #d9d9d9;
     color: #1f293c;
     border-radius: 6px;
+    border: none;
+    width: 200px;
+}
+
+#voting_submit:hover {
+    background-color: #f9f9f9;
+    cursor: pointer;
 }
 
 /* Newsfeed Styling */
@@ -277,7 +289,7 @@ li:active {
 }
 
 #signupForm input:not([type="submit"]):focus {
-    outline: 2px solid rgb(64, 170, 64);
+    outline: 2px solid #40aa40;
 }
 
 .inputContainer {
@@ -316,11 +328,18 @@ li:active {
 }
 
 #signupSubmit {
+    background-color: #d9d9d9;
     padding: 10px;
     border-radius: 5px;
-    /*margin-bottom: 40px;*/
+    width: 100px;
     margin: auto;
     display: block;
+    border: none;
+}
+
+#signupSubmit:hover {
+    background-color: #f9f9f9;
+    cursor: pointer;
 }
 
 #signupSuccessful {
@@ -329,15 +348,8 @@ li:active {
 }
 
 #signupSuccessful .successText {
-    color: rgb(28, 155, 28);
+    color: #1c9b1c;
 }
-
-/*#signupClose {
-    position: absolute;
-    color: #c4c4c4;
-    top: -5px;
-    right: -5px;
-}*/
 
 /* Popup styling */
 #popup,
@@ -442,12 +454,17 @@ li:active {
 
     .nav-sandwhichbtn:hover {
         background-color: #202020;
+        cursor: pointer;
     }
 
     .nav-sandwhichbtn > label {
         display: absolute;
         padding: 0;
         box-sizing: border-box;
+    }
+
+    .nav-sandwhichbtn > label:hover {
+        cursor: pointer;
     }
 
     .nav-sandwhichbtn > label > span {
