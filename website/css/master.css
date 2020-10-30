@@ -199,7 +199,7 @@ a {
     font-size: larger;
 }
 
-/*Styling for voting-page*/
+/* Styling for voting-page */
 .voting_wrapper {
     margin-top: 50px;
     padding-bottom: 20px;
@@ -251,49 +251,12 @@ li:active {
     font-style: italic;
 }
 
-/*About us Styling*/
+/* About us styling */
 #contact_title {
     text-align: left;
 }
 
-/*Signup Styling*/
-/*#signup {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
-}*/
-
-/*#signupContainer {
-    position: fixed;
-    width: 23%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-#signupHead {
-    background-color: #353535;
-    margin: 0;
-    padding: 10px;
-    border-radius: 20px 20px 0 0;
-}
-
-#signupHeader {
-    text-align: center;
-    margin: 10px;
-}
-
-#signupBody {
-    background-color: #1f293c;
-    margin: 0;
-    padding: 10px 0;
-    border-radius: 0 0 20px 20px;
-}*/
-
+/* Signup styling */
 #signupForm {
     width: 100%;
 }

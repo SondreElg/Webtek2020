@@ -1,9 +1,3 @@
-function initPopup(divID) {
-    const div = document.createElement("div");
-    div.id = divID;
-    document.body.appendChild(div);
-}
-
 function generatePopup_(title, synopsis, imgsrc) {
     document.getElementById("popup").style.display = "block";
     const html = `
