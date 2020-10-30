@@ -28,6 +28,9 @@ function loadNavbar() {
                     <div class="signup-link">
                         <button class="membershipButton" onclick="generateSignup()">Sign up</button">
                     </div>
+                    <div class="discord-link">
+                        <a href="https://discord.com/invite/3SQwHyZ" target="_blank">Our discord server</a>
+                    </div>
                 </div>
             </div>
         </div>`;
