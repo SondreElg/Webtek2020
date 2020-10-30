@@ -544,19 +544,19 @@ li:active {
         background-color: #202020;
     }
 
-    /*Meny når hamburger-meny ikke er klikt på*/
+    /* Manu when hamburger has not been clicked */
     #nav-check:not(:checked) + .nav-links {
         display: none;
     }
 
-    /*Meny når hamburger-meny har blitt klikt på. Inkluderer lenker til de ulike sidene*/
+    /* Menu when hamburger has been clicked. Includes links to the different pages */
     #nav-check:checked + .nav-links {
         height: calc(70vh - 100%);
     }
 
     @media (max-width: 895px) {
         .frontpage_container {
-            /*make next screening appear below latest news*/
+            /* Make next screening appear below latest news */
             display: block;
             flex-wrap: nowrap;
             justify-content: center;
@@ -566,7 +566,7 @@ li:active {
         #frontpage_welcome,
         #frontpage_news,
         #frontpage_nextscreening {
-            /*make next screening appear below latest news*/
+            /* Make next screening appear below latest news */
             width: 80%;
             margin: 0 auto;
         }
