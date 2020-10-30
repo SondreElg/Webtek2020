@@ -201,6 +201,7 @@ a:hover {
     height: 120px;
     background-color: #1f293c;
     margin-bottom: 5px;
+    position: relative;
 }
 
 .anime_screening > img {
@@ -210,9 +211,12 @@ a:hover {
 }
 
 .anime_episodes {
-    /* How on earth can I center this vertically? */
-    margin: auto;
+    width: 100%;
     font-size: larger;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 /* Styling for voting-page */
