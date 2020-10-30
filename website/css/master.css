@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Bold.ttf");
+    font-weight: bold;
+}
+
 html {
     margin: 0;
     padding: 0;
