@@ -1,3 +1,8 @@
+// The icons used in the signup popup has been downloaded from
+// FontAwesome (https://fontawesome.com/license). The icons are
+// licensed under the Creative Commons Attribution 4.0 International
+// license. No changes has been done to the icons.
+
 function generateSignup() {
     document.getElementById("signup").style.display = "block";
     const html = `<div class="popupContent">
@@ -8,12 +13,12 @@ function generateSignup() {
             <form id="signupForm" onsubmit="submitForm(event)">
 
                 <div class="inputContainer">
-                    <div class="fa fa-user fa-lg signupIcon"></div>
+                    <div id="iconUser" class="signupIcon"></div>
                     <input type="text" placeholder="Name" name="name" id="signupName" class="inputBox" required>
                 </div>
 
                 <div class="inputContainer">
-                    <div class="fa fa-envelope fa-lg signupIcon"></div>
+                    <div id="iconEmail" class="signupIcon"></div>
                     <input type="email" placeholder="E-mail" name="email" id="signupEmail" class="inputBox" required>
                 </div>
 

@@ -298,6 +298,25 @@ li:active {
     width: 100%;
 }
 
+#signupName {
+    background-image: url("../images/user-solid.svg");
+}
+
+#signupEmail {
+    background-image: url("../images/envelope-solid.svg");
+}
+
+#signupForm input:not([type="submit"]) {
+    border: none;
+    background-repeat: no-repeat;
+    background-size: auto 30px;
+    background-position: 5px center;
+}
+
+#signupForm input:not([type="submit"]):focus {
+    outline: 2px solid rgb(64, 170, 64);
+}
+
 .inputContainer {
     position: relative;
     /*margin: auto;*/
@@ -305,14 +324,24 @@ li:active {
     text-align: center;
 }
 
-.signupIcon {
+/*.signupIcon {
     box-sizing: border-box;
     position: absolute;
     color: #353535;
     height: 44px;
     padding: 10px;
     text-align: center;
+}*/
+
+/*#iconUser {
+    background-image: url("../images/user-solid.svg");
+    background-size: auto 44px;
 }
+
+#iconEmail {
+    background-image: url("../images/envelope-solid.svg");
+    background-size: auto 44px;
+}*/
 
 .inputBox {
     box-sizing: border-box;
