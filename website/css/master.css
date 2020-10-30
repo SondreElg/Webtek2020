@@ -312,29 +312,9 @@ li:active {
 
 .inputContainer {
     position: relative;
-    /*margin: auto;*/
     margin: 70px 0;
     text-align: center;
 }
-
-/*.signupIcon {
-    box-sizing: border-box;
-    position: absolute;
-    color: #353535;
-    height: 44px;
-    padding: 10px;
-    text-align: center;
-}*/
-
-/*#iconUser {
-    background-image: url("../images/user-solid.svg");
-    background-size: auto 44px;
-}
-
-#iconEmail {
-    background-image: url("../images/envelope-solid.svg");
-    background-size: auto 44px;
-}*/
 
 .inputBox {
     box-sizing: border-box;
@@ -475,17 +455,7 @@ li:active {
         cursor: pointer;
     }
 
-    .nav-sandwhichbtn > label {
-        display: absolute;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    .nav-sandwhichbtn > label:hover {
-        cursor: pointer;
-    }
-
-    .nav-sandwhichbtn > label > span {
+    .nav-sandwhichbtn span {
         display: block;
         width: 40px;
         margin: 17px;

@@ -12,13 +12,13 @@ function loadNavbar() {
                         <img src="images/discord.png" alt="Discord logo" id="navbar-discord-logo">
                     </a>
                 </div>
-                <div class="nav-sandwhichbtn">
-                    <label for="nav-check">
+                <label for="nav-check">
+                    <div class="nav-sandwhichbtn">
                         <span></span>
                         <span></span>
                         <span></span>
-                    </label>
-                </div>
+                    </div>
+                </label>
                 <input type="checkbox" id="nav-check">
                 <div class="nav-links">
                     <a href="screenings.html">Screenings</a>
