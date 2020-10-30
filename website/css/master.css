@@ -214,10 +214,11 @@ a:hover {
 }
 
 .anime_episodes {
-    width: 100%;
     font-size: larger;
     position: absolute;
     margin: 0;
+    width: calc(100% - 85px);
+    left: 85px;
     top: 50%;
     transform: translateY(-50%);
 }
