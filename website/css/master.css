@@ -115,19 +115,19 @@ a {
 }
 
 .signup-link {
-  float: right;
-  padding: 28px 50px;
+    float: right;
+    padding: 28px 50px;
 }
 
 .membershipButton {
-  font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  padding: 0 10px;
-  border: 2px outset #202020;
-  border-radius: 6px;
-  box-shadow: 1px 2px #202020;
-  color: #d9d9d9;
-  background-color: #353535;
+    font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 0 10px;
+    border: 2px outset #202020;
+    border-radius: 6px;
+    box-shadow: 1px 2px #202020;
+    color: #d9d9d9;
+    background-color: #353535;
 }
 
 .discord-link > a {
@@ -201,42 +201,42 @@ a {
 
 /*Styling for voting-page*/
 .voting_wrapper {
-  margin-top: 50px;
-  padding-bottom: 20px;
+    margin-top: 50px;
+    padding-bottom: 20px;
 }
 
 .voting_container {
-  padding: 0;
+    padding: 0;
 }
 
 .voting_element {
-  width: 70%;
-  margin: 5px auto;
-  padding: 10px;
-  background-color: #1f293c;
-  border: 1px solid #d9d9d9;
-  border-radius: 5px;
-  list-style: decimal;
-  cursor: move;
+    width: 70%;
+    margin: 5px auto;
+    padding: 10px;
+    background-color: #1f293c;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    list-style: decimal;
+    cursor: move;
 }
 
 li:active {
-  opacity: 0.7;
+    opacity: 0.7;
 }
 
 .voting_button {
-  text-align: center;
+    text-align: center;
 }
 
 #voting_btn {
-  font-family: inherit;
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  padding: 10px;
-  background-color: #d9d9d9;
-  color: #1f293c;
-  border-radius: 6px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background-color: #d9d9d9;
+    color: #1f293c;
+    border-radius: 6px;
 }
 
 /* Newsfeed Styling */
@@ -257,16 +257,16 @@ li:active {
 }
 
 /*Signup Styling*/
-#signup {
+/*#signup {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.9);
-}
+}*/
 
-#signupContainer {
+/*#signupContainer {
     position: fixed;
     width: 23%;
     top: 50%;
@@ -292,11 +292,15 @@ li:active {
     margin: 0;
     padding: 10px 0;
     border-radius: 0 0 20px 20px;
+}*/
+
+#signupForm {
+    width: 100%;
 }
 
 .inputContainer {
     position: relative;
-    margin: auto;
+    /*margin: auto;*/
     margin: 70px 0;
     text-align: center;
 }
@@ -322,24 +326,30 @@ li:active {
 #signupSubmit {
     padding: 10px;
     border-radius: 5px;
-    margin-bottom: 40px;
+    /*margin-bottom: 40px;*/
+    margin: auto;
+    display: block;
 }
 
 #signupSuccessful {
-    display: inline-block;
+    display: none;
     padding: 10px 0;
 }
 
-#signupClose {
+#signupSuccessful .successText {
+    color: rgb(28, 155, 28);
+}
+
+/*#signupClose {
     position: absolute;
     color: #c4c4c4;
     top: -5px;
     right: -5px;
-}
+}*/
 
 /* Popup styling */
-
-#popup {
+#popup,
+#signup {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -347,16 +357,10 @@ li:active {
     left: 0;
     background-color: rgba(0, 0, 0, 0.7);
     display: none;
+    z-index: 9999;
 }
 
-#popupContent {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#popupHeader {
+.popupHeader {
     background-color: #353535;
     margin: 0;
     padding: 10px;
@@ -364,11 +368,18 @@ li:active {
     border-radius: 20px 20px 0 0;
 }
 
-#popupHeader h3 {
+.popupHeader h3 {
     margin: 0;
 }
 
-#popupBody {
+.popupContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popupBody {
     background-color: #0b1622;
     padding: 60px 30px;
     border-radius: 0 0 20px 20px;
@@ -415,19 +426,18 @@ li:active {
 
 /* Make the page dynamic */
 @media (max-width: 1250px) {
-
     .nav-header {
-      display: block;
+        display: block;
     }
 
     .nav-title:hover {
-      display: block;
-      height: 62px;
+        display: block;
+        height: 62px;
     }
 
     .nav-title:hover {
-      height: 62px;
-      width: 120px;
+        height: 62px;
+        width: 120px;
     }
 
     .nav-sandwhichbtn {
@@ -439,7 +449,7 @@ li:active {
     }
 
     .nav-sandwhichbtn:hover {
-      background-color: #202020;
+        background-color: #202020;
     }
 
     .nav-sandwhichbtn > label {
@@ -477,20 +487,20 @@ li:active {
     }
 
     .signup-link {
-      display: block;
-      width: 100%;
-      height: 100%;
-      padding: 0;
-      text-align: center;
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        text-align: center;
     }
 
     .membershipButton {
-      width: 100%;
-      height: 100%;
-      padding: 30px 0px;
-      border: none;
-      border-radius: 0;
-      background-color: #7289da;
+        width: 100%;
+        height: 100%;
+        padding: 30px 0px;
+        border: none;
+        border-radius: 0;
+        background-color: #7289da;
     }
 
     .discord-link > a {
@@ -503,7 +513,7 @@ li:active {
     }
 
     .discord-link > a:hover {
-      background-color: #202020;
+        background-color: #202020;
     }
 
     /*Meny når hamburger-meny ikke er klikt på*/
@@ -517,7 +527,8 @@ li:active {
     }
 
     @media (max-width: 895px) {
-        .frontpage_container { /*make next screening appear below latest news*/
+        .frontpage_container {
+            /*make next screening appear below latest news*/
             display: block;
             flex-wrap: nowrap;
             justify-content: center;
@@ -526,7 +537,8 @@ li:active {
 
         #frontpage_welcome,
         #frontpage_news,
-        #frontpage_nextscreening { /*make next screening appear below latest news*/
+        #frontpage_nextscreening {
+            /*make next screening appear below latest news*/
             width: 80%;
             margin: 0 auto;
         }

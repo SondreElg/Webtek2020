@@ -1,45 +1,39 @@
 function loadNavbar() {
     let navbar = document.getElementById("navbar");
 
-    navbar.innerHTML =
-    "<main id=\"main_navbar\">\n"+
-    "<div class=\"nav-items\">\n"+
-
-    "  <div class=\"nav-header\">\n"+
-    "   <a class=\"nav-title\" href=\"index.html\">\n"+
-    "      <img src=\"images/logo.png\" alt=\"Logo\" id=\"navbar-logo\">\n"+
-    "    </a>\n"+
-    "   <a class=\"nav-discord-image\" href=\"https://discord.com/invite/3SQwHyZ\" target=\"_blank\">\n"+
-    "      <img src=\"images/discord.png\" alt=\"Discord logo\" id=\"navbar-discord-logo\">\n"+
-    "    </a>\n"+
-    "  </div>\n"+
-
-    "  <div class=\"nav-sandwhichbtn\">\n"+
-    "    <label for=\"nav-check\">\n"+
-    "      <span></span>"+
-    "      <span></span>"+
-    "      <span></span>"+
-    "    </label>"+
-    "  </div>"+
-
-    "  <input type=\"checkbox\" id=\"nav-check\">\n"+
-
-    "  <div class=\"nav-links\">\n"+
-    "    <a href=\"screenings.html\" >Screenings</a>\n"+
-    "    <a href=\"voting.html\" >Voting</a>\n"+
-    "    <a href=\"newsfeed.html\">Newsfeed</a>\n"+
-    "    <a href=\"about.html\">About us</a>\n"+
-    "    <div class=\"signup-link\">\n"+
-    "     <button class=\"membershipButton\" onclick=\"openSignup()\">Sign up</button\">\n"+
-    "    </div>\n"+
-    "    <div class=\"discord-link\">\n"+
-    "     <a href=\"https://discord.com/invite/3SQwHyZ\" target=\"_blank\">Our discord server</a>\n"+
-    "    </div>\n"+
-    "  </div>"+
-
-    "</div>"+
-    "</div>"+
-    "</main>";
+    navbar.innerHTML = `
+        <div id="main_navbar">
+            <div class="nav-items">
+                <div class="nav-header">
+                    <a class="nav-title" href="index.html">
+                        <img src="images/logo.png" alt="Logo" id="navbar-logo">
+                    </a>
+                    <a class="nav-discord-image" href="https://discord.com/invite/3SQwHyZ" target="_blank">
+                        <img src="images/discord.png" alt="Discord logo" id="navbar-discord-logo">
+                    </a>
+                </div>
+                <div class="nav-sandwhichbtn">
+                    <label for="nav-check">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                </div>
+                <input type="checkbox" id="nav-check">
+                <div class="nav-links">
+                    <a href="screenings.html">Screenings</a>
+                    <a href="voting.html" >Voting</a>
+                    <a href="newsfeed.html">Newsfeed</a>
+                    <a href="about.html">About us</a>
+                    <div class="signup-link">
+                        <button class="membershipButton" onclick="generateSignup()">Sign up</button">
+                    </div>
+                    <div class="discord-link">
+                        <a href="https://discord.com/invite/3SQwHyZ" target="_blank">Our discord server</a>
+                    </div>
+                </div>
+            </div>
+        </div>`;
 }
 
 loadNavbar();
