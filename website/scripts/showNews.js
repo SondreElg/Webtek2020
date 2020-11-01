@@ -1,14 +1,28 @@
 // Clean this script later, shouldn't need all the logic in showScreenings
 // Alternatively, find a way to separate what
+var newsCount = 0;
+
+
+function displayFirstTwentyNews () {
+    newsCount += 20
+    displayNews (0, newsCount)
+}
 
 function displayAllNews () {
+    displayNews(newsCount, newsList.length)
+}
+
+function displayNews (start, end) {
     var thisNewsContent
     var thisNewsAuthor
     var thisNewsDate
 
     console.log(newsList)
+    for (i = start; i < end; i++) {
+        if (i > newsList.length) {
+            return
+        }
 
-    for (i = 0; i < newsList.length; i++) {
         thisNewsContent = newsList[i][newsContent]    
         thisNewsAuthor = newsList[i][newsAuthor]    
         thisNewsDate = newsList[i][newsDate]
@@ -23,7 +37,6 @@ function displayAllNews () {
                 <span class="author">-${thisNewsAuthor}, ${thisNewsDate}</span>
             </div>`
     }
-    
 }
 
 function displayLatestNews () {
