@@ -1,11 +1,11 @@
 function generatePopup_(title, synopsis, imgsrc) {
     document.getElementById("popup").style.display = "block";
     const html = `
-    <div id="popupContent">
-        <div id="popupHeader">
-            <h3 id="popupTitle">${title}</h3>
+    <div class="popupContent">
+        <div class="popupHeader">
+            <h3>${title}</h3>
         </div>
-        <div id="popupBody">
+        <div class="popupBody">
             <img id="popupThumbnail" src="${imgsrc}" alt="${title}" />
             <p id="popupDescription">
                 ${synopsis}
@@ -28,6 +28,10 @@ function closePopup() {
  */
 function generatePopup(anime) {
     generatePopup_(
-        animeDictionary[anime][animeTitle], animeDictionary[anime][animeSynopsis], animeDictionary[anime][animeImgsrc]
+        animeDictionary[anime][animeTitle],
+        animeDictionary[anime][animeSynopsis],
+        animeDictionary[anime][animeImgsrc]
     );
 }
+
+initPopup("popup");

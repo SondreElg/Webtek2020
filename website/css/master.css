@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Bold.ttf");
+    font-weight: bold;
+}
+
 html {
     margin: 0;
     padding: 0;
@@ -9,7 +20,7 @@ body {
     color: #d9d9d9;
     font-size: 20px;
     font-weight: 100;
-    margin: 0;
+    margin: 0 0 100px 0;
     overflow-y: scroll;
 }
 
@@ -22,11 +33,16 @@ h2 {
 }
 
 hr {
-    border-top: 2px solid #d9d9d9;
+    border: 1px solid #d9d9d9;
 }
 
 a {
-    color: lightskyblue;
+    color: #87cefa;
+}
+
+a:hover {
+    color: #bee5fd;
+    cursor: pointer;
 }
 
 .page_container {
@@ -72,7 +88,7 @@ a {
     cursor: pointer;
 }
 
-/*CSS for navbar*/
+/* CSS for navbar */
 #navbar {
     margin: 0;
     height: 83px;
@@ -90,6 +106,7 @@ a {
 
 .nav-header {
     display: inline;
+    height: 83px;
 }
 
 .nav-title {
@@ -125,19 +142,19 @@ a {
 }
 
 .signup-link {
-  float: right;
-  padding: 28px 50px;
+    float: right;
+    padding: 28px 50px;
 }
 
 .membershipButton {
-  font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  padding: 0 10px;
-  border: 2px outset #202020;
-  border-radius: 6px;
-  box-shadow: 1px 2px #202020;
-  color: #d9d9d9;
-  background-color: #353535;
+    font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 0 10px;
+    border: 2px outset #202020;
+    border-radius: 6px;
+    box-shadow: 1px 2px #202020;
+    color: #d9d9d9;
+    background-color: #353535;
 }
 
 .discord-link > a {
@@ -151,6 +168,10 @@ a {
 #navbar-logo {
     height: 61px;
     float: left;
+}
+
+#navbar-discord-logo:hover {
+    opacity: 0.7;
 }
 
 /* Frontpage styling */
@@ -195,6 +216,7 @@ a {
     height: 120px;
     background-color: #1f293c;
     margin-bottom: 5px;
+    position: relative;
 }
 
 .anime_screening > img {
@@ -204,33 +226,37 @@ a {
 }
 
 .anime_episodes {
-    /* How on earth can I center this vertically? */
-    margin: auto;
     font-size: larger;
+    position: absolute;
+    margin: 0;
+    width: calc(100% - 85px);
+    left: 85px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
-/*Styling for voting-page*/
+/* Styling for voting-page */
 .voting_wrapper {
   margin-top: 50px;
 }
 
 .voting_container {
-  padding: 0;
+    padding: 0;
 }
 
 .voting_element {
-  width: 70%;
-  margin: 5px auto;
-  padding: 10px;
-  background-color: #1f293c;
-  border: 1px solid #d9d9d9;
-  border-radius: 5px;
-  list-style: decimal;
-  cursor: move;
+    width: 70%;
+    margin: 5px auto;
+    padding: 10px;
+    background-color: #1f293c;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    list-style: decimal;
+    cursor: move;
 }
 
 li:active {
-  opacity: 0.7;
+    opacity: 0.7;
 }
 
 /* Newsfeed Styling */
@@ -245,62 +271,38 @@ li:active {
     font-style: italic;
 }
 
-/*About us Styling*/
+/* About us styling */
 #contact_title {
     text-align: left;
 }
 
-/*Signup Styling*/
-#signup {
-    position: fixed;
-    top: 0;
-    left: 0;
+/* Signup styling */
+#signupForm {
     width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
 }
 
-#signupContainer {
-    position: fixed;
-    width: 23%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+#signupName {
+    background-image: url("../images/user-solid.svg");
 }
 
-#signupHead {
-    background-color: #353535;
-    margin: 0;
-    padding: 10px;
-    border-radius: 20px 20px 0 0;
+#signupEmail {
+    background-image: url("../images/envelope-solid.svg");
 }
 
-#signupHeader {
-    text-align: center;
-    margin: 10px;
+#signupForm input:not([type="submit"]) {
+    border: none;
+    background-repeat: no-repeat;
+    background-size: auto 30px;
+    background-position: 5px center;
 }
 
-#signupBody {
-    background-color: #1f293c;
-    margin: 0;
-    padding: 10px 0;
-    border-radius: 0 0 20px 20px;
+#signupForm input:not([type="submit"]):focus {
+    outline: 2px solid #40aa40;
 }
 
 .inputContainer {
     position: relative;
-    margin: auto;
     margin: 70px 0;
-    text-align: center;
-}
-
-.signupIcon {
-    box-sizing: border-box;
-    position: absolute;
-    color: #353535;
-    height: 44px;
-    padding: 10px;
     text-align: center;
 }
 
@@ -314,26 +316,32 @@ li:active {
 }
 
 #signupSubmit {
+    background-color: #d9d9d9;
     padding: 10px;
     border-radius: 5px;
-    margin-bottom: 40px;
+    width: 100px;
+    margin: auto;
+    display: block;
+    border: none;
+}
+
+#signupSubmit:hover {
+    background-color: #f9f9f9;
+    cursor: pointer;
 }
 
 #signupSuccessful {
-    display: inline-block;
+    display: none;
     padding: 10px 0;
 }
 
-#signupClose {
-    position: absolute;
-    color: #c4c4c4;
-    top: -5px;
-    right: -5px;
+#signupSuccessful .successText {
+    color: #1c9b1c;
 }
 
 /* Popup styling */
-
-#popup {
+#popup,
+#signup {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -341,16 +349,10 @@ li:active {
     left: 0;
     background-color: rgba(0, 0, 0, 0.7);
     display: none;
+    z-index: 9999;
 }
 
-#popupContent {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#popupHeader {
+.popupHeader {
     background-color: #353535;
     margin: 0;
     padding: 10px;
@@ -358,11 +360,18 @@ li:active {
     border-radius: 20px 20px 0 0;
 }
 
-#popupHeader h3 {
+.popupHeader h3 {
     margin: 0;
 }
 
-#popupBody {
+.popupContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popupBody {
     background-color: #0b1622;
     padding: 60px 30px;
     border-radius: 0 0 20px 20px;
@@ -408,26 +417,38 @@ li:active {
 }
 
 /* Make the page dynamic */
-@media (max-width: 1300px) {
+@media (max-width: 1280px) {
+    .nav-header {
+        display: block;
+    }
+
+    .nav-title:hover {
+        display: block;
+        height: 62px;
+    }
+
+    .nav-title:hover {
+        height: 62px;
+        width: 120px;
+    }
+
     .nav-sandwhichbtn {
-        display: inline-block;
+        display: block;
         position: absolute;
+        height: 83px;
         right: 0px;
         top: 0px;
     }
 
-    .nav-sandwhichbtn > label {
-        display: inline-block;
-        height: 83px;
-        padding: 0;
-        margin-right: 20px;
-        box-sizing: border-box;
+    .nav-sandwhichbtn:hover {
+        background-color: #202020;
+        cursor: pointer;
     }
 
-    .nav-sandwhichbtn > label > span {
+    .nav-sandwhichbtn span {
         display: block;
         width: 40px;
-        margin: 12px;
+        margin: 17px;
         border-top: 6px solid #d9d9d9;
         border-radius: 4px;
     }
@@ -453,20 +474,20 @@ li:active {
     }
 
     .signup-link {
-      display: block;
-      width: 100%;
-      height: 100%;
-      padding: 0;
-      text-align: center;
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        text-align: center;
     }
 
     .membershipButton {
-      width: 100%;
-      height: 100%;
-      padding: 30px 0px;
-      border: none;
-      border-radius: 0;
-      background-color: #7289da;
+        width: 100%;
+        height: 100%;
+        padding: 30px 0px;
+        border: none;
+        border-radius: 0;
+        background-color: #7289da;
     }
 
     .discord-link > a {
@@ -479,11 +500,22 @@ li:active {
     }
 
     .discord-link > a:hover {
-      background-color: #202020;
+        background-color: #202020;
+    }
+
+    /* Manu when hamburger has not been clicked */
+    #nav-check:not(:checked) + .nav-links {
+        display: none;
+    }
+
+    /* Menu when hamburger has been clicked. Includes links to the different pages */
+    #nav-check:checked + .nav-links {
+        height: calc(70vh - 100%);
     }
 
     @media (max-width: 895px) {
-        .frontpage_container { /*make next screening appear below latest news*/
+        .frontpage_container {
+            /* Make next screening appear below latest news */
             display: block;
             flex-wrap: nowrap;
             justify-content: center;
@@ -492,39 +524,10 @@ li:active {
 
         #frontpage_welcome,
         #frontpage_news,
-        #frontpage_nextscreening { /*make next screening appear below latest news*/
+        #frontpage_nextscreening {
+            /* Make next screening appear below latest news */
             width: 80%;
             margin: 0 auto;
-        } 
-    }
-
-    @media (max-width: 600px) {
-        #navbar {
-            height: 80px;
         }
-
-        .nav-title {
-            padding: 9px 20px 10px;
-        }
-    }
-
-    .nav-sandwhichbtn {
-        right: 8px;
-        top: 8px;
-    }
-
-    .nav-sandwhichbtn > label {
-        height: 80px;
-        padding: 0px;
-    }
-
-    /*Meny når hamburger-meny ikke er klikt på*/
-    #nav-check:not(:checked) + .nav-links {
-        display: none;
-    }
-
-    /*Meny når hamburger-meny har blitt klikt på. Inkluderer lenker til de ulike sidene*/
-    #nav-check:checked + .nav-links {
-        height: calc(70vh - 100%);
     }
 }
