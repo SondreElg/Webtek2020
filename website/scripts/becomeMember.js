@@ -28,15 +28,11 @@ function generateSignup() {
 
             <p id="signupSuccessful">Signup was <span class="successText">successful</span>.</p>
 
-            <div id="popupX" onClick="closeSignup()"><span>X</span></div>
+            <div id="popupX" onClick="closePopup('signup')"><span>X</span></div>
         </div>
     </div>`;
 
     document.getElementById("signup").innerHTML = html;
-}
-
-function closeSignup() {
-    document.getElementById("signup").style.display = "none";
 }
 
 function submitForm(event) {

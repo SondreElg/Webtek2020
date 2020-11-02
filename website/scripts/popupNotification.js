@@ -11,14 +11,10 @@ function generatePopup_(title, synopsis, imgsrc) {
                 ${synopsis}
             </p>
         </div>
-        <div id="popupX" onClick="closePopup()"><span>X</span></div>
+        <div id="popupX" onClick="closePopup('popup')"><span>X</span></div>
     </div>`;
 
     document.getElementById("popup").innerHTML = html;
-}
-
-function closePopup() {
-    document.getElementById("popup").style.display = "none";
 }
 
 /**
