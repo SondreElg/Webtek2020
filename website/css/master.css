@@ -40,6 +40,11 @@ a {
     color: #87cefa;
 }
 
+*[onclick]:hover {
+    background-color: #202020;
+    cursor: pointer;
+}
+
 a:hover {
     color: #bee5fd;
     cursor: pointer;
@@ -73,18 +78,22 @@ a:hover {
 }
 
 .button {
-  font-family: inherit;
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  padding: 10px;
-  background-color: #d9d9d9;
-  color: #1f293c;
-  border-radius: 6px;
+    width: 150px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background-color: #d9d9d9;
+    color: #1f293c;
+    border-radius: 6px;
+    display: block;
+    border: none;
+    margin: auto;
 }
 
-*[onclick]:hover {
-    background-color: #202020;
+.button:hover {
+    background-color: #f9f9f9;
     cursor: pointer;
 }
 
@@ -237,7 +246,7 @@ a:hover {
 
 /* Styling for voting-page */
 .voting_wrapper {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 
 .voting_container {
@@ -313,21 +322,6 @@ li:active {
     width: 85%;
     outline: none;
     text-align: center;
-}
-
-#signupSubmit {
-    background-color: #d9d9d9;
-    padding: 10px;
-    border-radius: 5px;
-    width: 100px;
-    margin: auto;
-    display: block;
-    border: none;
-}
-
-#signupSubmit:hover {
-    background-color: #f9f9f9;
-    cursor: pointer;
 }
 
 #signupSuccessful {

@@ -22,7 +22,7 @@ function generateSignup() {
                     <input type="email" placeholder="E-mail" name="email" id="signupEmail" class="inputBox" required>
                 </div>
 
-                <input type="submit" value="Signup" id="signupSubmit">
+                <input type="submit" value="Signup" class="button">
 
             </form>
 
