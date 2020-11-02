@@ -5,9 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=0.7" />
         <title>Anime NTNU - Newsfeed</title>
         <link rel="stylesheet" href="css/master.css" />
-        <script src="scripts/utilsPopup.js"></script>
+        <script src="scripts/initPopup.js"></script>
     </head>
-    <body>
+    <body onscroll="checkScroll()">
         <div id="navbar"></div>
 
         <header class="page_header">
@@ -18,15 +18,8 @@
         <div id="newsfeed_container" class="page_container"></div>
 
         <div class="button_container">
-            <button
-                id="buttonDisplayAllNews"
-                class="button"
-                type="button"
-                onClick="displayAllNews()"
-            >
-                Display all news
-            </button>
-        </div>
+            <button class="button" type="button" onClick="displayAllNews()">Display all news</button>
+          </div>
 
         <script src="scripts/navbar.js"></script>
         <script src="scripts/becomeMember.js"></script>
