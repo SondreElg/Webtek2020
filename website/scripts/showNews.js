@@ -2,32 +2,32 @@
 // Alternatively, find a way to separate what
 var newsCount = 0;
 
-
-function displayFirstTwentyNews () {
-    newsCount += 20
-    displayNews (0, newsCount)
+function displayFirstTwentyNews() {
+    newsCount += 20;
+    displayNews(0, newsCount);
 }
 
-function displayAllNews () {
-    displayNews(newsCount, newsList.length)
+function displayAllNews() {
+    displayNews(newsCount, newsList.length);
+    document.getElementById("buttonDisplayAllNews").style.display = "none";
 }
 
-function displayNews (start, end) {
-    var thisNewsContent
-    var thisNewsAuthor
-    var thisNewsDate
+function displayNews(start, end) {
+    var thisNewsContent;
+    var thisNewsAuthor;
+    var thisNewsDate;
 
-    console.log(newsList)
+    console.log(newsList);
     for (i = start; i < end; i++) {
         if (i > newsList.length) {
-            return
+            return;
         }
 
-        thisNewsContent = newsList[i][newsContent]    
-        thisNewsAuthor = newsList[i][newsAuthor]    
-        thisNewsDate = newsList[i][newsDate]
+        thisNewsContent = newsList[i][newsContent];
+        thisNewsAuthor = newsList[i][newsAuthor];
+        thisNewsDate = newsList[i][newsDate];
 
-        console.log(newsList[i])
+        console.log(newsList[i]);
 
         document.getElementById("newsfeed_container").innerHTML += `
             <div class="news_content">
@@ -35,14 +35,14 @@ function displayNews (start, end) {
                     ${thisNewsContent}
                 </p>
                 <span class="author">-${thisNewsAuthor}, ${thisNewsDate}</span>
-            </div>`
+            </div>`;
     }
 }
 
-function displayLatestNews () {
-    const latestContent = newsList[0][newsContent]    
-    const latestAuthor = newsList[0][newsAuthor]    
-    const latestDate = newsList[0][newsDate]    
+function displayLatestNews() {
+    const latestContent = newsList[0][newsContent];
+    const latestAuthor = newsList[0][newsAuthor];
+    const latestDate = newsList[0][newsDate];
 
     document.getElementById("news_section").innerHTML += `
     <div class="news_content">
@@ -50,5 +50,5 @@ function displayLatestNews () {
             ${latestContent}
         </p>
         <span class="author">-${latestAuthor}, ${latestDate}</span>
-    </div>`
+    </div>`;
 }
