@@ -1,0 +1,87 @@
+What unit is the subject using? {
+    PC, in tablet mode
+}
+
+What browser are they using? {
+    Chrome
+}
+
+Are they a student at NTNU? {
+    Yes
+}
+
+Have they been to any of Anime NTNU's screenings? {
+    Yes
+}
+
+Tasks {
+    How can you contact Anime NTNU? {
+        Scrolled dowwn the front page
+        Clicked the sandwich button
+        Went to "About us" and scrolled down
+    }
+    Find information about the first upcoming screening {
+        Sandwich button -> screenings
+        Scrolled around a bit, seemingly looking for the first screening
+        Then concluded it was the first on the page
+    }
+    What anime are we watching this semester? {
+        Frontpage -> Latest news
+            Read the anime
+        Rokka, Hataraku, Shirobako, Saiki (break)
+        Confused that different anime appeared in the screenings
+    }
+    When is the last screening of the semester? {
+        Sandwich button -> screenings -> scroll down
+        18th November
+    }
+    What anime were we watching in fall 2013? {
+        Sandwich button -> newsfeed
+        Clicked "display all news"
+        Scrolled a bit
+            Commented on the page going to the bottom when loading all news
+        Found the newspost about it
+    }
+    Vote for which anime you'd like to watch {
+        Sandwich bar -> voting
+        Can't drag items with touch functionality
+            Converted to normal PC mode and voted
+            He likes the voting system better than the Google Forms previously used
+            Went backto tablet mode
+    }
+    What is Sayonara Zetsubou Sensei about? {
+        Frontpage
+        Clicked the image of the screening
+    }
+    What is Anime NTNU? {
+        Sandwich button -> About us
+        Student organization which hosts weekly screenings on Gløshaugen 
+    }
+    How can you attend screenings? {
+        By meeting up at R5, but due to the corona situation, you can find more info on Discord
+    }
+    Sign up {
+        Navbar list covers the signup button 
+        Sign up is super thin
+    }
+}
+
+Three things you liked about the website? {
+    Clean design
+    Easy enough to find information
+    Voting 
+}
+
+Three things you didn't like about the website? {
+    Voting doesn't work in touch mode
+    Infoboxes are a bit narrow in portrait mode
+    Frontpage is not that eyecatching before scrolling (portrait mode)
+}
+
+Would you like to attend one of Anime NTNU's screenings? {
+    
+}
+
+Later comment {
+    Perhaps have "Next screening" above "Latest news" in portrait mode
+}
