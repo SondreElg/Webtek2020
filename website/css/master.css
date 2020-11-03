@@ -62,15 +62,19 @@ a:hover {
     padding-top: 10px;
 }
 
+section > .page_header {
+    width: 100%;
+}
+
 .page_header > h1 {
     text-align: left;
 }
 
-.content {
+/*.content {
     background-color: #1f293c;
     padding: 20px 40px;
     margin: 30px 0;
-}
+}*/
 
 .button_container {
     text-align: center;
@@ -276,14 +280,16 @@ li:active {
 }
 
 /* Newsfeed Styling */
-.news_content {
+.info_content {
     background-color: #1f293c;
-    padding: 20px 40px 40px;
+    padding: 20px 40px;
     margin: 30px 0;
 }
 
 .author {
-    float: right;
+    display: inline-block;
+    width: 100%;
+    text-align: right;
     font-style: italic;
 }
 
