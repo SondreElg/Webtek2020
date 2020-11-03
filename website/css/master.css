@@ -56,17 +56,17 @@ a:hover {
     margin: auto;
 }
 
-.page_header {
+.page_title {
     width: 70%;
     margin: auto;
     padding-top: 10px;
 }
 
-section > .page_header {
+section > .page_title {
     width: 100%;
 }
 
-.page_header > h1 {
+.page_title > h1 {
     text-align: left;
 }
 
