@@ -12,13 +12,13 @@ function loadNavbar() {
                         <img src="images/discord.png" alt="Discord logo" id="navbar-discord-logo">
                     </a>
                 </div>
-                <label for="nav-check">
-                    <div class="nav-sandwhichbtn">
+                <div class="nav-sandwhichbtn" onclick="expand_navbar()">
+                    <label for="nav-check" onclick="expand_navbar()">
                         <span></span>
                         <span></span>
                         <span></span>
-                    </div>
-                </label>
+                    </label>
+                </div>
                 <input type="checkbox" id="nav-check">
                 <div class="nav-links">
                     <a href="screenings.html">Screenings</a>
@@ -32,6 +32,12 @@ function loadNavbar() {
                 </div>
             </div>
         </div>`;
+}
+
+function expand_navbar() {
+    // Expand/contract mobile navbar
+    const checkbox = document.getElementById("nav-check");
+    checkbox.checked = !checkbox.checked;
 }
 
 loadNavbar();

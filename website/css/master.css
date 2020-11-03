@@ -461,6 +461,10 @@ li:active {
         border-radius: 4px;
     }
 
+    .nav-sandwhichbtn span:hover {
+        cursor: pointer;
+    }
+
     #navbar-discord-logo {
         display: none;
     }
