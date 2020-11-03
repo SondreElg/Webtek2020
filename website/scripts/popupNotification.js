@@ -1,5 +1,15 @@
+/**
+ * Generates the HTML for a popup for the provided anime
+ *
+ * @param {string} title - the title of the anime for which you're generating a popup
+ * @param {string} synopsis - the synopsis for the anime
+ * @param {string} imgsrc - the path to the thumbnail image corresponding to the anime
+ */
 function generatePopup_(title, synopsis, imgsrc) {
-    document.getElementById("popup").style.display = "block";
+    // This is the HTML for the popup itself. It consists of:
+    // * A header with the anime title
+    // * A body, with a thumbnail and a synopsis
+    // * A button for closing the popup
     const html = `
     <div class="popupContent">
         <div class="popupHeader">
@@ -14,11 +24,11 @@ function generatePopup_(title, synopsis, imgsrc) {
         <div id="popupX" onClick="closePopup('popup')"><span>X</span></div>
     </div>`;
 
-    document.getElementById("popup").innerHTML = html;
+    createPopup("popup", html);
 }
 
 /**
- * Generates a popup for the provided anime
+ * Generates a popup for the provided anime.
  *
  * @param {string} anime - the anime for which you're generating a popup
  */

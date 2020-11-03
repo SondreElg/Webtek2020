@@ -1,6 +1,18 @@
+/**
+ * Function for creating a navbar.
+ */
 function loadNavbar() {
+    // Get the containing element to place the navbar in
     let navbar = document.getElementById("navbar");
 
+    // This is the HTML for the navbar. It contains the following:
+    // * Logo and Discord link (in the nav-header)
+    // * Sandwich button - this is only visible when the window is
+    //   small enough. Clicking it will toggle the visibility of
+    //   the menu items.
+    // * A 'disguised' checkbox - its value determined whether the
+    //   sandwich menu items are visible or not
+    // * The menu items themselves
     navbar.innerHTML = `
         <div id="main_navbar">
             <div class="nav-items">
@@ -12,8 +24,8 @@ function loadNavbar() {
                         <img src="images/discord.png" alt="Discord logo" id="navbar-discord-logo">
                     </a>
                 </div>
-                <div class="nav-sandwhichbtn" onclick="expand_navbar()">
-                    <label for="nav-check" onclick="expand_navbar()">
+                <div class="nav-sandwhichbtn" onclick="toggle_navbar()">
+                    <label for="nav-check" onclick="toggle_navbar()">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -34,9 +46,16 @@ function loadNavbar() {
         </div>`;
 }
 
-function expand_navbar() {
-    // Expand/contract mobile navbar
+/**
+ * Toggles the visibility of the sandwich menu
+ */
+function toggle_navbar() {
+    // The sandwich menu is toggles by a 'disguised' checkbox.
+    // Get a reference to this checkbox
     const checkbox = document.getElementById("nav-check");
+
+    // Toggle the value of the checkbox, and thus the visibility of the
+    // sandwich menu
     checkbox.checked = !checkbox.checked;
 }
 
