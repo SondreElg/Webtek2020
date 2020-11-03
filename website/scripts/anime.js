@@ -11,9 +11,9 @@ const animeCour = 4;
 var nextEpisode={
     "Rokka":1,
     "Hataraku":1,
-    "Shirobako":1,
+    "Minami":-11,
     "Zetsubou":-12,
-    "Minami":-11
+    "Shirobako":1    
 }
 
 //Totally not a database containing information about each anime for this semester
@@ -27,7 +27,9 @@ const animeDictionary={
     the Six Flowers), and he goes to the rendezvous 
     point — but seven have gathered there. The heroes 
     suspect that someone among the seven is the enemy, 
-    and the initial suspicion falls on Adlet.`,
+    and the initial suspicion falls on Adlet.<br/>
+    <br/>
+    source: <a href="https://anilist.co/anime/20955" target="blank">AniList<a/>`,
     12,
     "images/rokka.jpg",
     1],
@@ -38,20 +40,23 @@ const animeDictionary={
     "conquering the world" are the only skills the Devil 
     King possesses—and are obviously unnecessary in his 
     new situation—he must work as a freeter to pay for 
-    his living expenses!`,
+    his living expenses!<br/>
+    <br/>
+    source: <a href="https://anilist.co/anime/15809" target="blank">AniList<a/>`,
     13,
     "images/hataraku.jpg",
     1],
     "Minami":["Minami-ke",
-    `
-    The Minami residence is home to three sisters: the 
+    `The Minami residence is home to three sisters: the 
     strict and diligent eldest sister Haruka; air-headed 
     and lively Kana; and the youngest, Chiaki, whose sharp 
     tongue spares no one. Living without adult supervision, 
     the sisters share the workload of cooking and laundry, 
     as well as the occasional romantic adventure. From 
     combating chronic laziness to hanging out with friends, 
-    there is never a boring day in the Minami household.`,
+    there is never a boring day in the Minami household.<br/>
+    <br/>
+    source: <a href="https://myanimelist.net/anime/2963" target="blank">MyAnimeList<a/>`,
     13,
     "images/minami.jpg",
     2],
@@ -64,7 +69,9 @@ const animeDictionary={
     students with even more emotional problems than his. 
     This great Comedy will leave you in anything but 
     'Despair' as you meet each of his students and watch 
-    their wacky adventures.`,
+    their wacky adventures.<br/>
+    <br/>
+    source: <a href="https://anilist.co/anime/2605" target="blank">AniList<a/>`,
     12,
     "images/zetsubou.jpg",
     2],
@@ -77,8 +84,8 @@ const animeDictionary={
     together and showcasing it at the culture festival, 
     the group vow to pursue careers in the industry, 
     aiming to one day work together and create their 
-    own mainstream show.
-
+    own mainstream show.<br/>
+    <br/>
     Two and a half years later, Aoi and Ema have managed 
     to land jobs at the illustrious Musashino Animation 
     production company. The others, however, are finding 
@@ -90,7 +97,9 @@ const animeDictionary={
     on pursuing her dream as a story writer. These five 
     girls will learn that the path to success is one 
     with many diversions, but dreams can still be achieved 
-    through perseverance and a touch of eccentric creativity.`,
+    through perseverance and a touch of eccentric creativity.<br/>
+    <br/>
+    source: <a href="https://myanimelist.net/anime/25835" target="blank">MyAnimeList<a/>`,
     24,
     "images/shirobako.jpg",
     1]
