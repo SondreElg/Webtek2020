@@ -223,7 +223,7 @@ section > .page_header {
 #screenings_container,
 #semester_container {
     min-width: 400px;
-    font-size: x-large;
+    /*font-size: x-large;*/
 }
 
 .screening_container {
