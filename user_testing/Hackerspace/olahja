@@ -1,0 +1,84 @@
+What unit is the subject using? {
+    PC
+}
+
+What browser are they using? {
+    Chrome
+}
+
+Are they a student at NTNU? {
+    Yes
+}
+
+Have they been to any of Anime NTNU's screenings? {
+    No
+}
+
+Tasks {
+    How can you contact Anime NTNU? {
+        Navbar "About us"
+        "Can contact through Discord"
+            Perhaps make "Discord server" a link
+    }
+    Find information about the first upcoming screening {
+        Frontpage -> Next screenings
+        Wed 4th Nov
+    }
+    What anime are we watching this semester? {
+        Screenings -> look at first screening
+        "Is there a better list?"
+            Did not look at news
+    }
+    When is the last screening of the semester? {
+        Scrolled down
+        "18th Nov"
+    }
+    What anime were we watching in fall 2013? {
+        Frontpage
+        Navbar "Newsfeed"
+        Scrolled down
+        *Display all news*
+        Didn't see any difference when news were loaded
+            Perhaps because the button stays at the bottom of the screen
+        Found the info
+    }
+    Vote for which anime you'd like to watch {
+        Navbar "voting"
+        Did the thing
+    }
+    What is Sayonara Zetsubou Sensei about? {
+        Navbar -> Screenings
+        Click on anime
+    }
+    What is Anime NTNU? {
+        Navbar "About us"
+        A student organization for those interesed in or want to try anime
+    }
+    How can you attend screenings? {
+        "They are held digitally, so through Discord"
+    }
+    Sign up {
+        Navbar "Sign up"
+        Did the thing
+    }
+}
+
+Three things you liked about the website? {
+    Frontpage has everything you need
+    Voting is pretty nice and "oversiktlig"
+    Navigation was easy and "oversiktlig"
+}
+
+Three things you didn't like about the website? {
+    "Display all news" in newsfeed didn't give clear feedback
+    Didn't feel like the way he found information about anime was "the right way"
+        Would like a catalogue of what anime we have and will watch
+    Unclear if the ordering on the votings page was the most popular order or "intended order" 
+        Perhaps don't have numbers from the beginning
+        Click on anime in the order you'd rank them
+        Can drag afterwards
+}
+
+Would you like to attend one of Anime NTNU's screenings? {
+    "I might join sometime"
+}

@@ -1,0 +1,79 @@
+What unit is the subject using? {
+    MAC
+}
+
+What browser are they using? {
+    Safari
+}
+
+Are they a student at NTNU? {
+    Yes
+}
+
+Have they been to any of Anime NTNU's screenings? {
+    No
+}
+
+Tasks {
+    How can you contact Anime NTNU? {
+        Navbar "Discord"
+        Navbar "About us"
+    }
+    Find information about the first upcoming screening {
+        Frontpage -> "Next screening"
+    }
+    What anime are we watching this semester? {
+        Screenings -> look at anime
+    }
+    When is the last screening of the semester? {
+        Navbar "Screening"
+
+    }
+    What anime were we watching in fall 2013? {
+        Scroll around Frontpage
+        Screenings
+        Frontpage
+        Navbar "Newsfeed"
+        *Display all news*
+        Found it
+    }
+    Vote for which anime you'd like to watch {
+        Navbar "voting"
+        Did the thing
+            Didn't submit
+    }
+    What is Anime NTNU? {
+        Navbar "About us"
+        "Student organiation for those who like anime/japanese animation"
+    }
+    Sign up {
+        Navbar "Sign up"
+        Did the thing
+            Though user was mail and mail was user
+    }
+    How can you attend screenings? {
+        Frontpage
+        *Anime*
+        "Go to Discord I guess"
+    }
+}
+
+Three things you liked about the website {
+    Newsfeed was cool for this course
+        Could make it dynamic
+    Screenings was nice
+        Like the popups
+    
+}
+
+Three things you didn't like about the website {
+    Voting wasn't very intuitive
+        The way things move make it seem like the one you move move back
+    Website doesn't change when you "sign up"
+        Could change to "signed in"
+    
+}
+
+Would you like to attend one of Anime NTNU's screenings? {
+    "No, I'm not interested in anime"
+}

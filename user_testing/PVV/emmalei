@@ -1,0 +1,85 @@
+What unit is the subject using? {
+    MAC
+}
+
+What browser are they using? {
+    Chrome
+}
+
+Are they a student at NTNU? {
+    Yes
+}
+
+Have they been to any of Anime NTNU's screenings? {
+    Yes
+}
+
+Tasks {
+    How can you contact Anime NTNU? {
+       Navbar "about us" -> Contact us
+       ...
+       "Just through Discord, I suppose" 
+    }
+    Find information about the first upcoming screening {
+        Navbar "screenings" -> found the info
+    }
+    What anime are we watching this semester? {
+        Looked at anime in "screenings"
+        Navbar "newsfeed"
+        Frontpage -> Latest News
+        "It's a bit different"
+    }
+    When is the last screening of the semester? {
+        Navbar "screenings" -> scroll down
+        Nov 18th
+    }
+    What anime were we watching in fall 2013? {
+        Looked around for a while
+        Navbar "newsfeed"
+        Scrolled down
+        Clicked button
+        Clicked button x3
+        Scrolled up
+        Found info
+    }
+    Vote for which anime you'd like to watch {
+        Navbar "voting"
+        Moved them around
+            Seemed confused about how they moved
+        Submitted answers
+        "Is it meant to reset when you submit?"
+    }
+    What is Sayonara Zetsubou Sensei about? {
+        Navbar -> Screenings
+        Click on anime
+    }
+    What is Anime NTNU? {
+        Navbar "About us"
+        *Hovers over "About Anime NTNU"
+        "This is anime NTNU"
+    }
+    Sign up {
+        Did the thing
+    }
+    How can you attend screenings? {
+        "Join the Discord"
+    }
+}
+
+Three things you liked about the website {
+    Built in dark mode
+    Easy to see what's clickable
+    Easy and straightforward structuring of the content, not too much fancy stuff - minimalistic
+}
+
+Three things you didn't like about the website {
+    The "Sign up"-button
+    Would be nice with more information about how to contact us outside the Discord
+    Voting could be more structured
+        Votings should stay as submitted
+        Some indication that you've submitted after you've done it
+}
+
+Would you like to attend one of Anime NTNU's screenings? {
+    Yes, certainly
+}

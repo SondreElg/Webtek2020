@@ -9,19 +9,40 @@
     </head>
     <body>
         <div id="navbar"></div>
+        
+        <header class="page_header">
+            <h1>Shows of the semester</h1>
+            <hr/>
+        </header>
+
+        <div id="semester_container" class="page_container">
+            <div class="content">
+                <p>
+                    Here you can find an overview of what we're watching this semester, and the details of upcoming screenings. 
+                </p>
+            </div>
+        </div>
 
         <header class="page_header">
-            <h1>Screenings</h1>
-            <hr />
+            <h1>Upcoming screenings</h1>
+            <hr/>
         </header>
 
         <div id="screenings_container" class="page_container"></div>
-
+        <header class="page_header">
+            <hr />
+            <h2>That's all folks!</h2>
+        </header>
+        
         <script src="scripts/navbar.js"></script>
         <script src="scripts/anime.js"></script>
         <script src="scripts/showScreenings.js"></script>
         <script src="scripts/popupNotification.js"></script>
         <script>
+            generateSemesterAnime(
+                ["Rokka", "Hataraku", "Minami", "Zetsubou", "Shirobako"],
+                'semester_container'
+            )
             generateFutureScreenings(
                 new Date(),
                 ["Rokka", "Hataraku", "Minami", "Zetsubou", "Shirobako"],
