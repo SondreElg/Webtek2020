@@ -1,60 +1,104 @@
 What unit is the subject using? {
-
+    PC
 }
 
 What browser are they using? {
-
+    Chrome
 }
 
 Are they a student at NTNU? {
-
+    Yes
 }
 
 Have they been to any of Anime NTNU's screenings? {
-
+    Yes
 }
 
 Tasks {
     How can you contact Anime NTNU? {
-        
+        ...
+        "Not at bottom"
+        Navbar "About us"
+        "So it's the Discord server, just gotta find where it is"
+        *Looks at "About us"*
+        Navbar "Discord"
     }
     Find information about the first upcoming screening {
-
+        Navbar "screenings"
+        Found it
     }
     What anime are we watching this semester? {
-
+        Navbar "voting"
+        Navbar "screenings"
+        "I know you have these three"
+        Navbar "voting"
+        "I know you've seen some of these, but I don't know which since I can't see previous screenings"
+        Navbar "newsfeed"
+        "This doesn't fit with the actual screenings, but it's some of them"
     }
     When is the last screening of the semester? {
-
+        Navbar "screening"
+        "There's no scheduled screening after Nov. 18th"
+        Navbar "About us"
+        "I'm trying to find more information about when you hold screenings"
     }
     What anime were we watching in fall 2013? {
-
+        Navbar "newsfeed"
+        scrolled down -> click button
+        scrolled up
+        Found the thing
     }
     Vote for which anime you'd like to watch {
-
+        Navbar "voting"
+        Drag and drop
+        "Woah, it's that easy"
+        Click submit
+        Surprised at the popup
     }
     What is Sayonara Zetsubou Sensei about? {
-        
+        Navbar "screenings"
+        Click on the anime
     }
     What is Anime NTNU? {
-
+        Navbar "About us"
+        Reads from "About Anime NTNU"
+        "Perhaps explicitly state that it is at NTNU"
     }
     Sign up {
-
+        Navbar "Sign up"
+        Did the thing
     }
     How can you attend screenings? {
+        Stares at navbar
+        Scrolls back down
+        "Go to Discord"
+        Navbar "screenings"
+        "It says location: Discord"
 
+        Goes to frontpage
+        "This is a nice page, perhaps I shoudl've gone here earlier"
     }
 }
 
 Three things you liked about the website {
-
+    The logo
+    The frontpage is very nice
+        Easy
+        Wish there was a footer
+    That you can click screenings
+        
 }
 
 Three things you didn't like about the website {
-    
+    Wish there was a tab with all anime you watch
+    "Sign up"-button 
+        "Just have nother color, or a box without shadow or bold font"
+    Could've had information about how screenings work
+        General info about screening
+    Newsfeed is a bit difficult to scroll in
+        
 }
 
 Would you like to attend one of Anime NTNU's screenings? {
-    
+    Yes
 }

@@ -52,7 +52,7 @@ var newsList = [
         2:"Jan 19, 2020"
     }, 
     {
-        0:`<h4>Spring 2020 - Voting open - Movie on Wednesday</h4>We are starting off the spring 2020 semester by showing the 2012 animated movie Wolf Children this Wednesday (2020-01-15) at 19:30 in R5. Bring a friend!<br /><br />The poll for new series is up, and available at <a href="https://forms.gle/m8gQFJP8E2ATWr2e7">https://forms.gle/m8gQFJP8E2ATWr2e7</a>. It will stay active until the end of week 3.
+        0:`<h4>Spring 2020 - Voting open - Movie on Wednesday</h4>We are starting off the spring 2020 semester by showing the 2012 animated movie Wolf Children this Wednesday (2020-01-15) at 19:30 in R5. Bring a friend!<br /><br />The poll for new series is up, and available at <a href="https://forms.gle/m8gQFJP8E2ATWr2e7"  target="blank">https://forms.gle/m8gQFJP8E2ATWr2e7</a>. It will stay active until the end of week 3.
         `,
         1:"berntjd",
         2:"Jan 13, 2020"
@@ -76,7 +76,7 @@ var newsList = [
         2:"Jan 21, 2019"
     },
     {
-        0:`<h4>Spring 2019</h4>Hi all,<br /><br />We are starting off the spring 2019 semester by showing the movie Akira next Wednesday (2019-01-16) at 19:30 in R5. Bring a friend!<br /><br />The poll for new sieries is up (STILL using a Google form for now), and available at <a href="https://goo.gl/forms/fOpWCTHIN78sNaPf1">https://goo.gl/forms/fOpWCTHIN78sNaPf1</a>. It will stay active until the end of week 3.
+        0:`<h4>Spring 2019</h4>Hi all,<br /><br />We are starting off the spring 2019 semester by showing the movie Akira next Wednesday (2019-01-16) at 19:30 in R5. Bring a friend!<br /><br />The poll for new sieries is up (STILL using a Google form for now), and available at <a href="https://goo.gl/forms/fOpWCTHIN78sNaPf1" target="blank">https://goo.gl/forms/fOpWCTHIN78sNaPf1</a>. It will stay active until the end of week 3.
         `,
         1:"berntjd",
         2:"Jan  9, 2019"
@@ -88,7 +88,7 @@ var newsList = [
         2:"Aug 27, 2018"
     },
     {
-        0:`<h4>Fall 2018</h4>We will start off the semester by showing the movie Steamboy next Wednesday (2018-08-22) at 19:30 in R5. Bring a friend!<br /><br />The poll for new series is ready (still using a Google form for now), at <a href="https://goo.gl/forms/7Dy6ZnSYQF5xOTM23">https://goo.gl/forms/7Dy6ZnSYQF5xOTM23</a>. It will stay active until the end of next week.
+        0:`<h4>Fall 2018</h4>We will start off the semester by showing the movie Steamboy next Wednesday (2018-08-22) at 19:30 in R5. Bring a friend!<br /><br />The poll for new series is ready (still using a Google form for now), at <a href="https://goo.gl/forms/7Dy6ZnSYQF5xOTM23" target="blank">https://goo.gl/forms/7Dy6ZnSYQF5xOTM23</a>. It will stay active until the end of next week.
         `,
         1:"berntjd",
         2:"Aug 18, 2018"
@@ -106,7 +106,7 @@ var newsList = [
         2:"Aug 27, 2017"
     },
     {
-        0:`<h4>New semester new Anime</h4>We will start off the semester by showing the film "Koe No Katachi" (or "A Silent Voice") today (2017-08-23) at 19:30 in KJL5.<br /><br />From next Wednesday, we will be watching anime series. The poll can be accessed here: <a href="https://goo.gl/forms/BeWXB4WzXYieOKrq2">https://goo.gl/forms/BeWXB4WzXYieOKrq2</a>. Please only vote once.
+        0:`<h4>New semester new Anime</h4>We will start off the semester by showing the film "Koe No Katachi" (or "A Silent Voice") today (2017-08-23) at 19:30 in KJL5.<br /><br />From next Wednesday, we will be watching anime series. The poll can be accessed here: <a href="https://goo.gl/forms/BeWXB4WzXYieOKrq2" target="blank">https://goo.gl/forms/BeWXB4WzXYieOKrq2</a>. Please only vote once.
         `,
         1:"CVi",
         2:"Aug 23, 2017"
@@ -328,7 +328,7 @@ var newsList = [
         2:"Jan 13, 2010"
     },
     {
-        0:`<h4>Vote for the spring semester program!</h4>The voting is open, tell us what you want to see!<br /><br /><a href="http://org.ntnu.no/anime/poll.php">Poll</a><br /><br />If you don't have an account, sign up to the mailing list and you will recieve one. 
+        0:`<h4>Vote for the spring semester program!</h4>The voting is open, tell us what you want to see!<br /><br />Poll<br /><br />If you don't have an account, sign up to the mailing list and you will recieve one. 
         `,
         1:"danner",
         2:"Nov 19, 2009"
@@ -352,7 +352,7 @@ var newsList = [
         2:"Apr 15, 2009"
     },
     {
-        0:`<h4>March 4th is in F1</h4><a href="http://tinypic.com/view.php?pic=xmvk8g&s=5"><img src="http://i41.tinypic.com/xmvk8g_th.png" alt="Jack Sparrow and Revvy" /></a><br />March 4th is in F1<br /><img src="http://i43.tinypic.com/313isqr.jpg" alt="F1 map" border="0" />
+        0:`<h4>March 4th is in F1</h4><br />March 4th is in F1<br />
         `,
         1:"gunnarre",
         2:"Mar  4, 2009"
@@ -370,19 +370,19 @@ var newsList = [
         2:"Jan 20, 2009"
     },
     {
-        0:`<h4>Spring Semester Program</h4>Go ahead and vote for what you want to see!<br /><br /><a href="http://org.ntnu.no/anime/poll.php">http://org.ntnu.no/anime/poll.php</a><br /><br />If you have write-in suggestions, mail them to the mailing list as soon as possible. We will close the poll sometime before christmas. 
+        0:`<h4>Spring Semester Program</h4>Go ahead and vote for what you want to see!<br /><br />http://org.ntnu.no/anime/poll.php<br /><br />If you have write-in suggestions, mail them to the mailing list as soon as possible. We will close the poll sometime before christmas. 
         `,
         1:"danner",
         2:"Nov 20, 2008"
     },
     {
-        0:`<h4>October 15th: New series</h4>On October 15th, we start with a new series: <a href="http://org.ntnu.no/anime/program.php?aid=170">Full Metal Panic? Fumoffu</a>. This will be shown as the first series of the evening.
+        0:`<h4>October 15th: New series</h4>On October 15th, we start with a new series: Full Metal Panic? Fumoffu. This will be shown as the first series of the evening.
         `,
         1:"gunnarre",
         2:"Oct  9, 2008"
     },
     {
-        0:`<h4>Program Fall 2008</h4><img src="img/fall_semster_mike_logo.jpg" alt="Fall Semester Mike logo" width="326" height="266"><br />27th August: Film. Tekkonkinkreet<br /><br />Every week from there on, these series: <br /><br />- The Gokusen<br />- Fate/stay night<br />- Jungle wa Itsumo - Hale nochi Guu!<br />- Full Metal Panic? Fumoffu (After The Gokusen is finished half-way through the semester)<br /><br />See the <a href="http://org.ntnu.no/anime/program.php">program</a> for details.<br /><br />We are booked into auditorium R2 for the Fall semester. See the <a href="about.php">maps here</a>. There might be changes if technical issues arise. Watch this space.
+        0:`<h4>Program Fall 2008</h4><img src="img/fall_semster_mike_logo.jpg" alt="Fall Semester Mike logo" width="326" height="266"><br />27th August: Film. Tekkonkinkreet<br /><br />Every week from there on, these series: <br /><br />- The Gokusen<br />- Fate/stay night<br />- Jungle wa Itsumo - Hale nochi Guu!<br />- Full Metal Panic? Fumoffu (After The Gokusen is finished half-way through the semester)<br /><br />See the program for details.<br /><br />We are booked into auditorium R2 for the Fall semester. See the maps here. There might be changes if technical issues arise. Watch this space.
         `,
         1:"gunnarre",
         2:"Aug 19, 2008"
@@ -424,7 +424,7 @@ var newsList = [
         2:"Aug 17, 2007"
     },
     {
-        0:`<h4>SaiRAG 2007</h4><form method=post action="http://poll.pollcode.com/qu0N"><table border=0 width=150 bgcolor="EEEEEE" cellspacing=0 cellpadding=2><tr><td colspan=2><font face="Verdana" size=-1 color="Black"><b>SaiRAG 2007 Qualifier. Who is the most badass woman in RahXephon?</b></font></td></tr><tr><td width=5><input type=radio name=answer value="1"></td><td><font face="Verdana" size=-1 color="Black">Haruka Shitow</font></td></tr><tr><td width=5><input type=radio name=answer value="2"></td><td><font face="Verdana" size=-1 color="Black">Elvy Hadhiyat</font></td></tr><tr><td width=5><input type=radio name=answer value="3"></td><td><font face="Verdana" size=-1 color="Black">Maya Kamina</font></td></tr><tr><td width=5><input type=radio name=answer value="4"></td><td><font face="Verdana" size=-1 color="Black">Laila Costa</font></td></tr><tr><td width=5><input type=radio name=answer value="5"></td><td><font face="Verdana" size=-1 color="Black">Kim Hotal</font></td></tr><tr><td width=5><input type=radio name=answer value="6"></td><td><font face="Verdana" size=-1 color="Black">Helena von Bahbem</font></td></tr><tr><td width=5><input type=radio name=answer value="7"></td><td><font face="Verdana" size=-1 color="Black">Megumi Shitow</font></td></tr><tr><td width=5><input type=radio name=answer value="8"></td><td><font face="Verdana" size=-1 color="Black">Cathy "Crazy Horse" McMahon</font></td></tr><tr><td colspan=2><center><input type=submit value="Vote"><input type=submit name=view value="View"></center></td></tr><tr><td bgcolor="white" colspan=2 align=right><font face="Verdana" size=-2 color="black">pollcode.com <a href=http://pollcode.com/><font color="navy">free polls</font></a></font></td></tr></table></form>
+        0:`<h4>SaiRAG 2007</h4><form method=post action="http://poll.pollcode.com/qu0N"><table border=0 width=150 bgcolor="EEEEEE" cellspacing=0 cellpadding=2><tr><td colspan=2><font face="Verdana" size=-1 color="Black"><b>SaiRAG 2007 Qualifier. Who is the most badass woman in RahXephon?</b></font></td></tr><tr><td width=5><input type=radio name=answer value="1"></td><td><font face="Verdana" size=-1 color="Black">Haruka Shitow</font></td></tr><tr><td width=5><input type=radio name=answer value="2"></td><td><font face="Verdana" size=-1 color="Black">Elvy Hadhiyat</font></td></tr><tr><td width=5><input type=radio name=answer value="3"></td><td><font face="Verdana" size=-1 color="Black">Maya Kamina</font></td></tr><tr><td width=5><input type=radio name=answer value="4"></td><td><font face="Verdana" size=-1 color="Black">Laila Costa</font></td></tr><tr><td width=5><input type=radio name=answer value="5"></td><td><font face="Verdana" size=-1 color="Black">Kim Hotal</font></td></tr><tr><td width=5><input type=radio name=answer value="6"></td><td><font face="Verdana" size=-1 color="Black">Helena von Bahbem</font></td></tr><tr><td width=5><input type=radio name=answer value="7"></td><td><font face="Verdana" size=-1 color="Black">Megumi Shitow</font></td></tr><tr><td width=5><input type=radio name=answer value="8"></td><td><font face="Verdana" size=-1 color="Black">Cathy "Crazy Horse" McMahon</font></td></tr><tr><td colspan=2><center><input type=submit value="Vote"><input type=submit name=view value="View"></center></td></tr><tr><td bgcolor="white" colspan=2 align=right><font face="Verdana" size=-2 color="black">pollcode.com <a href=http://pollcode.com/ target="blank"><font color="navy">free polls</font></a></font></td></tr></table></form>
         `,
         1:"gunnarre",
         2:"Jun 14, 2007"
@@ -436,13 +436,13 @@ var newsList = [
         2:"May  8, 2007"
     },
     {
-        0:`<h4>Spring 2007</h4>Hi. We're on again. This time in <b><a href="http://org.ntnu.no/anime/about.php">R2</a></b>. Still Wednesdays at 19:30. First with a film on the 17th, and then the series start again on the 24th.<br /><br />Heisan, da var vi i gang igjen. Denne gangen i <a href="http://org.ntnu.no/anime/about.php">R2</a>. Fremdeles onsdager kl 19:30.<br /><br />17. januar: <a href="http://org.ntnu.no/anime/program.php?aid=114">Metropolis</a><br /><br />24. januar: Samurai Champloo, Cromartie High, Witch Hunter Robin<br /><br />Senere på året tar Tsukihime over for Cromartie High. (Se <a href="program.php">programmet</a>)
+        0:`<h4>Spring 2007</h4>Hi. We're on again. This time in <b>R2</b>. Still Wednesdays at 19:30. First with a film on the 17th, and then the series start again on the 24th.<br /><br />Heisan, da var vi i gang igjen. Denne gangen i R2. Fremdeles onsdager kl 19:30.<br /><br />17. januar: Metropolis<br /><br />24. januar: Samurai Champloo, Cromartie High, Witch Hunter Robin<br /><br />Senere på året tar Tsukihime over for Cromartie High. (Se programmet)
         `,
         1:"gunnarre",
         2:"Jan 14, 2007"
     },
     {
-        0:`<h4>Transition to next semester</h4>It's soom time to wrap up the fall semester with Planetes and Nadesico on November 29th, and then a movie on December 6th.<br /><br /><a href="poll.php?pid=14">Spring 07 series vote</a> is open. There might be an extra "preview" screening in connection with this vote. <br /><br />Also remember to <a href="poll.php?pid=13">vote for what you liked this fall</a>.
+        0:`<h4>Transition to next semester</h4>It's soom time to wrap up the fall semester with Planetes and Nadesico on November 29th, and then a movie on December 6th.<br /><br />Spring 07 series vote is open. There might be an extra "preview" screening in connection with this vote. <br /><br />Also remember to vote for what you liked this fall.
         `,
         1:"gunnarre",
         2:"Nov 23, 2006"
@@ -478,13 +478,13 @@ var newsList = [
         2:"May 14, 2006"
     },
     {
-        0:`<h4>Overgang til sommer</h4>Enda en eksamensperiode er i emning, og som vanlig betyr det programutvelgelse for neste semester. <a href="poll.php">Avstemningen</a> er allerede i gang. Stem på dine favoritter, og si ifra på mailingliste eller IRC hvis du mener andre serier bør nomineres.<br /><br />De neste visningene blir smakebitsvisninger lik de vi hadde før jul. Det vil si at vi viser en episode hver av forskjellige serier fra avstemningen. Når disse er over tar vi sommerferie, og kommer tilbake i midten av august. Vi vil som vanlig trenge plakatdesignere og plakatopphengere, så vær beredt på å melde dere som frivillige.
+        0:`<h4>Overgang til sommer</h4>Enda en eksamensperiode er i emning, og som vanlig betyr det programutvelgelse for neste semester. Avstemningen er allerede i gang. Stem på dine favoritter, og si ifra på mailingliste eller IRC hvis du mener andre serier bør nomineres.<br /><br />De neste visningene blir smakebitsvisninger lik de vi hadde før jul. Det vil si at vi viser en episode hver av forskjellige serier fra avstemningen. Når disse er over tar vi sommerferie, og kommer tilbake i midten av august. Vi vil som vanlig trenge plakatdesignere og plakatopphengere, så vær beredt på å melde dere som frivillige.
         `,
         1:"dashiva",
         2:"Apr 27, 2006"
     },
     {
-        0:`<h4>Påske og fremover</h4>Det blir ingen visning 12. april grunnet ferieavvikling.<br /><ul><li>19. april - 7 episoder for å slippe å dele opp avslutningen av Paranoia Agent</li><li>26. april - Bonus: <a href="animeliste.php?aid=115">Memories</a> siden alt utenom Trigun er ferdig</li><li>3. mai (og kanskje 10. mai) - Forhåndsvisninger av serier til neste semester</li></ul>
+        0:`<h4>Påske og fremover</h4>Det blir ingen visning 12. april grunnet ferieavvikling.<br /><ul><li>19. april - 7 episoder for å slippe å dele opp avslutningen av Paranoia Agent</li><li>26. april - Bonus: Memories siden alt utenom Trigun er ferdig</li><li>3. mai (og kanskje 10. mai) - Forhåndsvisninger av serier til neste semester</li></ul>
         `,
         1:"dashiva",
         2:"Apr  8, 2006"
@@ -520,7 +520,7 @@ var newsList = [
         2:"Oct 28, 2005"
     },
     {
-        0:`<h4>Flytting av visningene</h4>Visningene blir i <b>EL2</b> fra og med 12. oktober. <a href="hvemervi.php">Hvem er vi</a> har nå oppdaterte kart og retningslinjer.<br /><br />I tillegg har noen ivrige sjeler laget en video. Den starter ved inngangen nærmest hovedbygget og viser <a href="img/kart/el2_mq.avi">veien til EL2</a>.
+        0:`<h4>Flytting av visningene</h4>Visningene blir i <b>EL2</b> fra og med 12. oktober. "Hvem er vi" har nå oppdaterte kart og retningslinjer.<br /><br />I tillegg har noen ivrige sjeler laget en video. Den starter ved inngangen nærmest hovedbygget og viser veien til EL2.
         `,
         1:"dashiva",
         2:"Oct  7, 2005"
@@ -592,7 +592,7 @@ var newsList = [
         2:"Jan 20, 2005"
     },
     {
-        0:`<h4>Vårsemesteret 2005 er igang</h4>19. januar åpner vi semesteret med den koselige filmen <a href="program.php?sesong=5&aid=82">Whisper of the Heart</a>.<br /><br />Tirsdag 25. januar kl 19.00 er det <a href="http://www.samfundet.no/detalj.php?id=2466&mnd=1">Excenteraften: Animé på Samfundet</a>. Innleder er vår egen kjære Andreas Danner Nilsen. Møt opp for en innføring i animéens verden. :-)<br /><br /><a href="program.php?sesong=5&aid=36"><b>Akira</b></a> vil vises den 26. januar (kl 20.00) istedenfor <a href="animeliste.php?aid=84">The Cat Returns</a> som tidligere var annonsert, da denne filmen ikke er oversatt ennå. Vi satser på å vise The Cat Returns senere i semesteret.<br /><br />Seriene begynner for fullt fra 2. februar. Se <a href="program.php">programmet</a> for detaljer.
+        0:`<h4>Vårsemesteret 2005 er igang</h4>19. januar åpner vi semesteret med den koselige filmen Whisper of the Heart.<br /><br />Tirsdag 25. januar kl 19.00 er det Excenteraften: Animé på Samfundet. Innleder er vår egen kjære Andreas Danner Nilsen. Møt opp for en innføring i animéens verden. :-)<br /><br /><b>Akira</b> vil vises den 26. januar (kl 20.00) istedenfor The Cat Returns som tidligere var annonsert, da denne filmen ikke er oversatt ennå. Vi satser på å vise The Cat Returns senere i semesteret.<br /><br />Seriene begynner for fullt fra 2. februar. Se programmet for detaljer.
         `,
         1:"lance",
         2:"Jan 13, 2005"
@@ -610,7 +610,7 @@ var newsList = [
         2:"Nov 18, 2004"
     },
     {
-        0:`<h4>Boogiepop Spoileside</h4>Da var vi ferdig med 12 episoder boogiepop. Og trolig er det få som skjønner hva det hele handlet om. Jeg har derfor laget en spoileside som trolig skal forklare det meste. <a href="http://www.stud.ntnu.no/~andreasd/boogiepop">Les mer her</a>
+        0:`<h4>Boogiepop Spoileside</h4>Da var vi ferdig med 12 episoder boogiepop. Og trolig er det få som skjønner hva det hele handlet om. Jeg har derfor laget en spoileside som trolig skal forklare det meste. Les mer her
         `,
         1:"danner",
         2:"Oct  6, 2004"
@@ -622,13 +622,13 @@ var newsList = [
         2:"Sep 30, 2004"
     },
     {
-        0:`<h4>Nye websider</h4>Websidene er under omgjøring, som noen sikkert har sett. Programmet forover er nå litt mer strukturert utlagt, uten at det betyr at vi ikke kan forandre ting underveis ... ;-)<br /><br />Hvis noen har meninger om sidene anbefales de å komme til <a href="hvemervi.php">irc-kanalen</a>, eller kontakte en av oss på visningene. Eller bruke mailinglista.
+        0:`<h4>Nye websider</h4>Websidene er under omgjøring, som noen sikkert har sett. Programmet forover er nå litt mer strukturert utlagt, uten at det betyr at vi ikke kan forandre ting underveis ... ;-)<br /><br />Hvis noen har meninger om sidene anbefales de å komme til irc-kanalen, eller kontakte en av oss på visningene. Eller bruke mailinglista.
         `,
         1:"lance",
         2:"Sep 30, 2004"
     },
     {
-        0:`<h4>Til opplysning</h4>Dørene nærmest bussholdeplassen stenger visstnok klokken 19.00. De som ikke er NTNU-studenter må enten gå til den andre inngangen (<a href="hvemervi.php">se kart</a>), komme før klokken 19.00, eller bli venn med en NTNU-student. <br /><br />Ellers har folket talt: Rei er punk med 6 stemmer mot 3. Ny avstemning er i gang.
+        0:`<h4>Til opplysning</h4>Dørene nærmest bussholdeplassen stenger visstnok klokken 19.00. De som ikke er NTNU-studenter må enten gå til den andre inngangen (se kart), komme før klokken 19.00, eller bli venn med en NTNU-student. <br /><br />Ellers har folket talt: Rei er punk med 6 stemmer mot 3. Ny avstemning er i gang.
         `,
         1:"dashiva",
         2:"Sep 29, 2004"
@@ -657,12 +657,7 @@ var newsList = [
         1:"dashiva",
         2:"Aug 17, 2004"
     },
-    {
-        0:`<h4>Rei</h4><img src="img/lolinternet.jpg" alt="ayanami">
-        `,
-        1:"rei",
-        2:"Aug 14, 2004"
-    },
+
     {
         0:`<h4>Programutkast</h4>6 uker (start uke 36)<br />2x HP<br />2x Boogiepop<br />1x Shamanic<br />1x Photon<br />(alternativt 3+3 uker med 2x sham, 2x photon)<br /><br />7 uker (start uke 42)<br />2x HP<br />2x Haibane<br />2x Abeno<br />(3x haibane, 3x abeno) siste gang<br />(4x hp, blood: the last vampire) på halloween :)<br /><br />Uke 34, 35<br />2x film hver gang: GitS, Jin-Roh, Perfect Blue, og Grave of the Fireflies
         `,
@@ -724,7 +719,7 @@ var newsList = [
         2:"Jan 19, 2004"
     },
     {
-        0:`<h4>Slipp nyhetene fri, det er vår</h4>Lurer på om noen i det hele tatt leser disse... kan i det minste late som.<br />Programmet for våren er nå klart. I kategorien "laaaang serie" gikk Kare Kano av med seieren, fulgt av Neon Genesis Evangelion. Fruits basket tok tredjeplass og er derfor en god kandidat til høsten. Den andre kategorien, "kort serie" ble vunnet av Hellsing med Bastard! på en hederlig andreplass. Disse vil få følge av Tiny Snow Fairy Sugar, siden vi allerede har vist halve.<br />Så det blir noe omtrent som dette:<br />2x NGE<br />2x Kare Kano<br />2x Hellsing, 2x Sugar når Hellsing er slutt<br />Bastard! i påsken (detaljer om påsken kommer senere)<br />Det kan hende vi ikke starter seriene før 26. januar. I såfall viser vi noe annet (en film) på den 19. Det er <b>alltid</b> visning (på mandager).<br />In other news, her er reklamekampanjen vår. Det står fritt til den enkelte å skrive ut kopier og henge de opp der det passer seg.<br /><a href="img/plakat/04v_Kare_Kano_yukinon.png">Kare Kano</a>,<br /><a href="img/plakat/04v_Hellsing_lance.png">Hellsing</a>,<br /><a href="img/plakat/04v_Neon_Genesis_Evangelion_yukinon.png">Neon Genesis Evangelion</a> og <br /><a href="img/plakat/04v_Neon_Genesis_Evangelion_lance.png">Neon Genesis Evangelion</a><br /><br />Og to litt mer "radikale": <a href="img/plakat/04v_Hellsing_johan.jpg">Hellsing</a> og <a href="img/plakat/04v_Neon_Genesis_Evangelion_johan.jpg">Neon Genesis Evangelion</a>
+        0:`<h4>Slipp nyhetene fri, det er vår</h4>Lurer på om noen i det hele tatt leser disse... kan i det minste late som.<br />Programmet for våren er nå klart. I kategorien "laaaang serie" gikk Kare Kano av med seieren, fulgt av Neon Genesis Evangelion. Fruits basket tok tredjeplass og er derfor en god kandidat til høsten. Den andre kategorien, "kort serie" ble vunnet av Hellsing med Bastard! på en hederlig andreplass. Disse vil få følge av Tiny Snow Fairy Sugar, siden vi allerede har vist halve.<br />Så det blir noe omtrent som dette:<br />2x NGE<br />2x Kare Kano<br />2x Hellsing, 2x Sugar når Hellsing er slutt<br />Bastard! i påsken (detaljer om påsken kommer senere)<br />Det kan hende vi ikke starter seriene før 26. januar. I såfall viser vi noe annet (en film) på den 19. Det er <b>alltid</b> visning (på mandager).<br />In other news, her er reklamekampanjen vår. Det står fritt til den enkelte å skrive ut kopier og henge de opp der det passer seg.<br />Kare Kano,<br />Hellsing,<br />Neon Genesis Evangelion og <br />Neon Genesis Evangelion<br /><br />Og to litt mer "radikale": Hellsing og Neon Genesis Evangelion
         `,
         1:"dashiva",
         2:"Jan 17, 2004"
@@ -754,7 +749,7 @@ var newsList = [
         2:"Oct 11, 2003"
     },
     {
-        0:`<h4>Ting Tar Tid</h4>Avstemningen har nå oppnådd en total av 14 stemmer, langt forbi alt som har vært av tidligere saker. Kan det være engasjement, eller er det valgfusk? Kanskje noen stemmer her i tro om at det er til kommunevalget. Her er i det minste plakatene våre med de to duellantene.<br /><a href="img/plakat/03h_Kenshin_johan.jpg">R-noe Kenshin</a><br /><a href="img/plakat/03h_Tiny_Snow_Fairy_Sugar_yukinon.jpg">Tiny Snow Fairy Sugar</a><br /><br />(R-noe fordi vi vil unngå stridigheter om romaniseringssystemer så tidlig i semesteret.)
+        0:`<h4>Ting Tar Tid</h4>Avstemningen har nå oppnådd en total av 14 stemmer, langt forbi alt som har vært av tidligere saker. Kan det være engasjement, eller er det valgfusk? Kanskje noen stemmer her i tro om at det er til kommunevalget. Her er i det minste plakatene våre med de to duellantene.<br />R-noe Kenshin<br />Tiny Snow Fairy Sugar<br /><br />(R-noe fordi vi vil unngå stridigheter om romaniseringssystemer så tidlig i semesteret.)
         `,
         1:"dashiva",
         2:"Aug 29, 2003"
@@ -784,7 +779,7 @@ var newsList = [
         2:"May 10, 2003"
     },
     {
-        0:`<h4>Siste visning</h4>Fredag 9. mai blir siste visning før sommeren. Fordi noen okkuperer hele realfagsbygget denne uka, må vi imidlertid flytte oss. Visningen blir i <b>Kjel 1 klokken 17.00</b>, slik at vi har tid til å vente litt hvis folk ikke finner fram i tide. Ingen grunn til ikke å komme.<br /><br />Altså, siste visning, <a href="img/kart/kjel.gif">Kjel 1</a>, 17.00.
+        0:`<h4>Siste visning</h4>Fredag 9. mai blir siste visning før sommeren. Fordi noen okkuperer hele realfagsbygget denne uka, må vi imidlertid flytte oss. Visningen blir i <b>Kjel 1 klokken 17.00</b>, slik at vi har tid til å vente litt hvis folk ikke finner fram i tide. Ingen grunn til ikke å komme.<br /><br />Altså, siste visning, Kjel 1, 17.00.
         `,
         1:"dashiva",
         2:"May  8, 2003"

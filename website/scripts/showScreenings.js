@@ -1,19 +1,14 @@
-// Clean this script later, shouldn't need all the logic
-
 const _MS_PER_WEEK = 1000 * 60 * 60 * 24 * 7
 const time = '19:30'
 const place = 'Discord'
-const weekday = "Wednesdays"
+const weekday = 'Wednesdays'
 
-function generateScreening (animeList, date, target, includeEpisodes = true) { // Need functions for calculating episodes
-  var screening = `
+function generateScreening (animeList, date, target, includeEpisodes = true) {
+  document.getElementById(target).innerHTML += `
     <div class="screening_container">
-        Date: ${date.toString().slice(0, 15)} | Time: ${time} | Location: ${place}`
-
-    screening += `${generateAnimeScreenings(animeList, includeEpisodes)} 
+        Date: ${date.toString().slice(0, 15)} | Time: ${time} | Location: ${place}
+          ${generateAnimeScreenings(animeList, includeEpisodes)} 
         </div>`
-
-    document.getElementById(target).innerHTML += screening
 }
 
 function generateAnimeScreenings (animeList, includeEpisodes) {
@@ -44,16 +39,18 @@ function generateAnimeScreenings (animeList, includeEpisodes) {
       animeScreenings += addEpisodes(anime, imgsrc, title, episode, 1)
     } 
   }
+
   return animeScreenings
 }
 
-function addEpisodes (anime, imgsrc, title, episode, amount) { // Can this and the next two be written as one function?
+function addEpisodes (anime, imgsrc, title, episode, amount) {
   var episodeString = ``
   if (amount == 1) {
     episodeString += `<br />Episode ${episode}`
   } else if (amount > 1) {
     episodeString += `<br />Episodes ${episode}-${episode + amount - 1}`
-  }
+  } 
+
   episodeIncrement(anime, amount)
   return `
     <div class="anime_screening" onclick="(generatePopup('${anime}'))">
@@ -70,37 +67,23 @@ function episodeIncrement (anime, amount) {
   nextEpisode[anime] += amount
 }
 
-function generateFutureScreenings (date, animeList, target) {
+function generateScreenings (date, animeList, target, onlyNext = false) {
   var week = firstScreening
-  var screeningsEnd = new Date(Math.ceil(Math.abs(firstScreening) + totalScreenings * _MS_PER_WEEK))
+  var currentScreening = 0
 
-  while (Math.abs(screeningsEnd) - Math.abs(week) > 0) {
+  while (currentScreening < totalScreenings) {
     if (week >= date) {
       generateScreening(animeList, new Date(week).toDateString(), target)
-    } else {
-      for (series in animeList) {
-        episodeIncrement(animeList[series], 2)
+      if (onlyNext) {
+        break
       }
-    }
-      week = weekIncrement(week) 
-  }
-}
-
-function generateNextScreening (date, animeList, target) {
-  var week = firstScreening
-  var a = 0
-
-  while (a < totalScreenings) {
-    if (Math.abs(week) >= Math.abs(date)) {
-      generateScreening(animeList, new Date(week).toDateString(), target)
-      break
     } else {
       for (series in animeList) {
         episodeIncrement(animeList[series], 2)
       }
     }
     week = weekIncrement(week) 
-    a++
+    currentScreening++
   }
 }
 

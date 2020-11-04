@@ -5,7 +5,8 @@ const animeTitle = 0;
 const animeSynopsis = 1;
 const animeTotalEpisodes = 2;
 const animeImgsrc = 3;
-const animeCour = 4;
+
+const movie = "Time";
 
 //Dict of seen epsiodes, necessary for screenings.js
 var nextEpisode={
@@ -13,10 +14,20 @@ var nextEpisode={
     "Hataraku":1,
     "Minami":-11,
     "Zetsubou":-12,
-    "Shirobako":1    
+    "Shirobako":1,
+    "Tokikake":-24
 }
 
-//Totally not a database containing information about each anime for this semester
+/**
+ * Dictionary containing information about each anime for this semester
+ * Key is a nickname for the anime and points to a list of information
+ * 
+ * 0 = Title of the anime
+ * 1 = Synopsis of the anime
+ * 2 = Total amount of episodes in the anime
+ * 3 = Source of the thumbnail used for the anime
+ * 
+ */
 const animeDictionary={
     "Rokka":["Rokka -Braves of the Six Flowers-",
     `When the Majin awoke from the depths of darkness, 
@@ -31,8 +42,7 @@ const animeDictionary={
     <br/>
     source: <a href="https://anilist.co/anime/20955" target="blank">AniList<a/>`,
     12,
-    "images/rokka.jpg",
-    1],
+    "images/rokka.png"],
     "Hataraku":["The Devil is a Part-Timer!",
     `Devil King Sadao is only one step away from conquering 
     the world when he is beaten by Hero Emilia and forced 
@@ -44,8 +54,7 @@ const animeDictionary={
     <br/>
     source: <a href="https://anilist.co/anime/15809" target="blank">AniList<a/>`,
     13,
-    "images/hataraku.jpg",
-    1],
+    "images/hataraku.png"],
     "Minami":["Minami-ke",
     `The Minami residence is home to three sisters: the 
     strict and diligent eldest sister Haruka; air-headed 
@@ -58,8 +67,7 @@ const animeDictionary={
     <br/>
     source: <a href="https://myanimelist.net/anime/2963" target="blank">MyAnimeList<a/>`,
     13,
-    "images/minami.jpg",
-    2],
+    "images/minami.png"],
     "Zetsubou":["Sayonara Zetsubou Sensei",
     `Itoshiki Nozomu is always in despair! Even simple 
     things like paying for the toll on the subway can 
@@ -73,8 +81,7 @@ const animeDictionary={
     <br/>
     source: <a href="https://anilist.co/anime/2605" target="blank">AniList<a/>`,
     12,
-    "images/zetsubou.jpg",
-    2],
+    "images/zetsubou.png"],
     "Shirobako":["Shirobako", //Anilist description is super short, while MAL is an essay. Create new description later
     `It all started in Kaminoyama High School, when five 
     best friends—Aoi Miyamori, Ema Yasuhara, Midori Imai, 
@@ -101,6 +108,21 @@ const animeDictionary={
     <br/>
     source: <a href="https://myanimelist.net/anime/25835" target="blank">MyAnimeList<a/>`,
     24,
-    "images/shirobako.jpg",
-    1]
+    "images/shirobako.png",],
+    "Tokikake":["The Girl Who Leapt Through Time",
+    `The power to travel through time... It can be used 
+    for the good of humanity, or just selfishly abused. 
+    While many may fantasize about obtaining such a power, 
+    it has become nothing less than reality for otherwise-normal 
+    schoolgirl Konno Makoto.<br/>
+    <br/>
+    After a fated event, her life takes a turn for the 
+    extraordinary. Though she initially uses her power to 
+    literally "leap" into the past and change little things 
+    in order to make her life easier, she soon has to face 
+    the fact that changing the past can have drastic consequences.<br/>
+    <br/>
+    source: <a href="https://anilist.co/anime/2236" target="blank">AniList<a/>`,
+    1,
+    "images/tokikake.png",]
 };
