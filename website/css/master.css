@@ -289,8 +289,7 @@ li:active {
 }
 
 /* General styles for popup */
-#popup,
-#signup {
+.popupBackground {
     position: fixed;
     width: 100%;
     height: 100%;

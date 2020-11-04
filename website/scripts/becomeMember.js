@@ -3,6 +3,8 @@
 // licensed under the Creative Commons Attribution 4.0 International
 // license. No changes has been done to the icons.
 
+const popupSignup = "popupSignup";
+
 /**
  * Creates a popup for a user to sign up
  */
@@ -37,12 +39,12 @@ function generateSignup() {
 
             <p id="signupSuccessful">Signup was <span class="successText">successful</span>.</p>
 
-            <div id="popupX" onClick="closePopup('signup')"><span>X</span></div>
+            <div id="popupX" onClick="closePopup('${popupSignup}')"><span>X</span></div>
         </div>
     </div>`;
 
     // Create the popup with the given ID and html
-    createPopup("signup", html);
+    createPopup(popupSignup, html);
 }
 
 /**
@@ -59,4 +61,4 @@ function submitForm(event) {
     document.getElementById("signupSuccessful").style.display = "inline-block";
 }
 
-initPopup("signup");
+initPopup(popupSignup);
