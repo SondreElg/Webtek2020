@@ -20,7 +20,7 @@ body {
     color: #d9d9d9;
     font-size: 20px;
     font-weight: 100;
-    margin: 0 0 100px 0;
+    margin: 0 0 40px 0;
     overflow-y: scroll;
 }
 
@@ -74,7 +74,6 @@ a:hover {
 
 .button_container {
     text-align: center;
-    padding-bottom: 20px;
 }
 
 .button {
@@ -219,13 +218,13 @@ a:hover {
 #screenings_container,
 #semester_container {
     min-width: 400px;
-    font-size: x-large;
 }
 
 .screening_container {
     max-width: 800px;
     padding-bottom: 10px;
     margin: auto;
+    font-size: x-large;
 }
 
 .anime_screening {
