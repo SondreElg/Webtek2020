@@ -2,10 +2,15 @@ const newsContent = 0;
 const newsAuthor = 1;
 const newsDate = 2;
 
-/* 
-    List of all news on the page
-    The list is sorted from newest to oldest
-*/
+/**
+ * List of all news on the page
+ * The list is sorted from newest to oldest
+ * Each entry is a dictionary in the following format
+ * 
+ * 0 = The body of the news post
+ * 1 = The author of the news post
+ * 2 = The date of the news post
+ */
 var newsList = [
     {
         0:`
@@ -856,5 +861,4 @@ var newsList = [
         1:"alfborge",
         2:"Mar  3, 2003"
     }
-    
 ]

@@ -265,7 +265,7 @@ section > .page_title {
     padding: 0;
 }
 
-.voting_element {
+.voting_container > li {
     width: 70%;
     margin: 5px auto;
     padding: 10px;
