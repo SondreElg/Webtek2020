@@ -1,3 +1,5 @@
+const popupSynopsis = "popupSynopsis";
+
 /**
  * Generates the HTML for a popup for the provided anime
  *
@@ -21,10 +23,10 @@ function generatePopup_(title, synopsis, imgsrc) {
                 ${synopsis}
             </p>
         </div>
-        <div id="popupX" onClick="closePopup('popup')"><span>X</span></div>
+        <div id="popupX" onClick="closePopup('${popupSynopsis}')"><span>X</span></div>
     </div>`;
 
-    createPopup("popup", html);
+    createPopup(popupSynopsis, html);
 }
 
 /**
@@ -40,4 +42,4 @@ function generatePopup(anime) {
     );
 }
 
-initPopup("popup");
+initPopup(popupSynopsis);

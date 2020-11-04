@@ -8,6 +8,7 @@ function initPopup(divID) {
     // Create popup background
     const div = document.createElement("div");
     div.id = divID;
+    div.className = "popupBackground";
 
     // When clicking on the popup background, the popup will close
     div.onclick = (event) => {
