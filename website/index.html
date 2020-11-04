@@ -11,6 +11,7 @@
         />
         <meta name="author" content="Anime NTNU" />
         <link rel="stylesheet" href="css/master.css" />
+        <link rel="icon" href="images/favicon.ico" />
         <script src="scripts/utilsPopup.js"></script>
     </head>
 
@@ -19,25 +20,28 @@
 
         <div id="frontpage_container">
             <div id="frontpage_welcome">
-                <h1>Welcome</h1>
-                <hr />
-                <section class="content">
-                    <p>
-                        Hello, and welcome to Anime NTNU's sparkling new
-                        website!
-                    </p>
-                    <p>
-                        Here you can find information about
-                        <a href="screenings.html">upcoming screenings</a>,
-                        <a href="newsfeed.html">news for our members</a>, and
-                        some <a href="about.html">information about us</a>.
-                    </p>
-                    <p>
-                        If you're new to Anime NTNU, maybe take a look at "<a
-                            href="about.html"
-                            >About us</a
-                        >"?
-                    </p>
+                <section>
+                    <header>
+                        <h1>Welcome</h1>
+                        <hr />
+                    </header>
+                    <div class="info_content">
+                        <p>
+                            Hello, and welcome to Anime NTNU's sparkling new
+                            website!
+                        </p>
+                        <p>
+                            Here you can find information about
+                            <a href="screenings.html">upcoming screenings</a>,
+                            <a href="newsfeed.html">news for our members</a>,
+                            and some
+                            <a href="about.html">information about us</a>.
+                        </p>
+                        <p>
+                            If you're new to Anime NTNU, maybe take a look at
+                            "<a href="about.html">About us</a>"?
+                        </p>
+                    </div>
                 </section>
             </div>
 
@@ -48,8 +52,10 @@
                         onclick="location.href = 'newsfeed.html';"
                     >
                         <h2>Latest news</h2>
+                        <hr />
                     </header>
-                    <hr />
+                    <!-- This section will be filled with content by
+                         the function 'generateNextScreening' -->
                 </section>
             </div>
 
@@ -60,8 +66,10 @@
                         onclick="location.href = 'screenings.html';"
                     >
                         <h2>Next screening</h2>
+                        <hr />
                     </header>
-                    <hr />
+                    <!-- This section will be filled with content by
+                         the function 'displayLatestNews' -->
                 </section>
             </div>
         </div>

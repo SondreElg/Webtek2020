@@ -5,22 +5,30 @@
         <meta name="viewport" content="width=device-width, initial-scale=0.7" />
         <title>Anime NTNU - Newsfeed</title>
         <link rel="stylesheet" href="css/master.css" />
-        <script src="scripts/initPopup.js"></script>
+        <link rel="icon" href="images/favicon.ico" />
+        <script src="scripts/utilsPopup.js"></script>
     </head>
     <body onscroll="checkScroll()">
         <div id="navbar"></div>
 
-        <header class="page_header">
-            <h1>Newsfeed</h1>
-            <hr />
-        </header>
+        <div class="page_container">
+            <section>
+                <header class="page_title">
+                    <h1>Newsfeed</h1>
+                    <hr />
+                </header>
 
-        <div id="newsfeed_container" class="page_container"></div>
+                <div id="newsfeed_container">
+                    <!-- This section will be filled with content
+                         by the script 'showNews.js' -->
+                </div>
 
-        <header class="page_header">
-            <hr />
-            <h2>That's all folks!</h2>
-        </header>
+                <footer class="page_title">
+                    <hr />
+                    <h2>That's all folks!</h2>
+                </footer>
+            </section>
+        </div>
 
         <script src="scripts/navbar.js"></script>
         <script src="scripts/becomeMember.js"></script>

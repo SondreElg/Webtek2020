@@ -1,0 +1,61 @@
+What unit is the subject using? {
+	PC
+}
+
+What browser are they using? {
+	Google Chrome
+}
+
+Are they a student at NTNU? {
+	Yes
+}
+
+Have they been to any of Anime NTNU's screenings? {
+	No
+}
+
+Tasks {
+    How can you contact Anime NTNU? {
+        About - discord
+    }
+    Find information about the first upcoming screening {
+		forside, står der
+    }
+    What anime are we watching this semester? {
+		screenings, antar de tre
+    }
+    When is the last screening of the semester? {
+		visninger, blar ned, siste
+    }
+    What anime were we watching in fall 2013? {
+		newsfeed, bla ned til riktig
+    }
+    Vote for which anime you'd like to watch {
+		voting, drar med en gang, trykker ikke knapp
+    }
+    What is Anime NTNU? {
+		about us, leser øverste
+    }
+    Sign up {
+		sign up, skriver (gjør ikke)
+    }
+    How can you attend screenings? {
+		screenings, location discord
+    }
+}
+
+Three things you liked about the website {
+	lett å finne info
+	praktisk med voting, drag n drop
+	alle visningene ute
+}
+
+Three things you didn't like about the website {
+    upraktisk å få mer info fra discord
+	usikker på rekkefølgen episodene vises i
+	se resultater på votes
+}
+
+Would you like to attend one of Anime NTNU's screenings? {
+    No
+}

@@ -5,35 +5,49 @@
         <meta name="viewport" content="width=device-width, initial-scale=0.7" />
         <title>Anime NTNU - Screenings</title>
         <link rel="stylesheet" href="css/master.css" />
+        <link rel="icon" href="images/favicon.ico" />
         <script src="scripts/utilsPopup.js"></script>
     </head>
     <body>
         <div id="navbar"></div>
-        
-        <header class="page_header">
-            <h1>Shows of the semester</h1>
-            <hr/>
-        </header>
 
         <div id="semester_container" class="page_container">
-            <div class="content">
-                <p>
-                    Here you can find an overview of what we're watching this semester, and the details of upcoming screenings. 
-                </p>
-            </div>
+            <section>
+                <header class="page_title">
+                    <h1>Shows of the semester</h1>
+                    <hr />
+                </header>
+
+                <div class="info_content">
+                    <p>
+                        Here you can find an overview of what we're watching
+                        this semester, and the details of upcoming screenings.
+                    </p>
+                </div>
+
+                <div id="screenings_this_semester">
+                    <!-- This section will be filled with content by
+                         the function 'generateSemesterAnime' -->
+                </div>
+            </section>
+
+            <section>
+                <header class="page_title">
+                    <h1>Upcoming screenings</h1>
+                    <hr />
+                </header>
+
+                <div id="screenings_container" class="page_container">
+                    <!-- This section will be filled with content by 
+                         the function 'generateFutureScreenings' -->
+                </div>
+                <footer class="page_title">
+                    <hr />
+                    <h2>That's all folks!</h2>
+                </footer>
+            </section>
         </div>
 
-        <header class="page_header">
-            <h1>Upcoming screenings</h1>
-            <hr/>
-        </header>
-
-        <div id="screenings_container" class="page_container"></div>
-        <header class="page_header">
-            <hr />
-            <h2>That's all folks!</h2>
-        </header>
-        
         <script src="scripts/navbar.js"></script>
         <script src="scripts/anime.js"></script>
         <script src="scripts/showScreenings.js"></script>
@@ -41,8 +55,8 @@
         <script>
             generateSemesterAnime(
                 ["Rokka", "Hataraku", "Minami", "Zetsubou", "Shirobako"],
-                'semester_container'
-            )
+                "screenings_this_semester"
+            );
             generateFutureScreenings(
                 new Date(),
                 ["Rokka", "Hataraku", "Minami", "Zetsubou", "Shirobako"],

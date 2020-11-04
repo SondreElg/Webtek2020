@@ -3,8 +3,17 @@
 // licensed under the Creative Commons Attribution 4.0 International
 // license. No changes has been done to the icons.
 
+/**
+ * Creates a popup for a user to sign up
+ */
 function generateSignup() {
-    document.getElementById("signup").style.display = "block";
+    // This is the HTML for the popup itself. It consists of:
+    // * A header
+    // * A signup form, with the fields 'username' and 'email'
+    // * A submit button
+    // * A button for closing the popup
+    // If the user successfully signs up, the form will be hidden, and a
+    // text informing the user that the process was successful, will appear.
     const html = `<div class="popupContent">
         <div class="popupHeader">
             <h3>Join Anime NTNU</h3>
@@ -32,12 +41,21 @@ function generateSignup() {
         </div>
     </div>`;
 
-    document.getElementById("signup").innerHTML = html;
+    // Create the popup with the given ID and html
+    createPopup("signup", html);
 }
 
+/**
+ * Displays a confirmation when the user signs up successfully.
+ *
+ * @param {string} event - an event object given by the event handler
+ */
 function submitForm(event) {
+    // Prevent redirection to a new page
     event.preventDefault();
+    // Hide the signup form
     document.getElementById("signupForm").style.display = "none";
+    // Display the confirmation message
     document.getElementById("signupSuccessful").style.display = "inline-block";
 }
 

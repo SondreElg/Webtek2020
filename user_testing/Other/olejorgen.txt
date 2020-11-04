@@ -1,0 +1,63 @@
+What unit is the subject using? {
+	PC
+}
+
+What browser are they using? {
+	Microsoft Edge
+}
+
+Are they a student at NTNU? {
+	Yes
+}
+
+Have they been to any of Anime NTNU's screenings? {
+	No
+}
+
+Tasks {
+    How can you contact Anime NTNU? {
+        Leter på forside, går til About us (misser Contact us), Newsfeed, Screenings, Forside, info about us,
+		Sign up, finner discord link
+    }
+    Find information about the first upcoming screening {
+		Står på forside, finner riktig
+    }
+    What anime are we watching this semester? {
+		Newsfeed (ble gjort etter 'fall 2013')
+    }
+    When is the last screening of the semester? {
+		Screenings, 18, nov
+    }
+    What anime were we watching in fall 2013? {
+		Forside, leter der, screenings, newsfeed, about us, newsfeed, blar nedover, "Display all news", blar oppover til 2013, finner riktig news-info
+    }
+    Vote for which anime you'd like to watch {
+		Voting, trykker mange ganger på en av dem, trykker på submit vote noen ganger, skjønner ikke helt om han har stemt. Finner instruksjoner til slutt, og oppdager drag n drop
+    }
+    What is Anime NTNU? {
+		Forside, info about us
+    }
+    Sign up {
+		Sign up-knapp, får feilmelding om @, signer up som meg >:c
+    }
+    How can you attend screenings? {
+		Forside, leser latest news, screenings, trykker på en av dem og får popup, går snart ut, newsfeed, finner en link fra august, men er litt i tvil. Forside igjen, screenings: Location Discord, men er litt i tvil om han fant riktig info. Trykker Discord
+    }
+}
+
+Three things you liked about the website {
+	Dark mode
+	Trykke og få opp popups i stedet for å gå til ny side
+	Ryddig, passe mellomrom
+	Likte at Signup var litt annerledes
+}
+
+Three things you didn't like about the website {
+    Welcome er midtstilt, lager et slags hierarki?
+	Voting - utydelig at man kan dra! For mye tekst. Ha gigatekst: "Drag and drop"
+	Lette etter Zoom-link
+}
+
+Would you like to attend one of Anime NTNU's screenings? {
+    No
+}
