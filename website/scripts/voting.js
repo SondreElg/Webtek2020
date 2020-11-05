@@ -1,3 +1,4 @@
+//Creates a new array with the result of calling the draggableList funcion on every element in the calling array
 function activateDrag(e) {
     const voting_list = document.getElementsByClassName(e);
     Array.prototype.map.call(voting_list, (list) => {
@@ -5,29 +6,38 @@ function activateDrag(e) {
     });
 }
 
+//Creates a new array with the result of calling the startDrag funcion on every element in the calling array
 function draggableList(listElement) {
     Array.prototype.map.call(listElement.children, (element) => {
         startDrag(element);
     });
 }
 
+//Gives each element the draggable attribute
 function startDrag(element) {
     element.setAttribute("draggable", true);
     element.ondrag = handleDrag;
 }
 
+//Tracks which elements are being moved
 function handleDrag(element) {
     const selectedElement = element.target,
         list_container = selectedElement.parentNode,
         x = event.clientX,
         y = event.clientY;
 
+    //If the element at a given point is equal to null, swappedElement is set equal to selectedElement
+    //If not, swappedElement is set to be equal to the element at the given point
     if (document.elementFromPoint(x, y) === null) {
         swappedElement = selectedElement;
     } else {
         swappedElement = document.elementFromPoint(x, y);
     }
 
+    //If selectedElement.parentNode is equal to the parentNode of the swappedElement, we run a new check
+    //We check if the swappedElement is not the next node of the selectedElement
+    //If it is not, swappedElement is not changed
+    //If it is, swappedElement is set to be equal to the node next to the swappedElement
     if (list_container === swappedElement.parentNode) {
         if (swappedElement !== selectedElement.nextSibling) {
             swappedElement = swappedElement;
