@@ -55,7 +55,7 @@ Tasks {
     }
     What is Anime NTNU? {
         Navbar "About us"
-        *Hovers over "About Anime NTNU"
+        *Hovers over "About Anime NTNU"*
         "This is anime NTNU"
     }
     Sign up {
