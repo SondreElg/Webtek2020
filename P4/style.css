@@ -60,6 +60,28 @@ figcaption {
 }
 
 img {
-    display: block;
-    margin: auto;
+    /*display: block;
+    margin: auto;*/
+    height: 200px;
+    display: inline-block;
+}
+
+#graphs {
+    display: flex;
+}
+
+#graphs .column {
+    flex: 50%;
+}
+
+.column img {
+    margin: 10px;
+}
+
+#column1 img {
+    float: right;
+}
+
+#column2 img {
+    float: left;
 }
