@@ -385,7 +385,8 @@ li:active {
 }
 
 #popupDescription {
-    overflow: hidden;
+    max-height: 400px;
+    overflow: auto;
     font-size: 18px;
     margin: 0;
 }
