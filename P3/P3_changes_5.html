@@ -38,57 +38,314 @@
 
         <section>
             <header><h2>Changes made</h2></header>
+
+            <section>
+                <header><h3>Frontpage</h3></header>
+                <p>
+                    Regarding the design of the front page, we have made the
+                    appearance of the page fairly similar to the design
+                    specified in P2: Project Design. A small difference in
+                    design is that all the title headers are placed above the
+                    sections, with a white border at the bottom clearly
+                    separating the title header from its corresponding section.
+                    This change was implemented to highlight each section, and
+                    was implemented across the entire website for consistency.
+                </p>
+                <p>
+                    We also wanted the users to be able to look up more news
+                    items or information about screenings from the “latest news”
+                    section and the “next screening” section on the front page.
+                    We did so by making the title headers for these sections
+                    clickable. By clicking on the title headers, the users will
+                    be redirected to each of the title header’s respective
+                    pages. To highlight that the title headers are clickable, we
+                    implemented an on hover effect that changes the background
+                    color of the title header.
+                </p>
+            </section>
+
+            <section>
+                <header><h3>Screenings</h3></header>
+                <p>
+                    For screenings, a small change we originally made was the
+                    format of the date. This was both because the new format
+                    offers less ambiguity regarding which date it is, and it was
+                    easier to work with. One big change made after user testing
+                    is that Screenings is now split into two sections; “Shows of
+                    the semester” and “Upcoming screenings”. This is due to many
+                    responses regarding confusion about finding what anime is
+                    being screened this semester. “Shows of the semester”
+                    details what anime will be screened during the current
+                    semester, and when and where they will normally take place.
+                    Below this, “Screenings” have been renamed to “Upcoming
+                    screenings” to clear confusion about why only future
+                    screenings are being shown. Lastly, we’ve added an indicator
+                    that you’ve reached the end of the screenings at the bottom
+                    of the page. This could help clear confusion between the end
+                    of the semester and when the next series are voted in, in
+                    which no screenings will be loaded in.
+                </p>
+            </section>
+
+            <section>
+                <header><h3>Voting</h3></header>
+                <p>
+                    Instead of having thumbnails for each anime in the voting
+                    list, we decided to use only text (the name of the anime and
+                    its year of release). We made this decision because this
+                    list can be quite long - in our example, there are 12
+                    options to rank. This is a representative number, judging
+                    from voting rounds performed in real-life scenarios prior
+                    semesters. Thumbnails usually require large amounts of space
+                    on the screen to be recognizable. In order to keep the list
+                    manageable and to keep it easy to drag and drop, we decided
+                    not to use thumbnails.
+                </p>
+                <p>
+                    We also decided to deviate slightly from our suggested color
+                    scheme. Instead of having the submit button dark like in the
+                    mockup (figure 12 of P2), we instead opted for a brighter
+                    color, so the button would be easily visible. We also chose
+                    to omit the white arrows on the left-hand side of each list
+                    item, because we deemed this to be a distraction. Instead,
+                    we added textual instructions on the top of the page.
+                    However, user testing indicates that such an icon could
+                    potentially be beneficial, because it could provide an
+                    indicator that the items can indeed be dragged and dropped.
+                </p>
+            </section>
+
+            <section>
+                <header><h3>Newsfeed</h3></header>
+                <p>
+                    The design of the newsfeed is almost identical to the one
+                    specified in P2. At the request of the client, we decided to
+                    import all previous newsfeed items posted on the Anime NTNU
+                    website. This is to allow the user to access information
+                    given before the creation of the website, as well as to keep
+                    an archive of old news items. Amongst the old news posts,
+                    there were a lot of dead links, so we removed these.
+                    Furthermore, the page now loads only some of the newsfeed
+                    items, and keeps loading more as the user scrolls down.
+                    We’ve also added an indicator making it clear for the user
+                    that they’ve reached the end of the page.
+                </p>
+            </section>
+
+            <section>
+                <header><h3>Popups</h3></header>
+                <p>
+                    The popups were kept very close to the initial mockup in P2.
+                    The only major difference is that the anime pop-ups will use
+                    a scrollbar for long descriptions to prevent the box from
+                    growing bigger than the screen. Also, clicking the popup
+                    background will now also close the popup. The same
+                    functionality was implemented on the signup popup for
+                    consistency.
+                </p>
+            </section>
+
+            <section>
+                <header><h3>Navigation bar</h3></header>
+                <p>
+                    There have been some changes in the navigation bar that
+                    deviates from the design from P2. In our design, we intended
+                    for the navigation links to be centered on the bar. This was
+                    changed so that the navigational links are aligned to the
+                    right instead. Considering all the elements on the
+                    navigation bar, we thought this would contribute to a
+                    cleaner and more user friendly experience.
+                </p>
+                <p>
+                    The “Sign up” button has also been changed to have the same
+                    flat design as the rest of the menu items. The color of the
+                    button is the same as in the sandwich menu. We did this to
+                    increase the clickable area of the button, as well as
+                    keeping consistency between buttons and between the sandwich
+                    and non-sandwich navigation bars.
+                </p>
+                <p>
+                    On the sandwich menu, the background color of the “Sign up”
+                    button and the “Our discord server” button has been changed
+                    to a lighter blue color. Originally, the color was supposed
+                    to be the same as the navy blue color used on the sections.
+                    We later realized (when testing on a smaller screen) that
+                    the background color of the buttons would overlap with the
+                    background color of the content, which made it hard to see
+                    where the buttons stopped and the content started.
+                </p>
+            </section>
+
+            <section>
+                <header><h3>Javascript</h3></header>
+                <p>
+                    For implementing popups, we initially planned having only
+                    ‘popupNotification.js’ for synopsis popups and
+                    ‘becomeMember.js’ for the signup popup. However, we found
+                    that there was quite a bit of functionality that could be
+                    generalized between the two different popup types on the
+                    site (synopsis popups and the signup popup). We decided to
+                    put this common functionality in a file named
+                    ‘utilsPopup.js’.
+                </p>
+                <p>
+                    ‘showScreenings.js’ is used single-handedly to display the
+                    first upcoming screening on the frontpage and on all
+                    upcoming screenings on the screenings page. Based on
+                    feedback from user testing, it has been adapted to show
+                    which anime is shown the current semester as well.
+                </p>
+                <p>
+                    ‘anime.js’ contains information about the anime which will
+                    be screened the current semester.
+                </p>
+                <p>
+                    ‘showNews.js’ is used to display the latest news post on the
+                    frontpage, and load all news on the newsfeed page.
+                </p>
+                <p>
+                    ‘news.js’ contains all news posts made on
+                    <a href="http://anime.org.ntnu.no/">the old website</a> and
+                    newer posts made on Anime NTNU’s Discord server.
+                </p>
+            </section>
+
+            <section>
+                <header><h3>Other</h3></header>
+                <p>
+                    All thumbnails weregiven descriptive names instead of
+                    ‘thumbnail_1.png’, ‘thumbnail_2.png’ and so on.
+                    Additionally, we added two icons, ‘envelope-solid.svg’ and
+                    ‘user-solid.svg’, to use in the signup popup. We also
+                    created a favicon based on the new logo.
+                </p>
+            </section>
+        </section>
+
+        <section>
+            <header><h2>Modularity</h2></header>
             <p>
-                <span class="list_title">Voting.html</span> - Instead of having
-                thumbnails for each anime in the voting list, we decided to use
-                only text (the name of the anime and its year of release). We
-                made this decision because this list can be quite long - in our
-                example, there are 12 options to rank. This is a representative
-                number, judging from voting rounds performed in real-life
-                scenarious prior semesters. Thumbnails usually require large
-                amounts of space on the screen to be recognizable. In order to
-                keep the list managable and to keep it easy to drag and drop, we
-                decided not to use thumbnails.
+                We have implemented modularity through a variety of javascript
+                files that can be used on several pages. For navigating between
+                the pages on the website, we made a script for the navigation
+                bar, ‘navbar.js’. We made a function that gets id=”navbar” that
+                is included in all the HTML files, and appends the HTML-elements
+                for the navigation bar in the HTML files with inner.HTML and
+                DOM. The link to the navbar.js script is also included in the
+                HTML-files.
             </p>
             <p>
-                We also decided to deviate slightly from our suggested color
-                scheme. Instead of having the submit button dark like in the
-                mockup (figure 12 of P2), we instead opted for a brighter color,
-                so as to have the button be easily visible. Finally, we chose to
-                omit the white arrows on the left-hand side of each list item,
-                because in the end we deemed this to be a distraction. Instead,
-                we added textual instruction on the top of the page.
+                The scripts showScreenings.js and anime.js are used on both the
+                screenings page and the front page. Lastly, the showNews.js and
+                news.js are used on both the newsfeed page and the front page.
+            </p>
+            <p>
+                There are also several functions that can be used for popups in
+                general. There are two different types of popups currently on
+                the website: Synopsis popups, appearing when the user clicks an
+                anime; and a signup popup, appearing when the user clicks the
+                ‘sign up’ button. The signup popup can be accessed from every
+                page, and the synopsis popups can be accessed from the frontpage
+                and the screenings page. The script ‘utilsPopup.js’ contains
+                functions for initializing, creating, and closing popups in
+                general.
+            </p>
+            <p>
+                By implementing the same scripts in HTML-files that needed the
+                same functionalities, we kept the amount of duplicated code to a
+                bare minimum.
             </p>
         </section>
 
         <section>
-            <header><h2>Fulfillment of minimum requirements</h2></header>
-            <ol>
+            <header><h2>Fullfillment of minimum requirements</h2></header>
+            <p>
+                Maja made the voting page which uses a javascript, voting.js, to
+                rearrange a list of items in a desired sequence. Upon submitting
+                the sequenced list, the page will reload and the list will go
+                back to its default ordering. She also implemented modularity
+                for the navigation bar
+            </p>
+            <p>
+                Tobias wrote ‘becomeMember.js’ that creates a pop-up
+                notification containing a signup form. The form requires the
+                user to fill out a name and email before submitting. A change
+                made to ‘becomeMember.js’ was the inclusion of alerting the user
+                that the signup submission was received.
+            </p>
+            <p>
+                Aleksander wrote ‘popupNotification.js’ that creates a pop-up
+                notification containing title, thumbnail, and synopsis of an
+                anime. The intended use case is the user clicking an anime,
+                either on the front page or on the screenings page. He also
+                created ‘utilsPopup.js’, a small utility script with functions
+                common to both the synopsis popups and the signup popup.
+            </p>
+            <p>
+                Sondre achieved the 'Latest news' requirement in 'news.js' and
+                'showNews.js'. 'news.js' contains a list of all news items,
+                while 'showNews.js' consists of two functions: one to display
+                all news, and one to display only the latest news items.
+            </p>
+        </section>
+
+        <section>
+            <header><h2>Updated organizational scheme</h2></header>
+            <p>
+                All of the following files are gathered in a common folder
+                ‘website’.
+            </p>
+            <p>List of files and folders:</p>
+            <ul>
+                <li>about.html</li>
+                <li>frontpage.html</li>
+                <li>newsfeed.html</li>
+                <li>screenings.html</li>
+                <li>voting.html</li>
                 <li>
-                    <span class="list_title">Screenings</span> - Sondre wrote
-                    'showScreenings.js', containing multiple functions to
-                    generate screening information. The function
-                    'generateNextScreening' is used to display the next
-                    screening on the front page, with the given anime titles.
-                </li>
-                <li><span class="list_title">Voting</span></li>
-                <li><span class="list_title">Become a member</span></li>
-                <li>
-                    <span class="list_title">Pop-up information</span> -
-                    Aleksander implemented a function for showing a popup with
-                    information about an anime, given a title, description, and
-                    a thumbnail image URL. Sondre connected this script so that
-                    when a user clicks an anime box, this popup will appear.
+                    css/
+                    <ul>
+                        <li>master.css</li>
+                    </ul>
                 </li>
                 <li>
-                    <span class="list_title">Latest news</span> - Sondre
-                    achieved the 'Latest news' requirement in 'news.js' and
-                    'showNews.js'. 'news.js' contains a list of all news items,
-                    while 'showNews.js' consists of two functions: one to
-                    display all news, and one to display only the latest news
-                    items.
+                    fonts/
+                    <ul>
+                        <li>OpenSans-Bold.ttf</li>
+                        <li>OpenSand-Regular.ttf</li>
+                    </ul>
                 </li>
-            </ol>
+                <li>
+                    images/
+                    <ul>
+                        <li>discord.png</li>
+                        <li>envelope-solid.svg</li>
+                        <li>favicon.ico</li>
+                        <li>hataraku.png</li>
+                        <li>logo.png</li>
+                        <li>minami.png</li>
+                        <li>rokka.png</li>
+                        <li>shirobako.png</li>
+                        <li>user-solid.svg</li>
+                        <li>tokikake.png</li>
+                        <li>zetsubou.png</li>
+                    </ul>
+                </li>
+                <li>
+                    scripts/
+                    <ul>
+                        <li>anime.js</li>
+                        <li>becomeMember.js</li>
+                        <li>utilsPopup.js</li>
+                        <li>navbar.js</li>
+                        <li>news.js</li>
+                        <li>popupNotification.js</li>
+                        <li>showNews.js</li>
+                        <li>showScreenings.js</li>
+                        <li>voting.js</li>
+                    </ul>
+                </li>
+            </ul>
         </section>
 
         <section>
@@ -127,7 +384,7 @@
                     <tr>
                         <td>voting.html</td>
                         <td>
-                            A list of series the visitor can rank according to
+                            A list of anime the visitor can rank according to
                             what the visitor would like to see the most during
                             the upcoming semester
                         </td>
@@ -142,8 +399,11 @@
                         <td>Sondre</td>
                     </tr>
                     <tr>
-                        <td>navigation_bar.part</td>
-                        <td></td>
+                        <td>navbar.js</td>
+                        <td>
+                            Navigation bar that contains links to all the pages
+                            within the website
+                        </td>
                         <td>Maja</td>
                     </tr>
                     <tr>
@@ -181,6 +441,39 @@
                         <td>Aleksander</td>
                     </tr>
                     <tr>
+                        <td>anime.js</td>
+                        <td>
+                            A Javascript containing a dictionary with
+                            information about the anime displayed on the website
+                        </td>
+                        <td>Sondre</td>
+                    </tr>
+                    <tr>
+                        <td>news.js</td>
+                        <td>
+                            A Javascript containing a dictionary with
+                            information about the news items.
+                        </td>
+                        <td>Sondre</td>
+                    </tr>
+                    <tr>
+                        <td>utilsPopup.js</td>
+                        <td>
+                            A script with utility functions for popups
+                            (initialization, creation, and closing)
+                        </td>
+                        <td>Aleksander</td>
+                    </tr>
+                    <tr>
+                        <td>showNews.js</td>
+                        <td>
+                            A script to fetch and display news items on the
+                            newsfeed, and to fetch the latest newsitem to
+                            display on the frontpage
+                        </td>
+                        <td>Sondre</td>
+                    </tr>
+                    <tr>
                         <td>master.css</td>
                         <td>
                             The CSS file containing all the styling for the
@@ -196,8 +489,8 @@
                         <td>All</td>
                     </tr>
                     <tr>
-                        <td>Test</td>
-                        <td>Final day of user testing</td>
+                        <td>Testing</td>
+                        <td>Finish user testing and publish the website</td>
                         <td>All</td>
                     </tr>
                 </tbody>
