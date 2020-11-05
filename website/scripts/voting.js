@@ -1,4 +1,8 @@
-//Creates a new array with the result of calling the draggableList funcion on every element in the calling array
+/**
+  *Creates a new array with the result of calling the draggableList funcion on every element in the calling array
+  *
+  *@param {String[]} e A list of all the animes you can vote for
+*/
 function activateDrag(e) {
     const voting_list = document.getElementsByClassName(e);
     Array.prototype.map.call(voting_list, (list) => {
@@ -6,20 +10,34 @@ function activateDrag(e) {
     });
 }
 
-//Creates a new array with the result of calling the startDrag funcion on every element in the calling array
+
+/**
+  *Creates a new array with the result of calling the startDrag funcion on every element in the calling array
+  *
+  *@param {String[]} listElement The mapped list created in the activateDrag(e) function
+*/
 function draggableList(listElement) {
     Array.prototype.map.call(listElement.children, (element) => {
         startDrag(element);
     });
 }
 
-//Gives each element the draggable attribute
+
+/**
+  *Gives each element in the list the draggable attribute
+  *
+  *@param {String[]} element The mapped list created in the draggableList(listElement) function
+*/
 function startDrag(element) {
     element.setAttribute("draggable", true);
     element.ondrag = handleDrag;
 }
 
-//Tracks which elements are being moved
+/**
+  *Tracks which elements are being moved
+  *
+  *@param {String[]} element The list with the draggable attribute
+*/
 function handleDrag(element) {
     const selectedElement = element.target,
         list_container = selectedElement.parentNode,
