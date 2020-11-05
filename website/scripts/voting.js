@@ -1,10 +1,11 @@
 /**
-  *Creates a new array with the result of calling the draggableList funcion on every element in the calling array
+  * Creates a new array with the result of calling the draggableList 
+  * function on every element in the calling array
   *
-  *@param {String[]} e A list of all the animes you can vote for
+  * @param {String[]} votingList A list of all the animes you can vote for
 */
-function activateDrag(e) {
-    const voting_list = document.getElementsByClassName(e);
+function activateDrag(votingList) {
+    const voting_list = document.getElementsByClassName(votingList);
     Array.prototype.map.call(voting_list, (list) => {
         draggableList(list);
     });
@@ -12,9 +13,9 @@ function activateDrag(e) {
 
 
 /**
-  *Creates a new array with the result of calling the startDrag funcion on every element in the calling array
+  * Creates a new array with the result of calling the startDrag funcion on every element in the calling array
   *
-  *@param {String[]} listElement The mapped list created in the activateDrag(e) function
+  * @param {String[]} listElement The mapped list created in the activateDrag(e) function
 */
 function draggableList(listElement) {
     Array.prototype.map.call(listElement.children, (element) => {
@@ -24,9 +25,9 @@ function draggableList(listElement) {
 
 
 /**
-  *Gives each element in the list the draggable attribute
+  * Gives each element in the list the draggable attribute
   *
-  *@param {String[]} element The mapped list created in the draggableList(listElement) function
+  * @param {String[]} element The mapped list created in the draggableList(listElement) function
 */
 function startDrag(element) {
     element.setAttribute("draggable", true);
@@ -34,9 +35,9 @@ function startDrag(element) {
 }
 
 /**
-  *Tracks which elements are being moved
+  * Tracks which elements are being moved
   *
-  *@param {String[]} element The list with the draggable attribute
+  * @param {String[]} element The list with the draggable attribute
 */
 function handleDrag(element) {
     const selectedElement = element.target,
@@ -68,8 +69,11 @@ function handleDrag(element) {
 
 activateDrag("voting_container");
 
-//Pop-up when trying to click on the submit button. If visitor confirms submssion, the page will be reloaded, resetting the voting page.
-function clicked_button() {
+/**
+  * Pop-up when trying to click on the submit button. If visitor confirms submssion, 
+  * the page will be reloaded, resetting the voting page.
+*/
+ function clicked_button() {
     if (
         confirm(
             "Are you sure you want to submit? When submitting, your answers will be sent and the voting page will be reset"
