@@ -1,5 +1,5 @@
 import { useState } from "react";
-import generateSignup from "./becomeMember";
+import generateSignup from "../scripts/becomeMember";
 import imgLogo from "../images/logo.png";
 import imgDiscord from "../images/discord.png";
 
