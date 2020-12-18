@@ -1,5 +1,7 @@
 import { useState } from "react";
 import generateSignup from "./becomeMember";
+import imgLogo from "../images/logo.png";
+import imgDiscord from "../images/discord.png";
 
 /**
  * Function for creating a navbar.
@@ -30,11 +32,7 @@ function NavBar() {
             <div className="nav-items">
                 <div className="nav-header">
                     <a className="nav-title" href="index.html">
-                        <img
-                            src="images/logo.png"
-                            alt="Logo"
-                            id="navbar-logo"
-                        />
+                        <img src={imgLogo} alt="Logo" id="navbar-logo" />
                     </a>
                     <a
                         className="nav-discord-image"
@@ -42,7 +40,7 @@ function NavBar() {
                         target="_blank"
                     >
                         <img
-                            src="images/discord.png"
+                            src={imgDiscord}
                             alt="Discord logo"
                             id="navbar-discord-logo"
                         />
