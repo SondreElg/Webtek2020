@@ -1,7 +1,7 @@
 import { useState } from "react";
-import generateSignup from "../scripts/becomeMember";
 import imgLogo from "../images/logo.png";
 import imgDiscord from "../images/discord.png";
+import PopupSignup from "./popupSignup";
 
 /**
  * Function for creating a navbar.
@@ -13,6 +13,7 @@ function NavBar() {
      */
 
     const [checked, check] = useState(false);
+    const [visibilityPopupSignup, setVisibilityPopupSignup] = useState(false);
 
     function toggleChecked() {
         check(!checked);
@@ -28,51 +29,67 @@ function NavBar() {
     // * The menu items themselves
 
     return (
-        <div id="main_navbar">
-            <div className="nav-items">
-                <div className="nav-header">
-                    <a className="nav-title" href="index.html">
-                        <img src={imgLogo} alt="Logo" id="navbar-logo" />
-                    </a>
-                    <a
-                        className="nav-discord-image"
-                        href="https://discord.com/invite/3SQwHyZ"
-                        target="_blank"
-                    >
-                        <img
-                            src={imgDiscord}
-                            alt="Discord logo"
-                            id="navbar-discord-logo"
-                        />
-                    </a>
-                </div>
-                <div className="nav-sandwhichbtn" onClick={toggleChecked}>
-                    <label for="nav-check" onClick={toggleChecked}>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </label>
-                </div>
-                <input type="checkbox" id="nav-check" checked={checked} />
-                <div className="nav-links">
-                    <a href="screenings.html">Screenings</a>
-                    <a href="voting.html">Voting</a>
-                    <a href="newsfeed.html">Newsfeed</a>
-                    <a href="about.html">About us</a>
-                    <a className="signup-link" onClick={generateSignup}>
-                        Sign up
-                    </a>
-                    <div className="discord-link">
+        <>
+            <div id="main_navbar">
+                <div className="nav-items">
+                    <div className="nav-header">
+                        <a className="nav-title" href="index.html">
+                            <img src={imgLogo} alt="Logo" id="navbar-logo" />
+                        </a>
                         <a
+                            className="nav-discord-image"
                             href="https://discord.com/invite/3SQwHyZ"
                             target="_blank"
+                            rel="noreferrer"
                         >
-                            Our discord server
+                            <img
+                                src={imgDiscord}
+                                alt="Discord logo"
+                                id="navbar-discord-logo"
+                            />
                         </a>
+                    </div>
+                    <div className="nav-sandwhichbtn" onClick={toggleChecked}>
+                        <label htmlFor="nav-check" onClick={toggleChecked}>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </label>
+                    </div>
+                    <input
+                        type="checkbox"
+                        id="nav-check"
+                        checked={checked}
+                        onChange={() => {}}
+                    />
+                    <div className="nav-links">
+                        <a href="screenings.html">Screenings</a>
+                        <a href="voting.html">Voting</a>
+                        <a href="newsfeed.html">Newsfeed</a>
+                        <a href="about.html">About us</a>
+                        <a
+                            className="signup-link"
+                            onClick={() => setVisibilityPopupSignup(true)}
+                        >
+                            Sign up
+                        </a>
+                        <div className="discord-link">
+                            <a
+                                href="https://discord.com/invite/3SQwHyZ"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                Our discord server
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <PopupSignup
+                isVisible={visibilityPopupSignup}
+                callbackVisibility={setVisibilityPopupSignup}
+            />
+        </>
     );
 }
 

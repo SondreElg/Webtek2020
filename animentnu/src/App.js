@@ -13,8 +13,8 @@ function App() {
             "next_screening",
             true
         );
-        initPopup("popupSynopsis");
-        initPopup("popupSignup");
+        /*initPopup("popupSynopsis");
+        initPopup("popupSignup");*/
     }, []);
 
     return (

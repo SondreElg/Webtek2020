@@ -1,14 +1,15 @@
 function TemplatePopup(props) {
-    const [isVisible, setVisibility] = useState(false);
-
     function closePopup(event) {
-        if (event.target.id === divID) {
-            setVisibility(false);
+        if (event.target.id === props.id) {
+            props.callbackVisibility(false);
         }
     }
 
-    if (isVisible) {
-        return <div className="popupBackground" onClick={closePopup}></div>;
-    }
-    return;
+    return (
+        <div id={props.id} className="popupBackground" onClick={closePopup}>
+            {props.children}
+        </div>
+    );
 }
+
+export default TemplatePopup;
