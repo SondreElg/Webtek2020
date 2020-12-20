@@ -3,8 +3,8 @@ import imgLogo from "../images/logo.png";
 import imgDiscord from "../images/discord.png";
 import PopupSignup from "./popupSignup";
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
-import Screenings from "../Screenings";
-import Frontpage from "../Frontpage";
+import Screenings from "../pages/Screenings";
+import Frontpage from "../pages/Frontpage";
 
 /**
  * Function for creating a navbar.
@@ -37,13 +37,13 @@ function NavBar() {
                 <div id="main_navbar">
                     <div className="nav-items">
                         <div className="nav-header">
-                            <a className="nav-title" href="index.html">
+                            <Link className="nav-title" to="/">
                                 <img
                                     src={imgLogo}
                                     alt="Logo"
                                     id="navbar-logo"
                                 />
-                            </a>
+                            </Link>
                             <a
                                 className="nav-discord-image"
                                 href="https://discord.com/invite/3SQwHyZ"
@@ -75,8 +75,7 @@ function NavBar() {
                         />
                         <div className="nav-links">
                             <Link to="/screenings">Screenings</Link>
-                            {/*<a href="screenings.html">Screenings</a>*/}
-                            <a href="voting.html">Voting</a>
+                            <Link to="/voting">Voting</Link>
                             <a href="newsfeed.html">Newsfeed</a>
                             <a href="about.html">About us</a>
                             <a

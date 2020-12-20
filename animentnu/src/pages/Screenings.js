@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-import NavBar from "./components/navbar";
+import NavBar from "../components/navbar";
 import generateScreenings, {
     generateSemesterAnime,
-} from "./scripts/showScreenings";
+} from "../scripts/showScreenings";
 
 function Screenings() {
     /*useEffect(() => {

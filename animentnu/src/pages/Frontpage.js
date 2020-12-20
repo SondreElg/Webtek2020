@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-import NavBar from "./components/navbar";
-import { displayLatestNews } from "./scripts/showNews";
-import generateScreenings from "./scripts/showScreenings";
-import { initPopup } from "./scripts/utilsPopup";
+import NavBar from "../components/navbar";
+import { displayLatestNews } from "../scripts/showNews";
+import generateScreenings from "../scripts/showScreenings";
+import { initPopup } from "../scripts/utilsPopup";
 
 function Frontpage() {
     useEffect(() => {
