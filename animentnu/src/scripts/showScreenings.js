@@ -174,3 +174,4 @@ function episodeIncrement(anime, amount) {
 }
 
 export default generateScreenings;
+export { generateSemesterAnime };
