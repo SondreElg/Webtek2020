@@ -2,9 +2,7 @@ import { useState } from "react";
 import imgLogo from "../images/logo.png";
 import imgDiscord from "../images/discord.png";
 import PopupSignup from "./popupSignup";
-import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
-import Screenings from "../pages/Screenings";
-import Frontpage from "../pages/Frontpage";
+import { Link } from "react-router-dom";
 
 /**
  * Function for creating a navbar.

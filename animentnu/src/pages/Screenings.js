@@ -1,10 +1,11 @@
 import { useEffect } from "react";
 import NavBar from "../components/navbar";
+import AnimeScreening from "../components/screening";
 import generateScreenings, {
     generateSemesterAnime,
 } from "../scripts/showScreenings";
 
-function Screenings() {
+function Screenings(props) {
     /*useEffect(() => {
         generateSemesterAnime(
             [
@@ -31,6 +32,15 @@ function Screenings() {
         );
     }, []);*/
 
+    const animeList = [
+        "Rokka",
+        "Hataraku",
+        "Minami",
+        "Zetsubou",
+        "Shirobako",
+        "Tokikake",
+    ];
+
     return (
         <>
             <NavBar />
@@ -51,6 +61,14 @@ function Screenings() {
                     </div>
 
                     <div id="semester_screenings">
+                        {animeList.map((value, index) => {
+                            return (
+                                <AnimeScreening
+                                    key={index}
+                                    animeKey={value}
+                                ></AnimeScreening>
+                            );
+                        })}
                         {/* This section will be filled with content by
                      the function 'generateSemesterAnime' */}
                     </div>

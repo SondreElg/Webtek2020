@@ -1,3 +1,10 @@
+import imgHataraku from "../images/hataraku.png";
+import imgMinami from "../images/minami.png";
+import imgRokka from "../images/rokka.png";
+import imgShirobako from "../images/shirobako.png";
+import imgTokikake from "../images/tokikake.png";
+import imgZetsubou from "../images/zetsubou.png";
+
 const firstScreening = new Date(2020, 7, 26, 23);
 const totalScreenings = 13;
 
@@ -30,9 +37,9 @@ var nextEpisode = {
  *
  */
 const animeDictionary = {
-    Rokka: [
-        "Rokka -Braves of the Six Flowers-",
-        `When the Majin awoke from the depths of darkness, 
+    Rokka: {
+        title: "Rokka -Braves of the Six Flowers-",
+        synopsis: `When the Majin awoke from the depths of darkness, 
         the deity of fate chose six heroes and bequeathed 
         them with the power to save the world. Adlet, a 
         boy who proclaims himself the strongest on Earth, 
@@ -43,12 +50,12 @@ const animeDictionary = {
         and the initial suspicion falls on Adlet.<br/>
         <br/>
         source: <a href="https://anilist.co/anime/20955" target="blank">AniList<a/>`,
-        12,
-        "images/rokka.png",
-    ],
-    Hataraku: [
-        "The Devil is a Part-Timer!",
-        `Devil King Sadao is only one step away from conquering 
+        episodes: 12,
+        imgsrc: imgRokka,
+    },
+    Hataraku: {
+        title: "The Devil is a Part-Timer!",
+        synopsis: `Devil King Sadao is only one step away from conquering 
         the world when he is beaten by Hero Emilia and forced 
         to drift to the other world: modern-day Tokyo. As 
         'conquering the world' are the only skills the Devil 
@@ -57,12 +64,12 @@ const animeDictionary = {
         his living expenses!<br/>
         <br/>
         source: <a href="https://anilist.co/anime/15809" target="blank">AniList<a/>`,
-        13,
-        "images/hataraku.png",
-    ],
-    Minami: [
-        "Minami-ke",
-        `The Minami residence is home to three sisters: the 
+        episodes: 13,
+        imgsrc: imgHataraku,
+    },
+    Minami: {
+        title: "Minami-ke",
+        synopsis: `The Minami residence is home to three sisters: the 
         strict and diligent eldest sister Haruka; air-headed 
         and lively Kana; and the youngest, Chiaki, whose sharp 
         tongue spares no one. Living without adult supervision, 
@@ -72,12 +79,12 @@ const animeDictionary = {
         there is never a boring day in the Minami household.<br/>
         <br/>
         source: <a href="https://myanimelist.net/anime/2963" target="blank">MyAnimeList<a/>`,
-        13,
-        "images/minami.png",
-    ],
-    Zetsubou: [
-        "Sayonara Zetsubou Sensei",
-        `Itoshiki Nozomu is always in despair! Even simple 
+        episodes: 13,
+        imgsrc: imgMinami,
+    },
+    Zetsubou: {
+        title: "Sayonara Zetsubou Sensei",
+        synopsis: `Itoshiki Nozomu is always in despair! Even simple 
         things like paying for the toll on the subway can 
         send him to a despair so deep only attempted suicide 
         is the answer. How Strange is it then, that he should 
@@ -88,12 +95,12 @@ const animeDictionary = {
         their wacky adventures.<br/>
         <br/>
         source: <a href="https://anilist.co/anime/2605" target="blank">AniList<a/>`,
-        12,
-        "images/zetsubou.png",
-    ],
-    Shirobako: [
-        "Shirobako", //Anilist description is super short, while MAL is an essay. Create new description later
-        `It all started in Kaminoyama High School, when five 
+        episodes: 12,
+        imgsrc: imgZetsubou,
+    },
+    Shirobako: {
+        title: "Shirobako", //Anilist description is super short, while MAL is an essay. Create new description later
+        synopsis: `It all started in Kaminoyama High School, when five 
         best friends—Aoi Miyamori, Ema Yasuhara, Midori Imai, 
         Shizuka Sakaki, and Misa Toudou—discovered their 
         collective love for all things anime and formed the 
@@ -117,12 +124,12 @@ const animeDictionary = {
         through perseverance and a touch of eccentric creativity.<br/>
         <br/>
         source: <a href="https://myanimelist.net/anime/25835" target="blank">MyAnimeList<a/>`,
-        24,
-        "images/shirobako.png",
-    ],
-    Tokikake: [
-        "The Girl Who Leapt Through Time",
-        `The power to travel through time... It can be used 
+        episodes: 24,
+        imgsrc: imgShirobako,
+    },
+    Tokikake: {
+        title: "The Girl Who Leapt Through Time",
+        synopsis: `The power to travel through time... It can be used 
         for the good of humanity, or just selfishly abused. 
         While many may fantasize about obtaining such a power, 
         it has become nothing less than reality for otherwise-normal 
@@ -135,9 +142,9 @@ const animeDictionary = {
         the fact that changing the past can have drastic consequences.<br/>
         <br/>
         source: <a href="https://anilist.co/anime/2236" target="blank">AniList<a/>`,
-        1,
-        "images/tokikake.png",
-    ],
+        episodes: 1,
+        imgsrc: imgTokikake,
+    },
 };
 
 export {
