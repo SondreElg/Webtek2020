@@ -76,8 +76,8 @@ function NavBar() {
                         <div className="nav-links">
                             <Link to="/screenings">Screenings</Link>
                             <Link to="/voting">Voting</Link>
-                            <a href="newsfeed.html">Newsfeed</a>
-                            <a href="about.html">About us</a>
+                            <Link to="/news">Newsfeed</Link>
+                            <Link to="/about">About us</Link>
                             <a
                                 className="signup-link"
                                 onClick={() => setVisibilityPopupSignup(true)}
