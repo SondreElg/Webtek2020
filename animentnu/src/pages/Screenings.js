@@ -1,23 +1,13 @@
 import { useEffect } from "react";
 import NavBar from "../components/navbar";
 import AnimeScreening from "../components/screening";
+import ScreeningContainer from "../components/screeningContainer";
 import generateScreenings, {
     generateSemesterAnime,
 } from "../scripts/showScreenings";
 
 function Screenings(props) {
     /*useEffect(() => {
-        generateSemesterAnime(
-            [
-                "Rokka",
-                "Hataraku",
-                "Minami",
-                "Zetsubou",
-                "Shirobako",
-                "Tokikake",
-            ],
-            "semester_screenings"
-        );
         generateScreenings(
             new Date(),
             [
@@ -61,14 +51,12 @@ function Screenings(props) {
                     </div>
 
                     <div id="semester_screenings">
-                        {animeList.map((value, index) => {
-                            return (
-                                <AnimeScreening
-                                    key={index}
-                                    animeKey={value}
-                                ></AnimeScreening>
-                            );
-                        })}
+                        <ScreeningContainer
+                            animeList={animeList}
+                            date={"Wednesdays"}
+                            time={"19:30"}
+                            location={"Discord"}
+                        />
                         {/* This section will be filled with content by
                      the function 'generateSemesterAnime' */}
                     </div>

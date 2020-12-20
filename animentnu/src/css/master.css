@@ -239,6 +239,11 @@ section > .page_title {
     position: relative;
 }
 
+.anime_screening:hover {
+    background-color: #202020;
+    cursor: pointer;
+}
+
 .anime_screening > img {
     height: 120px;
     width: 85px;

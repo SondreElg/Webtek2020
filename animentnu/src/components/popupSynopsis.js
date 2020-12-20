@@ -14,15 +14,15 @@ function PopupSynopsis(props) {
         >
             <div class="popupContent">
                 <div class="popupHeader">
-                    <h3>{anime.animeTitle}</h3>
+                    <h3>{anime.title}</h3>
                 </div>
                 <div class="popupBody">
                     <img
                         id="popupThumbnail"
-                        src={anime.animeImgsrc}
-                        alt={anime.animeTitle}
+                        src={anime.imgsrc}
+                        alt={anime.title}
                     />
-                    <p id="popupDescription">${anime.animeSynopsis}</p>
+                    <p id="popupDescription">{anime.synopsis}</p>
                 </div>
                 <div
                     id="popupX"
