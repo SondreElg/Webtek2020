@@ -3,9 +3,6 @@ import {
     totalScreenings,
     nextEpisode,
     animeDictionary,
-    animeImgsrc,
-    animeTitle,
-    animeTotalEpisodes,
 } from "./anime";
 
 const _MS_PER_WEEK = 1000 * 60 * 60 * 24 * 7;
@@ -93,9 +90,9 @@ function generateAnimeScreenings(animeList, includeEpisodes) {
         //Iterates through the series in animeList
         anime = animeList[series];
         episode = nextEpisode[anime];
-        totalEpisodes = animeDictionary[anime][animeTotalEpisodes];
-        title = animeDictionary[anime][animeTitle];
-        imgsrc = animeDictionary[anime][animeImgsrc];
+        totalEpisodes = animeDictionary[anime].episodes;
+        title = animeDictionary[anime].title;
+        imgsrc = animeDictionary[anime].imgsrc;
 
         if (!includeEpisodes) {
             //Generate div with no episodes

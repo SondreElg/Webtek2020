@@ -8,11 +8,6 @@ import imgZetsubou from "../images/zetsubou.png";
 const firstScreening = new Date(2020, 7, 26, 23);
 const totalScreenings = 13;
 
-const animeTitle = 0;
-const animeSynopsis = 1;
-const animeTotalEpisodes = 2;
-const animeImgsrc = 3;
-
 /**
  * Dict of the seen episodes
  * Negative numbers imply that they will be screened later in the semester
@@ -228,12 +223,4 @@ const animeDictionary = {
     },
 };
 
-export {
-    firstScreening,
-    totalScreenings,
-    nextEpisode,
-    animeDictionary,
-    animeTotalEpisodes,
-    animeTitle,
-    animeImgsrc,
-};
+export { firstScreening, totalScreenings, nextEpisode, animeDictionary };

@@ -5,13 +5,13 @@ function About() {
         <>
             <NavBar />
 
-            <div class="page_container">
+            <div className="page_container">
                 <section>
-                    <header class="page_title">
+                    <header className="page_title">
                         <h1>About Anime NTNU</h1>
                         <hr />
                     </header>
-                    <div class="info_content">
+                    <div className="info_content">
                         <p>
                             Anime NTNU is a student organization for students
                             and other people who are fond of anime (Japanese
@@ -19,7 +19,11 @@ function About() {
                             open screenings of anime weekly at Gløshaugen. Our
                             screenings take place on Wednesdays at 19:30,
                             usually in
-                            <a href="https://bit.ly/34wlaOV" target="blank">
+                            <a
+                                href="https://bit.ly/34wlaOV"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
                                 R5 at "Realfagsbygget"
                             </a>
                             .
@@ -43,16 +47,17 @@ function About() {
                 </section>
 
                 <section>
-                    <header class="page_title">
+                    <header className="page_title">
                         <h1>Contact us</h1>
                         <hr />
                     </header>
-                    <div class="info_content">
+                    <div className="info_content">
                         <p>
                             You can contact us through our
                             <a
                                 href="https://discord.com/invite/3SQwHyZ"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 Discord server
                             </a>

@@ -1,15 +1,13 @@
 import { useEffect } from "react";
 import NavBar from "../components/navbar";
-import AnimeScreening from "../components/screening";
 import ScreeningContainer from "../components/screeningContainer";
-import generateScreenings, {
-    generateSemesterAnime,
-} from "../scripts/showScreenings";
+import ScreeningsCollection from "../components/screeningsCollection";
+import generateScreenings from "../scripts/showScreenings";
 
 function Screenings(props) {
     /*useEffect(() => {
         generateScreenings(
-            new Date(),
+            new Date(2020, 6, 30),
             [
                 "Rokka",
                 "Hataraku",
@@ -18,31 +16,32 @@ function Screenings(props) {
                 "Shirobako",
                 "Tokikake",
             ],
-            "screenings_container"
+            "screenings_container",
+            false
         );
     }, []);*/
 
-    const animeList = [
-        "Rokka",
-        "Hataraku",
-        "Minami",
-        "Zetsubou",
-        "Shirobako",
-        "Tokikake",
+    const animeListSemester = [
+        { name: "Rokka", episodes: null },
+        { name: "Hataraku", episodes: null },
+        { name: "Minami", episodes: null },
+        { name: "Zetsubou", episodes: null },
+        { name: "Shirobako", episodes: null },
+        { name: "Tokikake", episodes: null },
     ];
 
     return (
         <>
             <NavBar />
 
-            <div id="semester_container" class="page_container">
+            <div id="semester_container" className="page_container">
                 <section>
-                    <header class="page_title">
+                    <header className="page_title">
                         <h1>Shows of the semester</h1>
                         <hr />
                     </header>
 
-                    <div class="info_content">
+                    <div className="info_content">
                         <p>
                             Here you can find an overview of what we're watching
                             this semester, and the details of upcoming
@@ -52,27 +51,24 @@ function Screenings(props) {
 
                     <div id="semester_screenings">
                         <ScreeningContainer
-                            animeList={animeList}
+                            animeList={animeListSemester}
                             date={"Wednesdays"}
                             time={"19:30"}
                             location={"Discord"}
                         />
-                        {/* This section will be filled with content by
-                     the function 'generateSemesterAnime' */}
                     </div>
                 </section>
 
                 <section>
-                    <header class="page_title">
+                    <header className="page_title">
                         <h1>Upcoming screenings</h1>
                         <hr />
                     </header>
 
-                    <div id="screenings_container" class="page_container">
-                        {/* This section will be filled with content by 
-                     the function 'generateFutureScreenings' */}
+                    <div id="screenings_container" className="page_container">
+                        <ScreeningsCollection />
                     </div>
-                    <footer class="page_title">
+                    <footer className="page_title">
                         <hr />
                         <h2>That's all folks!</h2>
                     </footer>

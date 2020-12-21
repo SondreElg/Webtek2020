@@ -2,13 +2,12 @@ import { useEffect } from "react";
 import NavBar from "../components/navbar";
 import { displayLatestNews } from "../scripts/showNews";
 import generateScreenings from "../scripts/showScreenings";
-import { initPopup } from "../scripts/utilsPopup";
 
 function Frontpage() {
     useEffect(() => {
         displayLatestNews();
         generateScreenings(
-            new Date(),
+            new Date(2020, 8, 30),
             ["Rokka", "Hataraku", "Minami", "Zetsubou", "Shirobako"],
             "next_screening",
             true
