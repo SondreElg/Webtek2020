@@ -1,9 +1,7 @@
 import { useEffect } from "react";
 import NavBar from "../components/navbar";
 import ScreeningsCollection from "../components/screeningsCollection";
-import episodesInfo from "../episodesInfo";
 import { displayLatestNews } from "../scripts/showNews";
-import generateScreenings from "../scripts/showScreenings";
 
 function Frontpage() {
     useEffect(() => {

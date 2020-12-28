@@ -1,4 +1,4 @@
-import { animeDictionary } from "../scripts/anime";
+import animeInfo from "../scripts/anime";
 import ScreeningContainer from "./screeningContainer";
 import episodesInfo from "../episodesInfo";
 
@@ -23,7 +23,7 @@ function ScreeningsCollection(props) {
         let animeThisScreening = [];
         Object.keys(episodesInfo).forEach((key) => {
             const episodesPerScreening = episodesInfo[key].incr;
-            const totalEpisodes = animeDictionary[key].episodes;
+            const totalEpisodes = animeInfo[key].episodes;
             const startEpisode =
                 episodesInfo[key].start + episodesPerScreening * counter;
 

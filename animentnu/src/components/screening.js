@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { animeDictionary } from "../scripts/anime";
+import animeInfo from "../scripts/anime";
 import PopupSynopsis from "./popupSynopsis";
 
 function AnimeScreening(props) {
-    const anime = animeDictionary[props.animeKey];
+    const anime = animeInfo[props.animeKey];
     const episodes = props.episodes;
     const [visibilityPopupSynopsis, setVisibilityPopupSynopsis] = useState(
         false

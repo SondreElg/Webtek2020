@@ -5,33 +5,11 @@ import imgShirobako from "../images/shirobako.png";
 import imgTokikake from "../images/tokikake.png";
 import imgZetsubou from "../images/zetsubou.png";
 
-const firstScreening = new Date(2020, 7, 26, 23);
-const totalScreenings = 13;
-
-/**
- * Dict of the seen episodes
- * Negative numbers imply that they will be screened later in the semester
- */
-var nextEpisode = {
-    Rokka: 1,
-    Hataraku: 1,
-    Minami: -11,
-    Zetsubou: -12,
-    Shirobako: 1,
-    Tokikake: -24,
-};
-
 /**
  * Dictionary containing information about each anime for this semester
  * Key is a nickname for the anime and points to a list of information
- *
- * 0 = Title of the anime
- * 1 = Synopsis of the anime
- * 2 = Total amount of episodes in the anime
- * 3 = Source of the thumbnail used for the anime
- *
  */
-const animeDictionary = {
+const animeInfo = {
     Rokka: {
         title: "Rokka -Braves of the Six Flowers-",
         synopsis: (
@@ -223,4 +201,4 @@ const animeDictionary = {
     },
 };
 
-export { firstScreening, totalScreenings, nextEpisode, animeDictionary };
+export default animeInfo;
