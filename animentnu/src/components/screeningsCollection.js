@@ -2,18 +2,8 @@ import { animeDictionary } from "../scripts/anime";
 import ScreeningContainer from "./screeningContainer";
 
 function ScreeningsCollection(props) {
-    const episodesInfo = {
-        Rokka: { start: 1, incr: 2 },
-        Hataraku: { start: 1, incr: 2 },
-        Minami: { start: -11, incr: 2 },
-        Zetsubou: { start: -12, incr: 2 },
-        Shirobako: { start: 1, incr: 2 },
-        Tokikake: { start: -24, incr: 2 },
-    };
-    const startDate = new Date(2020, 7, 26);
+    const { episodesInfo, startDate, dayIncr, onlyNext } = props;
     const today = new Date(2020, 8, 30);
-    const dayIncr = 7;
-    const onlyNext = false;
 
     let counter = 0;
     var allScreenings = [];

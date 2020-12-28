@@ -2,25 +2,10 @@ import { useEffect } from "react";
 import NavBar from "../components/navbar";
 import ScreeningContainer from "../components/screeningContainer";
 import ScreeningsCollection from "../components/screeningsCollection";
+import episodesInfo from "../episodesInfo";
 import generateScreenings from "../scripts/showScreenings";
 
 function Screenings(props) {
-    /*useEffect(() => {
-        generateScreenings(
-            new Date(2020, 6, 30),
-            [
-                "Rokka",
-                "Hataraku",
-                "Minami",
-                "Zetsubou",
-                "Shirobako",
-                "Tokikake",
-            ],
-            "screenings_container",
-            false
-        );
-    }, []);*/
-
     const animeListSemester = [
         { name: "Rokka", episodes: null },
         { name: "Hataraku", episodes: null },
@@ -66,7 +51,12 @@ function Screenings(props) {
                     </header>
 
                     <div id="screenings_container" className="page_container">
-                        <ScreeningsCollection />
+                        <ScreeningsCollection
+                            episodesInfo={episodesInfo}
+                            startDate={new Date(2020, 7, 26)}
+                            dayIncr={7}
+                            onlyNext={false}
+                        />
                     </div>
                     <footer className="page_title">
                         <hr />
@@ -74,18 +64,6 @@ function Screenings(props) {
                     </footer>
                 </section>
             </div>
-
-            {/*<script src="scripts/navbar.js"></script>
-            <script src="scripts/anime.js"></script>
-            <script src="scripts/showScreenings.js"></script>
-            <script src="scripts/popupNotification.js"></script>
-            <script>
-                generateSemesterAnime( ["Rokka", "Hataraku", "Minami",
-                "Zetsubou", "Shirobako", "Tokikake"], "semester_screenings" );
-                generateScreenings ( new Date(), ["Rokka", "Hataraku", "Minami",
-                "Zetsubou", "Shirobako", "Tokikake"], "screenings_container", );
-            </script>
-                    <script src="scripts/becomeMember.js"></script>*/}
         </>
     );
 }
