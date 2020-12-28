@@ -11,13 +11,25 @@ function ScreeningsCollection(props) {
         Tokikake: { start: -24, incr: 2 },
     };
     const startDate = new Date(2020, 7, 26);
+    const today = new Date(2020, 8, 30);
     const dayIncr = 7;
+    const onlyNext = false;
 
-    var counter = 0;
+    let counter = 0;
     var allScreenings = [];
 
     while (true) {
-        var animeThisScreening = [];
+        const date = new Date(startDate);
+        date.setDate(startDate.getDate() + dayIncr * counter);
+
+        console.log(date.toDateString());
+
+        if (date < today) {
+            counter++;
+            continue;
+        }
+
+        let animeThisScreening = [];
         Object.keys(episodesInfo).forEach((key) => {
             const episodesPerScreening = episodesInfo[key].incr;
             const totalEpisodes = animeDictionary[key].episodes;
@@ -36,6 +48,7 @@ function ScreeningsCollection(props) {
                 animeThisScreening.push({
                     name: key,
                     episodes: episodes,
+                    date: date,
                 });
             }
         });
@@ -45,17 +58,20 @@ function ScreeningsCollection(props) {
         }
 
         allScreenings.push(animeThisScreening);
+
+        if (onlyNext) {
+            break;
+        }
+
         counter++;
     }
 
     return allScreenings.map((value, index) => {
-        const date = new Date(startDate);
-        date.setDate(startDate.getDate() + dayIncr * index);
         return (
             <ScreeningContainer
                 key={index}
                 animeList={value}
-                date={date.toDateString()}
+                date={value[0].date.toDateString()}
                 time={"19:30"}
                 location={"Discord"}
             />
