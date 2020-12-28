@@ -1,23 +1,23 @@
 import NavBar from "../components/navbar";
+import NewsCollection from "../components/newsCollection";
 
 function News() {
     return (
         <>
             <NavBar />
 
-            <div class="page_container">
+            <div className="page_container">
                 <section>
-                    <header class="page_title">
+                    <header className="page_title">
                         <h1>Newsfeed</h1>
                         <hr />
                     </header>
 
                     <div id="newsfeed_container">
-                        {/* This section will be filled with content
-                     by the script 'showNews.js' */}
+                        <NewsCollection />
                     </div>
 
-                    <footer class="page_title">
+                    <footer className="page_title">
                         <hr />
                         <h2>That's all folks!</h2>
                     </footer>

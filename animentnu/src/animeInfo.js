@@ -1,9 +1,9 @@
-import imgHataraku from "../images/hataraku.png";
-import imgMinami from "../images/minami.png";
-import imgRokka from "../images/rokka.png";
-import imgShirobako from "../images/shirobako.png";
-import imgTokikake from "../images/tokikake.png";
-import imgZetsubou from "../images/zetsubou.png";
+import imgHataraku from "./images/hataraku.png";
+import imgMinami from "./images/minami.png";
+import imgRokka from "./images/rokka.png";
+import imgShirobako from "./images/shirobako.png";
+import imgTokikake from "./images/tokikake.png";
+import imgZetsubou from "./images/zetsubou.png";
 
 /**
  * Dictionary containing information about each anime for this semester

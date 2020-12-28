@@ -1,8 +1,8 @@
 function NewsItem(props) {
     return (
-        <div class="info_content">
+        <div className="info_content">
             {props.children}
-            <span class="author">
+            <span className="author">
                 -{props.author}, {props.date.toDateString()}
             </span>
         </div>

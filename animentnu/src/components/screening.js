@@ -1,5 +1,5 @@
 import { useState } from "react";
-import animeInfo from "../scripts/anime";
+import animeInfo from "../animeInfo";
 import PopupSynopsis from "./popupSynopsis";
 
 function AnimeScreening(props) {

@@ -25,23 +25,18 @@ var newsList = [
                     website (link will be posted later) and gather in #general
                     on our Discord server.
                 </p>
-                <p>
-                    The series are as follows:
-                    <ul>
-                        <li>Rokka no Yuusha (Rokka -Braves of Six Flowers-)</li>
-                        <li>Hataraku Maou-Sama (The Devil is a Part-Timer!)</li>
-                        <li>Shirobako</li>
-                    </ul>
-                </p>
-                <p>
-                    Break entertainment:
-                    <ul>
-                        <li>
-                            Saiki Kusuo no Ψ-nan (The Disastrous Life of Saiki
-                            K.)
-                        </li>
-                    </ul>
-                </p>
+                <p>The series are as follows:</p>
+                <ul>
+                    <li>Rokka no Yuusha (Rokka -Braves of Six Flowers-)</li>
+                    <li>Hataraku Maou-Sama (The Devil is a Part-Timer!)</li>
+                    <li>Shirobako</li>
+                </ul>
+                <p>Break entertainment:</p>
+                <ul>
+                    <li>
+                        Saiki Kusuo no Ψ-nan (The Disastrous Life of Saiki K.)
+                    </li>
+                </ul>
             </>
         ),
         author: "sondrhel",
@@ -125,13 +120,13 @@ var newsList = [
                 <p>
                     The votes have been counted, and the program this semester
                     is:
-                    <ul>
-                        <li>Cowboy Bebop</li>
-                        <li>Humanity Has Declined</li>
-                        <li>The Melancholy of Haruhi Suzumiya (season 1)</li>
-                        <li>Higurashi: When They Cry</li>
-                    </ul>
                 </p>
+                <ul>
+                    <li>Cowboy Bebop</li>
+                    <li>Humanity Has Declined</li>
+                    <li>The Melancholy of Haruhi Suzumiya (season 1)</li>
+                    <li>Higurashi: When They Cry</li>
+                </ul>
                 <p>
                     As usual, it will be every Wednesday (starting 2019-08-28)
                     in R5 at 19:30, except for week 45 (2019-11-06); that week
@@ -173,16 +168,16 @@ var newsList = [
                 <p>
                     The results are in. The program for spring 2019 will be the
                     following series:
-                    <ul>
-                        <li>- Mushishi</li>
-                        <li>- Black Lagoon</li>
-                        <li>- Gakkougurashi!</li>
-                        <li>
-                            - When Supernatural Battles Became Commonplace
-                            (replaces Gakkougurashi after mid-point)
-                        </li>
-                    </ul>
                 </p>
+                <ul>
+                    <li>- Mushishi</li>
+                    <li>- Black Lagoon</li>
+                    <li>- Gakkougurashi!</li>
+                    <li>
+                        - When Supernatural Battles Became Commonplace (replaces
+                        Gakkougurashi after mid-point)
+                    </li>
+                </ul>
                 <p>
                     They will be shown every Wednesday (starting 2019-01-23) in
                     R5 at 19:30. Somehow the room was available every week this
@@ -223,15 +218,13 @@ var newsList = [
         content: (
             <>
                 <h4>Program, Fall 2018</h4>
-                <p>
-                    The program for fall 2018 will be the following series:
-                    <ul>
-                        <li>Beck</li>
-                        <li>Baccano</li>
-                        <li>Genshiken</li>
-                        <li>Chuunibyou demo Koi ga Shitai</li>
-                    </ul>
-                </p>
+                <p>The program for fall 2018 will be the following series:</p>
+                <ul>
+                    <li>Beck</li>
+                    <li>Baccano</li>
+                    <li>Genshiken</li>
+                    <li>Chuunibyou demo Koi ga Shitai</li>
+                </ul>
                 <p>
                     It will be every Wednesday (starting 2018-08-29) in R5 at
                     19.30, except for week 45 (2018-11-07); that week we will be
@@ -406,15 +399,13 @@ var newsList = [
         content: (
             <>
                 <h4>Program, Spring 2016</h4>
-                <p>
-                    The program for spring 2016 will be the following series:
-                    <ul>
-                        <li>Higurashi (second season)</li>
-                        <li>Princess Tutu</li>
-                        <li>Arakawa under the Bridge</li>
-                        <li>Aria the Animation</li>
-                    </ul>
-                </p>
+                <p>The program for spring 2016 will be the following series:</p>
+                <ul>
+                    <li>Higurashi (second season)</li>
+                    <li>Princess Tutu</li>
+                    <li>Arakawa under the Bridge</li>
+                    <li>Aria the Animation</li>
+                </ul>
                 <p>It will be every Wednesday in KJL5 at 19.30, as usual.</p>
             </>
         ),
@@ -425,14 +416,12 @@ var newsList = [
         content: (
             <>
                 <h4>Fall 2015</h4>
-                <p>
-                    This year we will be showing:
-                    <ul>
-                        <li>Space Battleship Yamato 2199</li>
-                        <li>Welcome to the NHK</li>
-                        <li>Higurashi: When they Cry</li>
-                    </ul>
-                </p>
+                <p>This year we will be showing:</p>
+                <ul>
+                    <li>Space Battleship Yamato 2199</li>
+                    <li>Welcome to the NHK</li>
+                    <li>Higurashi: When they Cry</li>
+                </ul>
                 <p>
                     We will also be showing the movie Millennium Actress at
                     Wednesday 19th of August, and after that the ordinary
@@ -453,19 +442,19 @@ var newsList = [
                 <h4>Program, Spring 2015</h4>
                 <p>
                     The following Anime series won the vote for this semester:
-                    <ul>
-                        <li>Paranoia Agent (One of those old classics)</li>
-                        <li>Toward the Terra (A rather obscure scifi gem)</li>
-                        <li>
-                            Kore wa Zombie Desu ka? (A crazy monster-of-the-week
-                            comedy)
-                        </li>
-                        <li>
-                            JoJos Bizarre Adventure (heh... hehehe... hahaha!
-                            AHAHAHAHA!!! ahem, move along, move along)
-                        </li>
-                    </ul>
                 </p>
+                <ul>
+                    <li>Paranoia Agent (One of those old classics)</li>
+                    <li>Toward the Terra (A rather obscure scifi gem)</li>
+                    <li>
+                        Kore wa Zombie Desu ka? (A crazy monster-of-the-week
+                        comedy)
+                    </li>
+                    <li>
+                        JoJos Bizarre Adventure (heh... hehehe... hahaha!
+                        AHAHAHAHA!!! ahem, move along, move along)
+                    </li>
+                </ul>
                 <p>
                     The program will start Wednesday 21st and continue for the
                     rest of the semester.
@@ -544,15 +533,13 @@ var newsList = [
                     We will start the semester by showing Time of Eve, Wednesday
                     the 20th in KJL 5 at 19:30
                 </p>
-                <p>
-                    Afterwards we will be showing:
-                    <ul>
-                        <li>Shinsekai Yori</li>
-                        <li>And yet the Town Moves</li>
-                        <li>Kino no Tabi</li>
-                        <li>Gankutsuou: THe Count of Monte Cristo</li>
-                    </ul>
-                </p>
+                <p>Afterwards we will be showing:</p>
+                <ul>
+                    <li>Shinsekai Yori</li>
+                    <li>And yet the Town Moves</li>
+                    <li>Kino no Tabi</li>
+                    <li>Gankutsuou: THe Count of Monte Cristo</li>
+                </ul>
             </>
         ),
         author: "Kishin",
@@ -581,15 +568,13 @@ var newsList = [
                     We will be starting the normal program for this semester
                     Wednesday 22nd.
                 </p>
-                <p>
-                    The series we will be showing are:
-                    <ul>
-                        <li>Bakemonogatari</li>
-                        <li>Cowboy Bebop</li>
-                        <li>Ouran High School Host Club</li>
-                        <li>Humanity Has Declined</li>
-                    </ul>
-                </p>
+                <p>The series we will be showing are:</p>
+                <ul>
+                    <li>Bakemonogatari</li>
+                    <li>Cowboy Bebop</li>
+                    <li>Ouran High School Host Club</li>
+                    <li>Humanity Has Declined</li>
+                </ul>
                 <p>
                     NB: We will be in KJEL 2 that day, but the rest of the
                     semester we will be in KJEL 5
@@ -647,15 +632,13 @@ var newsList = [
         content: (
             <>
                 <h4>Program, Fall 2013</h4>
-                <p>
-                    We will be showing the following series this semester:
-                    <ul>
-                        <li>Durarara!!</li>
-                        <li>Chūnibyō demo Koi ga Shitai!</li>
-                        <li>Mirai Nikki</li>
-                        <li>Daily Lives of High School Boys</li>
-                    </ul>
-                </p>
+                <p>We will be showing the following series this semester:</p>
+                <ul>
+                    <li>Durarara!!</li>
+                    <li>Chūnibyō demo Koi ga Shitai!</li>
+                    <li>Mirai Nikki</li>
+                    <li>Daily Lives of High School Boys</li>
+                </ul>
 
                 <p>
                     Note: We will be using KJEL 1 the entire semester, not KJEL
@@ -729,13 +712,12 @@ var newsList = [
         content: (
             <>
                 <h4>Spring program starting today!</h4>
-                <p>
-                    <ul>
-                        <li>Steins;Gate</li>
-                        <li>Minami-ke</li>
-                        <li>Ben-to! (Level-E after the midsemester)</li>
-                    </ul>
-                </p>
+                <p></p>
+                <ul>
+                    <li>Steins;Gate</li>
+                    <li>Minami-ke</li>
+                    <li>Ben-to! (Level-E after the midsemester)</li>
+                </ul>
             </>
         ),
         author: "danner",
@@ -778,14 +760,12 @@ var newsList = [
         content: (
             <>
                 <h4>Plan for this fall</h4>
-                <p>
-                    The series that will be shown are:
-                    <ul>
-                        <li>Nichijou</li>
-                        <li>RahXephon</li>
-                        <li>Daughter of 20 faces</li>
-                    </ul>
-                </p>
+                <p>The series that will be shown are:</p>
+                <ul>
+                    <li>Nichijou</li>
+                    <li>RahXephon</li>
+                    <li>Daughter of 20 faces</li>
+                </ul>
             </>
         ),
         author: "Kishin",
@@ -825,16 +805,14 @@ var newsList = [
         content: (
             <>
                 <h4>Spring Semester</h4>
-                <p>
-                    The following series will be shown:
-                    <ul>
-                        <li>Eden of the East</li>
-                        <li>Puella magi Madoka Magica</li>
-                        <li>Spice and Wolf S2</li>
-                        <li>Angel Beats!</li>
-                        <li>XXXHolic</li>
-                    </ul>
-                </p>
+                <p>The following series will be shown:</p>
+                <ul>
+                    <li>Eden of the East</li>
+                    <li>Puella magi Madoka Magica</li>
+                    <li>Spice and Wolf S2</li>
+                    <li>Angel Beats!</li>
+                    <li>XXXHolic</li>
+                </ul>
             </>
         ),
         author: "Kishin",
@@ -873,19 +851,19 @@ var newsList = [
                 <h4>Autumn Semester 2011</h4>
                 <p>
                     <b>What:</b>
-                    <ul>
-                        <li>25th of Aug: Only Yesterday (film)</li>
-                        <li>
-                            31th of Aug and onwards: Regular programme with 2
-                            episodes each of
-                            <ul>
-                                <li>Darker Than Black</li>
-                                <li>Nodame Cantabile</li>
-                                <li>Spice &amp; Wolf</li>
-                            </ul>
-                        </li>
-                    </ul>
                 </p>
+                <ul>
+                    <li>25th of Aug: Only Yesterday (film)</li>
+                    <li>
+                        31th of Aug and onwards: Regular programme with 2
+                        episodes each of
+                        <ul>
+                            <li>Darker Than Black</li>
+                            <li>Nodame Cantabile</li>
+                            <li>Spice &amp; Wolf</li>
+                        </ul>
+                    </li>
+                </ul>
                 <p>
                     <b>Where: </b>Auditorium Kjel5
                 </p>
@@ -918,12 +896,12 @@ var newsList = [
                 <h4>Spring semester starting</h4>
                 <p>
                     Showing regular programme from Jan 19th (2 episodes each):
-                    <ul>
-                        <li>Baccano</li>
-                        <li>Denno Coil</li>
-                        <li>Sayonara, Zetsubou-Sensei</li>
-                    </ul>
                 </p>
+                <ul>
+                    <li>Baccano</li>
+                    <li>Denno Coil</li>
+                    <li>Sayonara, Zetsubou-Sensei</li>
+                </ul>
                 <p>Every Wednesday 19:30 at KJL5.</p>
                 <p>Showings are open for everyone.</p>
             </>
@@ -937,19 +915,19 @@ var newsList = [
                 <h4>Autumn semester startup</h4>
                 <p>
                     <b>What: </b>
-                    <ul>
-                        <li>25th of August: Whisper of the Heart</li>
-                        <li>
-                            1st of September (and onwards): Regular program.
-                            Every week, we show 2 episodes of...
-                            <ul>
-                                <li>Azumanga Daioh</li>
-                                <li>Kare Kano</li>
-                                <li>Abenobashi / FLCL</li>
-                            </ul>
-                        </li>
-                    </ul>
                 </p>
+                <ul>
+                    <li>25th of August: Whisper of the Heart</li>
+                    <li>
+                        1st of September (and onwards): Regular program. Every
+                        week, we show 2 episodes of...
+                        <ul>
+                            <li>Azumanga Daioh</li>
+                            <li>Kare Kano</li>
+                            <li>Abenobashi / FLCL</li>
+                        </ul>
+                    </li>
+                </ul>
                 <p>
                     <b>Place:</b> Auditorium Kjel5
                 </p>
@@ -967,17 +945,14 @@ var newsList = [
             <>
                 <h4>Spring Semester beginning today!</h4>
                 <p>So come join us at KJL5 like last semester. </p>
-                <p>
-                    Program:
-                    <ul>
-                        <li>Honey and Clover</li>
-                        <li>Genshiken</li>
-                        <li>
-                            Code Geass R2 (that's season 2 for those who don't
-                            know)
-                        </li>
-                    </ul>
-                </p>
+                <p>Program:</p>
+                <ul>
+                    <li>Honey and Clover</li>
+                    <li>Genshiken</li>
+                    <li>
+                        Code Geass R2 (that's season 2 for those who don't know)
+                    </li>
+                </ul>
             </>
         ),
         author: "danner",
@@ -1015,12 +990,12 @@ var newsList = [
                 <p>
                     Wednesday the 26th we'll start the new semester series,
                     showing:
-                    <ul>
-                        <li>Code Geass</li>
-                        <li>Ghost Hunt</li>
-                        <li>Tengen Toppa Gurren-Lagann</li>
-                    </ul>
                 </p>
+                <ul>
+                    <li>Code Geass</li>
+                    <li>Ghost Hunt</li>
+                    <li>Tengen Toppa Gurren-Lagann</li>
+                </ul>
                 <p>
                     Time will as always be 19:30 on wednesdays, the place is
                     Auditorum Kjel5, same as during Totoro last week.
@@ -1072,14 +1047,12 @@ var newsList = [
                     Auditorium R7, 1930. For those wondering, Auditorium R7 is
                     right below the cantina in Realfagsbygget.
                 </p>
-                <p>
-                    Program of the evening is
-                    <ul>
-                        <li>Ouran High School Host Club episode 1-2</li>
-                        <li>Black Lagoon episode 1-2</li>
-                        <li>Welcome to the NHK episode 1-2</li>
-                    </ul>
-                </p>
+                <p>Program of the evening is</p>
+                <ul>
+                    <li>Ouran High School Host Club episode 1-2</li>
+                    <li>Black Lagoon episode 1-2</li>
+                    <li>Welcome to the NHK episode 1-2</li>
+                </ul>
                 <p>
                     Spread the word. Unfortunately, noone seems to have gotten
                     around to create some posters, so we'll have to do this
@@ -1194,24 +1167,20 @@ var newsList = [
         content: (
             <>
                 <h4>Program Spring 2008</h4>
-                <p>
-                    The program is ready
-                    <ul>
-                        <li>16. January: Ghost in the Shell (movie)</li>
-                        <li>23. January: Gunsmith Cats (miniseries)</li>
-                    </ul>
-                </p>
-                <p>
-                    Every subsequent week from there on:
-                    <ul>
-                        <li>Ghost in the shell: SAC</li>
-                        <li>
-                            The Melancholy of Haruhi Suzumiya / Ichigo Mashimaro
-                            (after haruhi finishes)
-                        </li>
-                        <li>Mushishi</li>
-                    </ul>
-                </p>
+                <p>The program is ready</p>
+                <ul>
+                    <li>16. January: Ghost in the Shell (movie)</li>
+                    <li>23. January: Gunsmith Cats (miniseries)</li>
+                </ul>
+                <p>Every subsequent week from there on:</p>
+                <ul>
+                    <li>Ghost in the shell: SAC</li>
+                    <li>
+                        The Melancholy of Haruhi Suzumiya / Ichigo Mashimaro
+                        (after haruhi finishes)
+                    </li>
+                    <li>Mushishi</li>
+                </ul>
                 <p>
                     The first two weeks are in auditorium R1, then R2 for the
                     rest of the semester.
@@ -1254,21 +1223,19 @@ var newsList = [
         content: (
             <>
                 <h4>Vote for the anime program, Sping 2008 ready</h4>
-                <p>
-                    The winners of the vote this semester was:
-                    <ul>
-                        <li>Mushishi</li>
-                        <li>Ghost in the Shell: SAC</li>
-                        <li>The melancoly of Haruhi Suzumiya</li>
-                    </ul>
-                </p>
+                <p>The winners of the vote this semester was:</p>
+                <ul>
+                    <li>Mushishi</li>
+                    <li>Ghost in the Shell: SAC</li>
+                    <li>The melancoly of Haruhi Suzumiya</li>
+                </ul>
                 <p>
                     ... and as a fillup to match the last quarter of the third
                     anime
-                    <ul>
-                        <li>Ichigo Mashimaro</li>
-                    </ul>
                 </p>
+                <ul>
+                    <li>Ichigo Mashimaro</li>
+                </ul>
                 <p>
                     And on a personal note, I'd like to add that all of you who
                     voted Tutu down in order to avoid its nauseatingly cute
@@ -1283,21 +1250,17 @@ var newsList = [
         content: (
             <>
                 <h4>Anime showings, Fall 2007</h4>
-                <p>
-                    The program for the showings this semester is as follows:
-                    <ul>
-                        <li>August 22nd: Porco Rosso (Movie)</li>
-                        <li>August 29th: Nausicaa (Movie)</li>
-                    </ul>
-                </p>
-                <p>
-                    Subsequent weeks:
-                    <ul>
-                        <li>Excel Saga</li>
-                        <li>RahXephon</li>
-                        <li>Princess Tutu / Kamichu!</li>
-                    </ul>
-                </p>
+                <p>The program for the showings this semester is as follows:</p>
+                <ul>
+                    <li>August 22nd: Porco Rosso (Movie)</li>
+                    <li>August 29th: Nausicaa (Movie)</li>
+                </ul>
+                <p>Subsequent weeks:</p>
+                <ul>
+                    <li>Excel Saga</li>
+                    <li>RahXephon</li>
+                    <li>Princess Tutu / Kamichu!</li>
+                </ul>
                 <p>Place and time is auditorium R2, 1930.</p>
             </>
         ),
@@ -1308,17 +1271,17 @@ var newsList = [
         content: (
             <>
                 <h4>SaiRAG 2007</h4>
-                <p>
-                    <form method="post" action="http://poll.pollcode.com/qu0N">
-                        <table
-                            border="0"
-                            width="150"
-                            bgcolor="EEEEEE"
-                            cellspacing="0"
-                            cellpadding="2"
-                        >
+                <form method="post" action="http://poll.pollcode.com/qu0N">
+                    <table
+                        border="0"
+                        width="150"
+                        bgcolor="EEEEEE"
+                        cellSpacing="0"
+                        cellPadding="2"
+                    >
+                        <thead>
                             <tr>
-                                <td colspan="2">
+                                <td colSpan="2">
                                     <font
                                         face="Verdana"
                                         size="-1"
@@ -1331,6 +1294,8 @@ var newsList = [
                                     </font>
                                 </td>
                             </tr>
+                        </thead>
+                        <tbody>
                             <tr>
                                 <td width="5">
                                     <input
@@ -1476,7 +1441,7 @@ var newsList = [
                                 </td>
                             </tr>
                             <tr>
-                                <td colspan="2">
+                                <td colSpan="2">
                                     <center>
                                         <input type="submit" value="Vote" />
                                         <input
@@ -1488,7 +1453,7 @@ var newsList = [
                                 </td>
                             </tr>
                             <tr>
-                                <td bgcolor="white" colspan="2" align="right">
+                                <td bgcolor="white" colSpan="2" align="right">
                                     <font
                                         face="Verdana"
                                         size="-2"
@@ -1504,9 +1469,9 @@ var newsList = [
                                     </font>
                                 </td>
                             </tr>
-                        </table>
-                    </form>
-                </p>
+                        </tbody>
+                    </table>
+                </form>
             </>
         ),
         author: "gunnarre",
@@ -1536,15 +1501,14 @@ var newsList = [
                     Heisan, da var vi i gang igjen. Denne gangen i R2. Fremdeles
                     onsdager kl 19:30.
                 </p>
-                <p>
-                    <ul>
-                        <li>17. januar: Metropolis</li>
-                        <li>
-                            24. januar: Samurai Champloo, Cromartie High, Witch
-                            Hunter Robin
-                        </li>
-                    </ul>
-                </p>
+                <p></p>
+                <ul>
+                    <li>17. januar: Metropolis</li>
+                    <li>
+                        24. januar: Samurai Champloo, Cromartie High, Witch
+                        Hunter Robin
+                    </li>
+                </ul>
                 <p></p>
                 <p>
                     Senere på året tar Tsukihime over for Cromartie High. (Se
@@ -1604,17 +1568,14 @@ var newsList = [
         content: (
             <>
                 <h4>Generell TODO</h4>
-                <p>
-                    <ul>
-                        <li>
-                            <b>[x]</b> Endre feed til Atom 1.0
-                        </li>
-                        <li>
-                            Rydde opp i hva slags data som er trygt å skrive ut
-                        </li>
-                        <li>Fikse korrekt bruk av HTML vs nl2br</li>
-                    </ul>
-                </p>
+                <p></p>
+                <ul>
+                    <li>
+                        <b>[x]</b> Endre feed til Atom 1.0
+                    </li>
+                    <li>Rydde opp i hva slags data som er trygt å skrive ut</li>
+                    <li>Fikse korrekt bruk av HTML vs nl2br</li>
+                </ul>
             </>
         ),
         author: "dashiva",
@@ -1644,13 +1605,11 @@ var newsList = [
                     (+ Kujibiki Unbalance) og Midori no Hibi. Se programsiden
                     for detaljer. Seriene starter 6. september, men vi starter
                     med to filmer
-                    <ul>
-                        <li>
-                            23. august: The Place Promised In Our Early Days
-                        </li>
-                        <li>30. august: Grave of the Fireflies</li>
-                    </ul>
                 </p>
+                <ul>
+                    <li>23. august: The Place Promised In Our Early Days</li>
+                    <li>30. august: Grave of the Fireflies</li>
+                </ul>
             </>
         ),
         author: "gunnarre",
@@ -1660,35 +1619,30 @@ var newsList = [
         content: (
             <>
                 <h4>i18n</h4>
-                <p>
-                    Tabeller i databasen som lagrer språkspesifikk info:
-                    <ul>
-                        <li>
-                            <b>[done]</b> poll_valg - tekst
-                        </li>
-                        <li>
-                            <b>[done]</b> poll_metadata - tittel, tekst
-                        </li>
-                        <li>
-                            <b>[done]</b> nyheter - tittel, tekst
-                        </li>
-                        <li>
-                            <b>[done]</b> anime_komm - tekst (fra brukere)
-                        </li>
-                        <li>
-                            <b>[x]</b> anime_anime - tittel, tekst (alltid
-                            engelsk)
-                        </li>
-                        <li>
-                            <b>[done]</b> (vist_sesong bør automatiseres,
-                            ignore)
-                        </li>
-                        <li>
-                            <b>[x]</b> (brukere bør begrenses til latin1,
-                            ignore)
-                        </li>
-                    </ul>
-                </p>
+                <p>Tabeller i databasen som lagrer språkspesifikk info:</p>
+                <ul>
+                    <li>
+                        <b>[done]</b> poll_valg - tekst
+                    </li>
+                    <li>
+                        <b>[done]</b> poll_metadata - tittel, tekst
+                    </li>
+                    <li>
+                        <b>[done]</b> nyheter - tittel, tekst
+                    </li>
+                    <li>
+                        <b>[done]</b> anime_komm - tekst (fra brukere)
+                    </li>
+                    <li>
+                        <b>[x]</b> anime_anime - tittel, tekst (alltid engelsk)
+                    </li>
+                    <li>
+                        <b>[done]</b> (vist_sesong bør automatiseres, ignore)
+                    </li>
+                    <li>
+                        <b>[x]</b> (brukere bør begrenses til latin1, ignore)
+                    </li>
+                </ul>
             </>
         ),
         author: "dashiva",
@@ -1722,23 +1676,21 @@ var newsList = [
         content: (
             <>
                 <h4>Påske og fremover</h4>
-                <p>
-                    Det blir ingen visning 12. april grunnet ferieavvikling.
-                    <ul>
-                        <li>
-                            19. april - 7 episoder for å slippe å dele opp
-                            avslutningen av Paranoia Agent
-                        </li>
-                        <li>
-                            26. april - Bonus: Memories siden alt utenom Trigun
-                            er ferdig
-                        </li>
-                        <li>
-                            3. mai (og kanskje 10. mai) - Forhåndsvisninger av
-                            serier til neste semester
-                        </li>
-                    </ul>
-                </p>
+                <p>Det blir ingen visning 12. april grunnet ferieavvikling.</p>
+                <ul>
+                    <li>
+                        19. april - 7 episoder for å slippe å dele opp
+                        avslutningen av Paranoia Agent
+                    </li>
+                    <li>
+                        26. april - Bonus: Memories siden alt utenom Trigun er
+                        ferdig
+                    </li>
+                    <li>
+                        3. mai (og kanskje 10. mai) - Forhåndsvisninger av
+                        serier til neste semester
+                    </li>
+                </ul>
             </>
         ),
         author: "dashiva",
@@ -1980,7 +1932,7 @@ var newsList = [
                     R5.
                 </p>
                 <p>
-                    <span style="text-decoration:line-through;">
+                    <span style={{ textDecoration: "line-through" }}>
                         Ellers blir det en ny avstemning ganske snart om
                         programmet etter Lain.
                     </span>
@@ -2076,21 +2028,19 @@ var newsList = [
                 <p>
                     Det var mye bra anime hos folket. Noen nominasjoner jeg syns
                     er kjempebra:
-                    <ul>
-                        <li>scryed (26)</li>
-                        <li>cowboy bebop (26)</li>
-                        <li>kino no tabi (13)</li>
-                        <li>flcl (6)</li>
-                        <li>slayers (26)</li>
-                    </ul>
                 </p>
-                <p>
-                    og noen jeg tror kan bli populære:
-                    <ul>
-                        <li>rune soldier louie (24)</li>
-                        <li>saber marionette J (26)</li>
-                    </ul>
-                </p>
+                <ul>
+                    <li>scryed (26)</li>
+                    <li>cowboy bebop (26)</li>
+                    <li>kino no tabi (13)</li>
+                    <li>flcl (6)</li>
+                    <li>slayers (26)</li>
+                </ul>
+                <p>og noen jeg tror kan bli populære:</p>
+                <ul>
+                    <li>rune soldier louie (24)</li>
+                    <li>saber marionette J (26)</li>
+                </ul>
             </>
         ),
         author: "danner",
@@ -2115,19 +2065,18 @@ var newsList = [
         content: (
             <>
                 <h4>Nyheter til mailingliste</h4>
-                <p>
-                    <ul>
-                        <li>
-                            Automatisk utsending av nyheter fra websidene til
-                            mailinglista.
-                        </li>
-                        <li>
-                            Valg for å kun publisere på nett (default til
-                            mailingliste).
-                        </li>
-                        <li>...</li>
-                    </ul>
-                </p>
+                <p></p>
+                <ul>
+                    <li>
+                        Automatisk utsending av nyheter fra websidene til
+                        mailinglista.
+                    </li>
+                    <li>
+                        Valg for å kun publisere på nett (default til
+                        mailingliste).
+                    </li>
+                    <li>...</li>
+                </ul>
             </>
         ),
         author: "lance",
@@ -2193,13 +2142,13 @@ var newsList = [
                     Her er programmet for de første seks ukene (36-41) av
                     høsten. Vi viser to episoder av hver serie per visning, i
                     denne rekkefølgen:
-                    <ul>
-                        <li>Photon (uke 1-3)</li>
-                        <li>Shamanic Princess (uke 4-6)</li>
-                        <li>Hyper Police</li>
-                        <li>Boogiepop Phantom</li>
-                    </ul>
                 </p>
+                <ul>
+                    <li>Photon (uke 1-3)</li>
+                    <li>Shamanic Princess (uke 4-6)</li>
+                    <li>Hyper Police</li>
+                    <li>Boogiepop Phantom</li>
+                </ul>
                 <p>
                     Og siden alge er paranoid kan vi nevne at det blir 19.30 i
                     R5. Alle visninger er i R5 hvis det ikke gis eksplisitt
@@ -2244,37 +2193,29 @@ var newsList = [
         content: (
             <>
                 <h4>Programutkast</h4>
-                <p>
-                    6 uker (start uke 36)
-                    <ul>
-                        <li>2x HP</li>
-                        <li>2x Boogiepop</li>
-                        <li>1x Shamanic</li>
-                        <li>1x Photon</li>
-                    </ul>
-                    (alternativt 3+3 uker med 2x sham, 2x photon)
-                </p>
-                <p>
-                    7 uker (start uke 42)
-                    <ul>
-                        <li>2x HP</li>
-                        <li>2x Haibane</li>
-                        <li>2x Abeno</li>
-                        <li>(3x haibane, 3x abeno) siste gang</li>
-                        <li>
-                            (4x hp, blood: the last vampire) på halloween :)
-                        </li>
-                    </ul>
-                </p>
-                <p>
-                    Uke 34, 35
-                    <ul>
-                        <li>
-                            2x film hver gang: GitS, Jin-Roh, Perfect Blue, og
-                            Grave of the Fireflies
-                        </li>
-                    </ul>
-                </p>
+                <p>6 uker (start uke 36)</p>
+                <ul>
+                    <li>2x HP</li>
+                    <li>2x Boogiepop</li>
+                    <li>1x Shamanic</li>
+                    <li>1x Photon</li>
+                </ul>
+                <p>(alternativt 3+3 uker med 2x sham, 2x photon)</p>
+                <p>7 uker (start uke 42)</p>
+                <ul>
+                    <li>2x HP</li>
+                    <li>2x Haibane</li>
+                    <li>2x Abeno</li>
+                    <li>(3x haibane, 3x abeno) siste gang</li>
+                    <li>(4x hp, blood: the last vampire) på halloween :)</li>
+                </ul>
+                <p>Uke 34, 35</p>
+                <ul>
+                    <li>
+                        2x film hver gang: GitS, Jin-Roh, Perfect Blue, og Grave
+                        of the Fireflies
+                    </li>
+                </ul>
             </>
         ),
         author: "dashiva",
@@ -2303,11 +2244,13 @@ var newsList = [
                     som vanlig kaos. Visningen mandag 5. april er avlyst pga
                     manglende interesse. Visningen mandag 12. april er flyttet
                     til onsdag 14. april, men ellers samme tid og sted. Altså
-                    <ul>
-                        <li>5/4 - ingen visning</li>
-                        <li>12/4 - ingen visning</li>
-                        <li>14/4 - visning</li>
-                    </ul>
+                </p>
+                <ul>
+                    <li>5/4 - ingen visning</li>
+                    <li>12/4 - ingen visning</li>
+                    <li>14/4 - visning</li>
+                </ul>
+                <p>
                     Og siden det er over midnatt burde alle være villige til å
                     akseptere at dette ikke er en aprilsspøk.
                 </p>
@@ -2327,12 +2270,12 @@ var newsList = [
                     sendeplanen da skulle legges opp, og siden vår diktator ikke
                     vil gjøre seg opp noen formening sier vi bare at skjemaet
                     fra og med Mars blir som følger:
-                    <ul>
-                        <li>Tiny Snow Fairy Sugar x2</li>
-                        <li>Kare Kano x2</li>
-                        <li>Neon Genesis Evangelion x2</li>
-                    </ul>
                 </p>
+                <ul>
+                    <li>Tiny Snow Fairy Sugar x2</li>
+                    <li>Kare Kano x2</li>
+                    <li>Neon Genesis Evangelion x2</li>
+                </ul>
                 <p>
                     Dette fører til mye sukker etter hverandre, men siden det er
                     sterke meninger ute og går om både Sugar og Evangelion er
@@ -2442,17 +2385,15 @@ var newsList = [
                     andreplass. Disse vil få følge av Tiny Snow Fairy Sugar,
                     siden vi allerede har vist halve.
                 </p>
-                <p>
-                    Så det blir noe omtrent som dette:
-                    <ul>
-                        <li>2x NGE</li>
-                        <li>2x Kare Kano</li>
-                        <li>2x Hellsing, 2x Sugar når Hellsing er slutt</li>
-                        <li>
-                            Bastard! i påsken (detaljer om påsken kommer senere)
-                        </li>
-                    </ul>
-                </p>
+                <p>Så det blir noe omtrent som dette:</p>
+                <ul>
+                    <li>2x NGE</li>
+                    <li>2x Kare Kano</li>
+                    <li>2x Hellsing, 2x Sugar når Hellsing er slutt</li>
+                    <li>
+                        Bastard! i påsken (detaljer om påsken kommer senere)
+                    </li>
+                </ul>
                 <p>
                     Det kan hende vi ikke starter seriene før 26. januar. I
                     såfall viser vi noe annet (en film) på den 19. Det er{" "}
@@ -2462,13 +2403,13 @@ var newsList = [
                     In other news, her er reklamekampanjen vår. Det står fritt
                     til den enkelte å skrive ut kopier og henge de opp der det
                     passer seg.
-                    <ul>
-                        <li>Kare Kano,</li>
-                        <li>Hellsing,</li>
-                        <li>Neon Genesis Evangelion og</li>
-                        <li>Neon Genesis Evangelion</li>
-                    </ul>
                 </p>
+                <ul>
+                    <li>Kare Kano,</li>
+                    <li>Hellsing,</li>
+                    <li>Neon Genesis Evangelion og</li>
+                    <li>Neon Genesis Evangelion</li>
+                </ul>
                 <p>
                     Og to litt mer "radikale": Hellsing og Neon Genesis
                     Evangelion
@@ -2596,11 +2537,11 @@ var newsList = [
                     engasjement, eller er det valgfusk? Kanskje noen stemmer her
                     i tro om at det er til kommunevalget. Her er i det minste
                     plakatene våre med de to duellantene.
-                    <ul>
-                        <li>R-noe Kenshin</li>
-                        <li>Tiny Snow Fairy Sugar</li>
-                    </ul>
                 </p>
+                <ul>
+                    <li>R-noe Kenshin</li>
+                    <li>Tiny Snow Fairy Sugar</li>
+                </ul>
                 <p>
                     (R-noe fordi vi vil unngå stridigheter om
                     romaniseringssystemer så tidlig i semesteret.)
@@ -2924,25 +2865,24 @@ var newsList = [
                     gangen, siden jeg begynner å bli lei av å høre på meg selv
                     snakke.
                 </p>
-                <p>
-                    <ul>
-                        <li>
-                            Uansett hva vi viser, vil det være ulovlig etter
-                            åndsverksloven eller en relatert lov, siden vi ikke
-                            har mulighet til å skaffe tillatelse.
-                        </li>
-                        <li>
-                            Det gjøres hele tiden med alle typer film, ikke bare
-                            anime, og er ingenting i forhold til det som skjer
-                            på NTNU-nettet.
-                        </li>
-                        <li>
-                            De som har rettighetene til det vi viser, har ingen
-                            interesser i Norge. Unntaket er Ghibli, som visstnok
-                            er representert ved Buena Vista.
-                        </li>
-                    </ul>
-                </p>
+                <p></p>
+                <ul>
+                    <li>
+                        Uansett hva vi viser, vil det være ulovlig etter
+                        åndsverksloven eller en relatert lov, siden vi ikke har
+                        mulighet til å skaffe tillatelse.
+                    </li>
+                    <li>
+                        Det gjøres hele tiden med alle typer film, ikke bare
+                        anime, og er ingenting i forhold til det som skjer på
+                        NTNU-nettet.
+                    </li>
+                    <li>
+                        De som har rettighetene til det vi viser, har ingen
+                        interesser i Norge. Unntaket er Ghibli, som visstnok er
+                        representert ved Buena Vista.
+                    </li>
+                </ul>
                 <p>
                     Altså, det er egentlig ingen fare for problemer. Det er
                     imidlertid en etisk problemstilling, så derfor skal dere få

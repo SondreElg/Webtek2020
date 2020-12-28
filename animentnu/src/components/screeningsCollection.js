@@ -1,4 +1,4 @@
-import animeInfo from "../scripts/anime";
+import animeInfo from "../animeInfo";
 import ScreeningContainer from "./screeningContainer";
 import episodesInfo from "../episodesInfo";
 
