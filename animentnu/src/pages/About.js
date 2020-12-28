@@ -18,7 +18,7 @@ function PageAbout() {
                             animation) or would like to give it a try. We host
                             open screenings of anime weekly at Gløshaugen. Our
                             screenings take place on Wednesdays at 19:30,
-                            usually in
+                            usually in{" "}
                             <a
                                 href="https://bit.ly/34wlaOV"
                                 target="_blank"
@@ -53,7 +53,7 @@ function PageAbout() {
                     </header>
                     <div className="info_content">
                         <p>
-                            You can contact us through our
+                            You can contact us through our{" "}
                             <a
                                 href="https://discord.com/invite/3SQwHyZ"
                                 target="_blank"

@@ -19,13 +19,13 @@ function PageFront() {
                                 website!
                             </p>
                             <p>
-                                Here you can find information about
+                                Here you can find information about{" "}
                                 <a href="screenings.html">
                                     upcoming screenings
                                 </a>
-                                ,
+                                ,{" "}
                                 <a href="newsfeed.html">news for our members</a>
-                                , and some
+                                , and some{" "}
                                 <a href="about.html">information about us</a>.
                             </p>
                             <p>
