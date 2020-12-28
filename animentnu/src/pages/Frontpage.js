@@ -1,17 +1,13 @@
 import { useEffect } from "react";
 import NavBar from "../components/navbar";
+import ScreeningsCollection from "../components/screeningsCollection";
+import episodesInfo from "../episodesInfo";
 import { displayLatestNews } from "../scripts/showNews";
 import generateScreenings from "../scripts/showScreenings";
 
 function Frontpage() {
     useEffect(() => {
         displayLatestNews();
-        generateScreenings(
-            new Date(2020, 8, 30),
-            ["Rokka", "Hataraku", "Minami", "Zetsubou", "Shirobako"],
-            "next_screening",
-            true
-        );
     }, []);
 
     return (
@@ -69,9 +65,13 @@ function Frontpage() {
                         >
                             <h2>Next screening</h2>
                             <hr />
+                            <ScreeningsCollection
+                                episodesInfo={episodesInfo}
+                                startDate={new Date(2020, 7, 26)}
+                                dayIncr={7}
+                                onlyNext={true}
+                            />
                         </header>
-                        {/*This section will be filled with content by
-                 the function 'displayLatestNews'*/}
                     </section>
                 </div>
             </div>

@@ -1,9 +1,7 @@
-import { useEffect } from "react";
 import NavBar from "../components/navbar";
 import ScreeningContainer from "../components/screeningContainer";
 import ScreeningsCollection from "../components/screeningsCollection";
 import episodesInfo from "../episodesInfo";
-import generateScreenings from "../scripts/showScreenings";
 
 function Screenings(props) {
     const animeListSemester = [
