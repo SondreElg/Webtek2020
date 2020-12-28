@@ -1,7 +1,6 @@
-import { useEffect } from "react";
 import NavBar from "../components/navbar";
 
-function Voting() {
+function PageVoting() {
     return (
         <>
             <NavBar />
@@ -63,4 +62,4 @@ function Voting() {
     );
 }
 
-export default Voting;
+export default PageVoting;

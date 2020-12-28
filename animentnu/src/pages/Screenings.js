@@ -3,7 +3,7 @@ import NavBar from "../components/navbar";
 import ScreeningContainer from "../components/screeningContainer";
 import ScreeningsCollection from "../components/screeningsCollection";
 
-function Screenings(props) {
+function PageScreenings() {
     const animeListSemester = [
         { name: "Rokka", episodes: null },
         { name: "Hataraku", episodes: null },
@@ -58,4 +58,4 @@ function Screenings(props) {
     );
 }
 
-export default Screenings;
+export default PageScreenings;

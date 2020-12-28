@@ -2,7 +2,7 @@ import NavBar from "../components/navbar";
 import NewsCollection from "../components/newsCollection";
 import ScreeningsCollection from "../components/screeningsCollection";
 
-function Frontpage() {
+function PageFront() {
     return (
         <>
             <NavBar />
@@ -66,4 +66,4 @@ function Frontpage() {
     );
 }
 
-export default Frontpage;
+export default PageFront;

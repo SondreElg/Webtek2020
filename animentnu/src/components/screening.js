@@ -2,7 +2,7 @@ import { useState } from "react";
 import animeInfo from "../animeInfo";
 import PopupSynopsis from "./popupSynopsis";
 
-function AnimeScreening(props) {
+function Screening(props) {
     const anime = animeInfo[props.animeKey];
     const episodes = props.episodes;
     const [visibilityPopupSynopsis, setVisibilityPopupSynopsis] = useState(
@@ -45,4 +45,4 @@ function AnimeScreening(props) {
     );
 }
 
-export default AnimeScreening;
+export default Screening;

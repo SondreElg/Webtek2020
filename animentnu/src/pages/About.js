@@ -1,6 +1,6 @@
 import NavBar from "../components/navbar";
 
-function About() {
+function PageAbout() {
     return (
         <>
             <NavBar />
@@ -70,4 +70,4 @@ function About() {
     );
 }
 
-export default About;
+export default PageAbout;

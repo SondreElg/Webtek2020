@@ -2,7 +2,7 @@ import Footer from "../components/footer";
 import NavBar from "../components/navbar";
 import NewsCollection from "../components/newsCollection";
 
-function News() {
+function PageNews() {
     return (
         <>
             <NavBar />
@@ -25,4 +25,4 @@ function News() {
     );
 }
 
-export default News;
+export default PageNews;

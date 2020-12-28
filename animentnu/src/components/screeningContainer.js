@@ -1,4 +1,4 @@
-import AnimeScreening from "./screening";
+import Screening from "./screening";
 
 function ScreeningContainer(props) {
     return (
@@ -6,11 +6,11 @@ function ScreeningContainer(props) {
             Date: {props.date} | Time: {props.time} | Location: {props.location}
             {props.animeList.map((value, index) => {
                 return (
-                    <AnimeScreening
+                    <Screening
                         key={index}
                         animeKey={value.name}
                         episodes={value.episodes}
-                    ></AnimeScreening>
+                    ></Screening>
                 );
             })}
         </div>

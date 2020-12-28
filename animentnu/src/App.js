@@ -1,27 +1,27 @@
 import { Route, Switch } from "react-router-dom";
-import About from "./pages/About";
-import Frontpage from "./pages/Frontpage";
-import News from "./pages/News";
-import Screenings from "./pages/Screenings";
-import Voting from "./pages/Voting";
+import PageAbout from "./pages/About";
+import PageFront from "./pages/Front";
+import PageNews from "./pages/News";
+import PageScreenings from "./pages/Screenings";
+import PageVoting from "./pages/Voting";
 
 function App() {
     return (
         <Switch>
             <Route path="/about">
-                <About />
+                <PageAbout />
             </Route>
             <Route path="/news">
-                <News />
+                <PageNews />
             </Route>
             <Route path="/screenings">
-                <Screenings />
+                <PageScreenings />
             </Route>
             <Route path="/voting">
-                <Voting />
+                <PageVoting />
             </Route>
             <Route exact path="/">
-                <Frontpage />
+                <PageFront />
             </Route>
         </Switch>
     );
