@@ -1,5 +1,3 @@
-import { dateExposeAttrs } from "../utils";
-
 function NewsItem(props) {
     const dateOptions = { month: "short", day: "numeric", year: "numeric" };
     const date = props.date.toLocaleDateString("en-US", dateOptions);
