@@ -49,12 +49,7 @@ function Screenings(props) {
                     </header>
 
                     <div id="screenings_container" className="page_container">
-                        <ScreeningsCollection
-                            episodesInfo={episodesInfo}
-                            startDate={new Date(2020, 7, 26)}
-                            dayIncr={7}
-                            onlyNext={false}
-                        />
+                        <ScreeningsCollection />
                     </div>
                     <footer className="page_title">
                         <hr />

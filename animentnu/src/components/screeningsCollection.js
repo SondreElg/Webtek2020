@@ -1,5 +1,6 @@
 import { animeDictionary } from "../scripts/anime";
 import ScreeningContainer from "./screeningContainer";
+import episodesInfo from "../episodesInfo";
 
 function ScreeningsCollection(props) {
     const { episodesInfo, startDate, dayIncr, onlyNext } = props;
@@ -68,5 +69,12 @@ function ScreeningsCollection(props) {
         );
     });
 }
+
+ScreeningsCollection.defaultProps = {
+    episodesInfo: episodesInfo,
+    startDate: new Date(2020, 7, 26),
+    dayIncr: 7,
+    onlyNext: false,
+};
 
 export default ScreeningsCollection;

@@ -65,12 +65,7 @@ function Frontpage() {
                         >
                             <h2>Next screening</h2>
                             <hr />
-                            <ScreeningsCollection
-                                episodesInfo={episodesInfo}
-                                startDate={new Date(2020, 7, 26)}
-                                dayIncr={7}
-                                onlyNext={true}
-                            />
+                            <ScreeningsCollection onlyNext={true} />
                         </header>
                     </section>
                 </div>
