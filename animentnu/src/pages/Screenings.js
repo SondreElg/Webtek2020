@@ -1,3 +1,4 @@
+import Footer from "../components/footer";
 import NavBar from "../components/navbar";
 import ScreeningContainer from "../components/screeningContainer";
 import ScreeningsCollection from "../components/screeningsCollection";
@@ -50,10 +51,7 @@ function Screenings(props) {
                     <div id="screenings_container" className="page_container">
                         <ScreeningsCollection />
                     </div>
-                    <footer className="page_title">
-                        <hr />
-                        <h2>That's all folks!</h2>
-                    </footer>
+                    <Footer />
                 </section>
             </div>
         </>

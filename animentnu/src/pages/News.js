@@ -1,3 +1,4 @@
+import Footer from "../components/footer";
 import NavBar from "../components/navbar";
 import NewsCollection from "../components/newsCollection";
 
@@ -17,10 +18,7 @@ function News() {
                         <NewsCollection />
                     </div>
 
-                    <footer className="page_title">
-                        <hr />
-                        <h2>That's all folks!</h2>
-                    </footer>
+                    <Footer />
                 </section>
             </div>
         </>
