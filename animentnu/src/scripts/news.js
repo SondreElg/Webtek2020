@@ -45,7 +45,7 @@ var newsList = [
             </>
         ),
         author: "sondrhel",
-        date: "Aug 26, 2020",
+        date: new Date(2020, 7, 26),
     },
     {
         content: (
@@ -68,7 +68,7 @@ var newsList = [
             </>
         ),
         author: "sondrhel",
-        date: "Aug 19, 2020",
+        date: new Date(2020, 7, 19),
     },
     {
         content: (
@@ -91,7 +91,7 @@ var newsList = [
             </>
         ),
         author: "berntjd",
-        date: "Jan 19, 2020",
+        date: new Date(2020, 0, 19),
     },
     {
         content: (
@@ -115,7 +115,7 @@ var newsList = [
             </>
         ),
         author: "berntjd",
-        date: "Jan 13, 2020",
+        date: new Date(2020, 0, 13),
     },
     {
         content: (
@@ -140,7 +140,7 @@ var newsList = [
             </>
         ),
         author: "berntjd",
-        date: "Aug 25, 2019",
+        date: new Date(2019, 7, 25),
     },
     {
         content: (
@@ -164,7 +164,7 @@ var newsList = [
             </>
         ),
         author: "berntjd",
-        date: "Aug 17, 2019",
+        date: new Date(2019, 7, 17),
     },
     {
         content: (
@@ -191,7 +191,7 @@ var newsList = [
             </>
         ),
         author: "berntjd",
-        date: "Jan 21, 2019",
+        date: new Date(2019, 0, 21),
     },
     {
         content: (
@@ -217,7 +217,7 @@ var newsList = [
             </>
         ),
         author: "berntjd",
-        date: "Jan  9, 2019",
+        date: new Date(2019, 0, 9),
     },
     {
         content: (
@@ -240,7 +240,7 @@ var newsList = [
             </>
         ),
         author: "berntjd",
-        date: "Aug 27, 2018",
+        date: new Date(2018, 7, 27),
     },
     {
         content: (
@@ -264,7 +264,7 @@ var newsList = [
             </>
         ),
         author: "berntjd",
-        date: "Aug 18, 2018",
+        date: new Date(2018, 7, 18),
     },
     {
         content: (
@@ -287,7 +287,7 @@ var newsList = [
             </>
         ),
         author: "CVi",
-        date: "Jan 11, 2018",
+        date: new Date(2018, 0, 11),
     },
     {
         content: (
@@ -302,7 +302,7 @@ var newsList = [
             </>
         ),
         author: "CVi",
-        date: "Aug 27, 2017",
+        date: new Date(2017, 7, 27),
     },
     {
         content: (
@@ -327,7 +327,7 @@ var newsList = [
             </>
         ),
         author: "CVi",
-        date: "Aug 23, 2017",
+        date: new Date(2017, 7, 23),
     },
     {
         content: (
@@ -341,7 +341,7 @@ var newsList = [
             </>
         ),
         author: "Kishin",
-        date: "Jan 31, 2017",
+        date: new Date(2017, 0, 31),
     },
     {
         content: (
@@ -355,7 +355,7 @@ var newsList = [
             </>
         ),
         author: "Kishin",
-        date: "Jan 31, 2017",
+        date: new Date(2017, 0, 31),
     },
     {
         content: (
@@ -376,7 +376,7 @@ var newsList = [
             </>
         ),
         author: "Kishin",
-        date: "Jan 12, 2017",
+        date: new Date(2017, 0, 12),
     },
     {
         content: (
@@ -400,7 +400,7 @@ var newsList = [
             </>
         ),
         author: "Kishin",
-        date: "Aug 23, 2016",
+        date: new Date(2016, 7, 23),
     },
     {
         content: (
@@ -419,7 +419,7 @@ var newsList = [
             </>
         ),
         author: "Kishin",
-        date: "Jan 15, 2016",
+        date: new Date(2016, 0, 15),
     },
     {
         content: (
@@ -445,7 +445,7 @@ var newsList = [
             </>
         ),
         author: "Kishin",
-        date: "Aug 10, 2015",
+        date: new Date(2015, 7, 10),
     },
     {
         content: (
@@ -473,7 +473,7 @@ var newsList = [
             </>
         ),
         author: "Kishin",
-        date: "Jan 15, 2015",
+        date: new Date(2015, 0, 15),
     },
     {
         content: (
@@ -490,7 +490,7 @@ var newsList = [
             </>
         ),
         author: "Kishin",
-        date: "Jan 11, 2015",
+        date: new Date(2015, 0, 11),
     },
     {
         content: (
@@ -506,7 +506,7 @@ var newsList = [
             </>
         ),
         author: "Kishin",
-        date: "Nov  6, 2014",
+        date: new Date(2014, 10, 6),
     },
     {
         content: (
@@ -520,7 +520,7 @@ var newsList = [
             </>
         ),
         author: "Kishin",
-        date: "Oct 20, 2014",
+        date: new Date(2014, 9, 20),
     },
     {
         content: (
@@ -534,7 +534,7 @@ var newsList = [
             </>
         ),
         author: "Kishin",
-        date: "Sep  1, 2014",
+        date: new Date(2014, 8, 1),
     },
     {
         content: (
@@ -556,7 +556,7 @@ var newsList = [
             </>
         ),
         author: "Kishin",
-        date: "Aug 19, 2014",
+        date: new Date(2014, 7, 19),
     },
     {
         content: (
@@ -571,7 +571,7 @@ var newsList = [
             </>
         ),
         author: "Kishin",
-        date: "Mar 11, 2014",
+        date: new Date(2014, 2, 11),
     },
     {
         content: (
@@ -597,7 +597,7 @@ var newsList = [
             </>
         ),
         author: "Kishin",
-        date: "Jan 16, 2014",
+        date: new Date(2014, 0, 16),
     },
     {
         content: (
@@ -607,7 +607,7 @@ var newsList = [
             </>
         ),
         author: "Kishin",
-        date: "Jan 11, 2014",
+        date: new Date(2014, 0, 11),
     },
     {
         content: (
@@ -629,7 +629,7 @@ var newsList = [
             </>
         ),
         author: "Kishin",
-        date: "Jan 10, 2014",
+        date: new Date(2014, 0, 10),
     },
     {
         content: (
@@ -641,7 +641,7 @@ var newsList = [
             </>
         ),
         author: "Kishin",
-        date: "Nov 26, 2013",
+        date: new Date(2013, 10, 26),
     },
     {
         content: (
@@ -664,7 +664,7 @@ var newsList = [
             </>
         ),
         author: "Kishin",
-        date: "Aug 25, 2013",
+        date: new Date(2013, 7, 25),
     },
     {
         content: (
@@ -681,7 +681,7 @@ var newsList = [
             </>
         ),
         author: "Kishin",
-        date: "Aug 17, 2013",
+        date: new Date(2013, 7, 17),
     },
     {
         content: (
@@ -705,7 +705,7 @@ var newsList = [
             </>
         ),
         author: "Kishin",
-        date: "Apr 30, 2013",
+        date: new Date(2013, 3, 30),
     },
     {
         content: (
@@ -723,7 +723,7 @@ var newsList = [
             </>
         ),
         author: "Kishin",
-        date: "Apr  1, 2013",
+        date: new Date(2013, 3, 1),
     },
     {
         content: (
@@ -739,7 +739,7 @@ var newsList = [
             </>
         ),
         author: "danner",
-        date: "Jan 23, 2013",
+        date: new Date(2013, 0, 23),
     },
     {
         content: (
@@ -758,7 +758,7 @@ var newsList = [
             </>
         ),
         author: "Kishin",
-        date: "Jan  9, 2013",
+        date: new Date(2013, 0, 9),
     },
     {
         content: (
@@ -772,7 +772,7 @@ var newsList = [
             </>
         ),
         author: "Kishin",
-        date: "Nov 21, 2012",
+        date: new Date(2012, 10, 21),
     },
     {
         content: (
@@ -789,7 +789,7 @@ var newsList = [
             </>
         ),
         author: "Kishin",
-        date: "Aug 21, 2012",
+        date: new Date(2012, 7, 21),
     },
     {
         content: (
@@ -802,7 +802,7 @@ var newsList = [
             </>
         ),
         author: "Kishin",
-        date: "Aug 20, 2012",
+        date: new Date(2012, 7, 20),
     },
     {
         content: (
@@ -819,7 +819,7 @@ var newsList = [
             </>
         ),
         author: "danner",
-        date: "Apr 10, 2012",
+        date: new Date(2012, 3, 10),
     },
     {
         content: (
@@ -838,7 +838,7 @@ var newsList = [
             </>
         ),
         author: "Kishin",
-        date: "Jan 25, 2012",
+        date: new Date(2012, 0, 25),
     },
     {
         content: (
@@ -852,7 +852,7 @@ var newsList = [
             </>
         ),
         author: "Kishin",
-        date: "Jan 15, 2012",
+        date: new Date(2012, 0, 15),
     },
     {
         content: (
@@ -865,7 +865,7 @@ var newsList = [
             </>
         ),
         author: "Kishin",
-        date: "Dec 22, 2011",
+        date: new Date(2011, 11, 22),
     },
     {
         content: (
@@ -896,7 +896,7 @@ var newsList = [
             </>
         ),
         author: "inebeate",
-        date: "Aug 19, 2011",
+        date: new Date(2011, 7, 19),
     },
     {
         content: (
@@ -910,7 +910,7 @@ var newsList = [
             </>
         ),
         author: "inebeate",
-        date: "Apr 18, 2011",
+        date: new Date(2011, 3, 18),
     },
     {
         content: (
@@ -929,7 +929,7 @@ var newsList = [
             </>
         ),
         author: "inebeate",
-        date: "Jan 12, 2011",
+        date: new Date(2011, 0, 12),
     },
     {
         content: (
@@ -960,7 +960,7 @@ var newsList = [
             </>
         ),
         author: "danner",
-        date: "Aug 16, 2010",
+        date: new Date(2010, 7, 16),
     },
     {
         content: (
@@ -981,7 +981,7 @@ var newsList = [
             </>
         ),
         author: "danner",
-        date: "Jan 20, 2010",
+        date: new Date(2010, 0, 20),
     },
     {
         content: (
@@ -991,7 +991,7 @@ var newsList = [
             </>
         ),
         author: "oysteini",
-        date: "Jan 13, 2010",
+        date: new Date(2010, 0, 13),
     },
     {
         content: (
@@ -1006,7 +1006,7 @@ var newsList = [
             </>
         ),
         author: "danner",
-        date: "Nov 19, 2009",
+        date: new Date(2009, 10, 19),
     },
     {
         content: (
@@ -1028,7 +1028,7 @@ var newsList = [
             </>
         ),
         author: "danner",
-        date: "Aug 23, 2009",
+        date: new Date(2009, 7, 23),
     },
     {
         content: (
@@ -1041,7 +1041,7 @@ var newsList = [
             </>
         ),
         author: "oysteini",
-        date: "Aug 18, 2009",
+        date: new Date(2009, 7, 18),
     },
     {
         content: (
@@ -1051,7 +1051,7 @@ var newsList = [
             </>
         ),
         author: "danner",
-        date: "Apr 15, 2009",
+        date: new Date(2009, 3, 15),
     },
     {
         content: (
@@ -1061,7 +1061,7 @@ var newsList = [
             </>
         ),
         author: "gunnarre",
-        date: "Mar  4, 2009",
+        date: new Date(2009, 2, 4),
     },
     {
         content: (
@@ -1088,7 +1088,7 @@ var newsList = [
             </>
         ),
         author: "danner",
-        date: "Jan 28, 2009",
+        date: new Date(2009, 0, 28),
     },
     {
         content: (
@@ -1110,7 +1110,7 @@ var newsList = [
             </>
         ),
         author: "danner",
-        date: "Jan 20, 2009",
+        date: new Date(2009, 0, 20),
     },
     {
         content: (
@@ -1126,7 +1126,7 @@ var newsList = [
             </>
         ),
         author: "danner",
-        date: "Nov 20, 2008",
+        date: new Date(2008, 10, 20),
     },
     {
         content: (
@@ -1140,7 +1140,7 @@ var newsList = [
             </>
         ),
         author: "gunnarre",
-        date: "Oct  9, 2008",
+        date: new Date(2008, 9, 9),
     },
     {
         content: (
@@ -1173,7 +1173,7 @@ var newsList = [
             </>
         ),
         author: "gunnarre",
-        date: "Aug 19, 2008",
+        date: new Date(2008, 7, 19),
     },
     {
         content: (
@@ -1188,7 +1188,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Aug  4, 2008",
+        date: new Date(2008, 7, 4),
     },
     {
         content: (
@@ -1219,7 +1219,7 @@ var newsList = [
             </>
         ),
         author: "danner",
-        date: "Jan 14, 2008",
+        date: new Date(2008, 0, 14),
     },
     {
         content: (
@@ -1234,7 +1234,7 @@ var newsList = [
             </>
         ),
         author: "danner",
-        date: "Jan  8, 2008",
+        date: new Date(2008, 0, 8),
     },
     {
         content: (
@@ -1248,7 +1248,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Dec 10, 2007",
+        date: new Date(2007, 11, 10),
     },
     {
         content: (
@@ -1277,7 +1277,7 @@ var newsList = [
             </>
         ),
         author: "danner",
-        date: "Dec  9, 2007",
+        date: new Date(2007, 11, 9),
     },
     {
         content: (
@@ -1302,7 +1302,7 @@ var newsList = [
             </>
         ),
         author: "danner",
-        date: "Aug 17, 2007",
+        date: new Date(2007, 7, 17),
     },
     {
         content: (
@@ -1510,7 +1510,7 @@ var newsList = [
             </>
         ),
         author: "gunnarre",
-        date: "Jun 14, 2007",
+        date: new Date(2007, 5, 14),
     },
     {
         content: (
@@ -1521,7 +1521,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "May  8, 2007",
+        date: new Date(2007, 4, 8),
     },
     {
         content: (
@@ -1553,7 +1553,7 @@ var newsList = [
             </>
         ),
         author: "gunnarre",
-        date: "Jan 14, 2007",
+        date: new Date(2007, 0, 14),
     },
     {
         content: (
@@ -1572,7 +1572,7 @@ var newsList = [
             </>
         ),
         author: "gunnarre",
-        date: "Nov 23, 2006",
+        date: new Date(2006, 10, 23),
     },
     {
         content: (
@@ -1598,7 +1598,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Oct 15, 2006",
+        date: new Date(2006, 9, 15),
     },
     {
         content: (
@@ -1618,7 +1618,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Oct 15, 2006",
+        date: new Date(2006, 9, 15),
     },
     {
         content: (
@@ -1632,7 +1632,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Sep 27, 2006",
+        date: new Date(2006, 8, 27),
     },
     {
         content: (
@@ -1654,7 +1654,7 @@ var newsList = [
             </>
         ),
         author: "gunnarre",
-        date: "Aug 21, 2006",
+        date: new Date(2006, 7, 21),
     },
     {
         content: (
@@ -1692,7 +1692,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "May 14, 2006",
+        date: new Date(2006, 4, 14),
     },
     {
         content: (
@@ -1716,7 +1716,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Apr 27, 2006",
+        date: new Date(2006, 3, 27),
     },
     {
         content: (
@@ -1742,7 +1742,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Apr  8, 2006",
+        date: new Date(2006, 3, 8),
     },
     {
         content: (
@@ -1752,7 +1752,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Jan  9, 2006",
+        date: new Date(2006, 0, 9),
     },
     {
         content: (
@@ -1774,7 +1774,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Nov 25, 2005",
+        date: new Date(2005, 10, 25),
     },
     {
         content: (
@@ -1787,7 +1787,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Nov 11, 2005",
+        date: new Date(2005, 10, 11),
     },
     {
         content: (
@@ -1804,7 +1804,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Nov 11, 2005",
+        date: new Date(2005, 10, 11),
     },
     {
         content: (
@@ -1814,7 +1814,7 @@ var newsList = [
             </>
         ),
         author: "metellius",
-        date: "Oct 28, 2005",
+        date: new Date(2005, 9, 28),
     },
     {
         content: (
@@ -1831,7 +1831,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Oct  7, 2005",
+        date: new Date(2005, 9, 7),
     },
     {
         content: (
@@ -1841,7 +1841,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Sep 20, 2005",
+        date: new Date(2005, 8, 20),
     },
     {
         content: (
@@ -1856,7 +1856,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Aug 31, 2005",
+        date: new Date(2005, 7, 31),
     },
     {
         content: (
@@ -1872,7 +1872,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "May  8, 2005",
+        date: new Date(2005, 4, 8),
     },
     {
         content: (
@@ -1892,7 +1892,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Apr  8, 2005",
+        date: new Date(2005, 3, 8),
     },
     {
         content: (
@@ -1910,7 +1910,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Apr  6, 2005",
+        date: new Date(2005, 3, 6),
     },
     {
         content: (
@@ -1929,7 +1929,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Apr  5, 2005",
+        date: new Date(2005, 3, 5),
     },
     {
         content: (
@@ -1943,7 +1943,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Mar 31, 2005",
+        date: new Date(2005, 2, 31),
     },
     {
         content: (
@@ -1957,7 +1957,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Mar 31, 2005",
+        date: new Date(2005, 2, 31),
     },
     {
         content: (
@@ -1967,7 +1967,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Mar 31, 2005",
+        date: new Date(2005, 2, 31),
     },
     {
         content: (
@@ -1992,7 +1992,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Mar 30, 2005",
+        date: new Date(2005, 2, 30),
     },
     {
         content: (
@@ -2019,7 +2019,7 @@ var newsList = [
             </>
         ),
         author: "danner",
-        date: "Jan 20, 2005",
+        date: new Date(2005, 0, 20),
     },
     {
         content: (
@@ -2047,7 +2047,7 @@ var newsList = [
             </>
         ),
         author: "lance",
-        date: "Jan 13, 2005",
+        date: new Date(2005, 0, 13),
     },
     {
         content: (
@@ -2067,7 +2067,7 @@ var newsList = [
             </>
         ),
         author: "danner",
-        date: "Nov 24, 2004",
+        date: new Date(2004, 10, 24),
     },
     {
         content: (
@@ -2094,7 +2094,7 @@ var newsList = [
             </>
         ),
         author: "danner",
-        date: "Nov 18, 2004",
+        date: new Date(2004, 10, 18),
     },
     {
         content: (
@@ -2109,7 +2109,7 @@ var newsList = [
             </>
         ),
         author: "danner",
-        date: "Oct  6, 2004",
+        date: new Date(2004, 9, 6),
     },
     {
         content: (
@@ -2131,7 +2131,7 @@ var newsList = [
             </>
         ),
         author: "lance",
-        date: "Sep 30, 2004",
+        date: new Date(2004, 8, 30),
     },
     {
         content: (
@@ -2150,7 +2150,7 @@ var newsList = [
             </>
         ),
         author: "lance",
-        date: "Sep 30, 2004",
+        date: new Date(2004, 8, 30),
     },
     {
         content: (
@@ -2169,7 +2169,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Sep 29, 2004",
+        date: new Date(2004, 8, 29),
     },
     {
         content: (
@@ -2183,7 +2183,7 @@ var newsList = [
             </>
         ),
         author: "lance",
-        date: "Sep 24, 2004",
+        date: new Date(2004, 8, 24),
     },
     {
         content: (
@@ -2208,7 +2208,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Aug 30, 2004",
+        date: new Date(2004, 7, 30),
     },
     {
         content: (
@@ -2222,7 +2222,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Aug 23, 2004",
+        date: new Date(2004, 7, 23),
     },
     {
         content: (
@@ -2237,7 +2237,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Aug 17, 2004",
+        date: new Date(2004, 7, 17),
     },
 
     {
@@ -2278,7 +2278,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Jul 17, 2004",
+        date: new Date(2004, 6, 17),
     },
     {
         content: (
@@ -2292,7 +2292,7 @@ var newsList = [
             </>
         ),
         author: "danner",
-        date: "May  2, 2004",
+        date: new Date(2004, 4, 2),
     },
     {
         content: (
@@ -2314,7 +2314,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Apr  2, 2004",
+        date: new Date(2004, 3, 2),
     },
     {
         content: (
@@ -2342,7 +2342,7 @@ var newsList = [
             </>
         ),
         author: "danner",
-        date: "Feb 23, 2004",
+        date: new Date(2004, 1, 23),
     },
     {
         content: (
@@ -2354,7 +2354,7 @@ var newsList = [
             </>
         ),
         author: "danner",
-        date: "Feb  8, 2004",
+        date: new Date(2004, 1, 8),
     },
     {
         content: (
@@ -2367,7 +2367,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Jan 19, 2004",
+        date: new Date(2004, 0, 19),
     },
     {
         content: (
@@ -2386,7 +2386,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Jan 19, 2004",
+        date: new Date(2004, 0, 19),
     },
     {
         content: (
@@ -2400,7 +2400,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Jan 19, 2004",
+        date: new Date(2004, 0, 19),
     },
     {
         content: (
@@ -2410,7 +2410,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Jan 19, 2004",
+        date: new Date(2004, 0, 19),
     },
     {
         content: (
@@ -2423,7 +2423,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Jan 19, 2004",
+        date: new Date(2004, 0, 19),
     },
     {
         content: (
@@ -2476,7 +2476,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Jan 17, 2004",
+        date: new Date(2004, 0, 17),
     },
     {
         content: (
@@ -2505,7 +2505,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Jan 13, 2004",
+        date: new Date(2004, 0, 13),
     },
     {
         content: (
@@ -2525,7 +2525,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Nov 24, 2003",
+        date: new Date(2003, 10, 24),
     },
     {
         content: (
@@ -2568,7 +2568,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Nov 11, 2003",
+        date: new Date(2003, 10, 11),
     },
     {
         content: (
@@ -2584,7 +2584,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Oct 11, 2003",
+        date: new Date(2003, 9, 11),
     },
     {
         content: (
@@ -2608,7 +2608,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Aug 29, 2003",
+        date: new Date(2003, 7, 29),
     },
     {
         content: (
@@ -2627,7 +2627,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Aug 25, 2003",
+        date: new Date(2003, 7, 25),
     },
     {
         content: (
@@ -2668,7 +2668,7 @@ var newsList = [
             </>
         ),
         author: "danner",
-        date: "Aug 22, 2003",
+        date: new Date(2003, 7, 22),
     },
     {
         content: (
@@ -2685,7 +2685,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Aug 15, 2003",
+        date: new Date(2003, 7, 15),
     },
     {
         content: (
@@ -2699,7 +2699,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "May 10, 2003",
+        date: new Date(2003, 4, 10),
     },
     {
         content: (
@@ -2716,7 +2716,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "May  8, 2003",
+        date: new Date(2003, 4, 8),
     },
     {
         content: (
@@ -2730,7 +2730,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "May  2, 2003",
+        date: new Date(2003, 4, 2),
     },
     {
         content: (
@@ -2745,7 +2745,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Apr 21, 2003",
+        date: new Date(2003, 3, 21),
     },
     {
         content: (
@@ -2769,7 +2769,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Apr 10, 2003",
+        date: new Date(2003, 3, 10),
     },
     {
         content: (
@@ -2786,7 +2786,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Apr  5, 2003",
+        date: new Date(2003, 3, 5),
     },
     {
         content: (
@@ -2822,7 +2822,7 @@ var newsList = [
             </>
         ),
         author: "danner",
-        date: "Apr  3, 2003",
+        date: new Date(2003, 3, 3),
     },
     {
         content: (
@@ -2844,7 +2844,7 @@ var newsList = [
             </>
         ),
         author: "danner",
-        date: "Mar 28, 2003",
+        date: new Date(2003, 2, 28),
     },
     {
         content: (
@@ -2858,7 +2858,7 @@ var newsList = [
             </>
         ),
         author: "danner",
-        date: "Mar 27, 2003",
+        date: new Date(2003, 2, 27),
     },
     {
         content: (
@@ -2872,7 +2872,7 @@ var newsList = [
             </>
         ),
         author: "danner",
-        date: "Mar 20, 2003",
+        date: new Date(2003, 2, 20),
     },
     {
         content: (
@@ -2896,7 +2896,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Mar 12, 2003",
+        date: new Date(2003, 2, 12),
     },
     {
         content: (
@@ -2912,7 +2912,7 @@ var newsList = [
             </>
         ),
         author: "danner",
-        date: "Mar 10, 2003",
+        date: new Date(2003, 2, 10),
     },
     {
         content: (
@@ -2954,7 +2954,7 @@ var newsList = [
             </>
         ),
         author: "dashiva",
-        date: "Mar  5, 2003",
+        date: new Date(2003, 2, 5),
     },
     {
         content: (
@@ -2976,7 +2976,7 @@ var newsList = [
             </>
         ),
         author: "alfborge",
-        date: "Mar  3, 2003",
+        date: new Date(2003, 2, 3),
     },
 ];
 

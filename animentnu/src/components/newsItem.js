@@ -3,7 +3,7 @@ function NewsItem(props) {
         <div class="info_content">
             {props.children}
             <span class="author">
-                -{props.authos}, {props.date.toDateString()}
+                -{props.author}, {props.date.toDateString()}
             </span>
         </div>
     );
