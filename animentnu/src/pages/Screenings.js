@@ -1,7 +1,6 @@
 import NavBar from "../components/navbar";
 import ScreeningContainer from "../components/screeningContainer";
 import ScreeningsCollection from "../components/screeningsCollection";
-import episodesInfo from "../episodesInfo";
 
 function Screenings(props) {
     const animeListSemester = [

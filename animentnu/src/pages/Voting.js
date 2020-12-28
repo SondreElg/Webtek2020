@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import NavBar from "../components/navbar";
 
 function Voting() {
@@ -57,9 +58,7 @@ function Voting() {
                 </section>
             </div>
 
-            {/*<script src="scripts/navbar.js"></script>
             <script src="scripts/voting.js"></script>
-    <script src="scripts/becomeMember.js"></script>*/}
         </>
     );
 }

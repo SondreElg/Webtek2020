@@ -23,14 +23,6 @@ function News() {
                     </footer>
                 </section>
             </div>
-
-            {/*<script src="scripts/navbar.js"></script>
-    <script src="scripts/becomeMember.js"></script>
-    <script src="scripts/news.js"></script>
-    <script src="scripts/showNews.js"></script>
-    <script>
-        displayFirstTwentyNews();
-</script>*/}
         </>
     );
 }
