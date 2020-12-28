@@ -1,9 +1,14 @@
+import { dateExposeAttrs } from "../utils";
+
 function NewsItem(props) {
+    const dateOptions = { month: "short", day: "numeric", year: "numeric" };
+    const date = props.date.toLocaleDateString("en-US", dateOptions);
+
     return (
         <div className="info_content">
             {props.children}
             <span className="author">
-                -{props.author}, {props.date.toDateString()}
+                -{props.author}, {date}
             </span>
         </div>
     );
