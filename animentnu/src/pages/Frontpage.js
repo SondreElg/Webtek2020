@@ -1,13 +1,8 @@
-import { useEffect } from "react";
 import NavBar from "../components/navbar";
+import NewsCollection from "../components/newsCollection";
 import ScreeningsCollection from "../components/screeningsCollection";
-import { displayLatestNews } from "../scripts/showNews";
 
 function Frontpage() {
-    useEffect(() => {
-        displayLatestNews();
-    }, []);
-
     return (
         <>
             <NavBar />
@@ -50,8 +45,7 @@ function Frontpage() {
                             <h2>Latest news</h2>
                             <hr />
                         </header>
-                        {/* This section will be filled with content by
-                 the function 'generateNextScreening' */}
+                        <NewsCollection firstN={1} />
                     </section>
                 </div>
 
@@ -63,8 +57,8 @@ function Frontpage() {
                         >
                             <h2>Next screening</h2>
                             <hr />
-                            <ScreeningsCollection onlyNext={true} />
                         </header>
+                        <ScreeningsCollection onlyNext={true} />
                     </section>
                 </div>
             </div>
