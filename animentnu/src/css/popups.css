@@ -1,0 +1,124 @@
+.popupBackground {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+}
+
+.popupHeader {
+    background-color: #353535;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+}
+
+.popupHeader h3 {
+    margin: 0;
+}
+
+.popupContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popupBody {
+    background-color: #0b1622;
+    padding: 60px 30px;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    align-items: center;
+    min-width: 400px;
+}
+
+/* Styles for the signup popup */
+#signupForm {
+    width: 100%;
+}
+
+#signupName {
+    background-image: url("../images/user-solid.svg");
+}
+
+#signupEmail {
+    background-image: url("../images/envelope-solid.svg");
+}
+
+#signupForm input:not([type="submit"]) {
+    border: none;
+    background-repeat: no-repeat;
+    background-size: auto 30px;
+    background-position: 5px center;
+}
+
+#signupForm input:not([type="submit"]):focus {
+    outline: 2px solid #40aa40;
+}
+
+.inputContainer {
+    position: relative;
+    margin: 70px 0;
+    text-align: center;
+}
+
+.inputBox {
+    box-sizing: border-box;
+    height: 44px;
+    padding: 10px;
+    width: 85%;
+    outline: none;
+    text-align: center;
+}
+
+#signupSuccessful {
+    display: none;
+    padding: 10px 0;
+    margin: auto;
+}
+
+#signupSuccessful .successText {
+    color: #1c9b1c;
+}
+
+/* Styles for the synopsis popup */
+#popupThumbnail {
+    height: 250px;
+    float: left;
+    margin-right: 20px;
+}
+
+#popupDescription {
+    max-height: 400px;
+    overflow: auto;
+    font-size: 18px;
+    margin: 0;
+}
+
+#popupX {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #b0b0b0;
+    color: black;
+    font-weight: bold;
+    border-radius: 40px;
+    text-align: center;
+    right: -20px;
+    top: -20px;
+}
+
+#popupX span {
+    position: relative;
+    top: 3px;
+    vertical-align: middle;
+}
+
+#popupX:hover {
+    background-color: #d0d0d0;
+    cursor: pointer;
+}

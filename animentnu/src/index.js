@@ -3,6 +3,12 @@ import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 import "./css/master.css";
+import "./css/navbar.css";
+import "./css/popups.css";
+import "./css/frontpage.css";
+import "./css/screenings.css";
+import "./css/news.css";
+import "./css/voting.css";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(

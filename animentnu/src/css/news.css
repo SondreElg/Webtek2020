@@ -1,0 +1,7 @@
+/* Styling for newsfeed */
+.author {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    font-style: italic;
+}
