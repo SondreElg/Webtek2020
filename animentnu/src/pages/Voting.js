@@ -1,6 +1,48 @@
+import {
+    SortableContainer,
+    SortableElement,
+    SortableHandle,
+} from "react-sortable-hoc";
+import arrayMove from "array-move";
 import NavBar from "../components/navbar";
+import DragHandleIcon from "@material-ui/icons/DragHandle";
+import { useState } from "react";
+
+const DragHandle = SortableHandle(() => <DragHandleIcon />);
+const VotingContainer = SortableContainer(({ children }) => {
+    return <ol className="voting_container">{children}</ol>;
+});
+const VotingElement = SortableElement(({ value }) => {
+    return (
+        <li className="voting_item">
+            {value}
+            <div class="voting_drag_indicator">
+                <DragHandle />
+            </div>
+        </li>
+    );
+});
 
 function PageVoting() {
+    const [anime, setAnimeOrder] = useState([
+        "Minami-ke (2007)",
+        "Natsume's Book of Friends (2008)",
+        "Sayonara Zetsubou Sensei (2008)",
+        "Kyouso Giga (2013)",
+        "Rokka no Yuusha (2015)",
+        "ERASED: Boku dake ga Inai Machi (2016)",
+        "Konosuba (2016)",
+        "Barakamon (2014)",
+        "Overlord (2015)",
+        "The Devil is a Part Timer (2013)",
+        "Kino no Tabi: The Beautiful World (2003)",
+        "Terror in Resonance (2014)",
+    ]);
+
+    const onSortEnd = ({ oldIndex, newIndex }) => {
+        setAnimeOrder(arrayMove(anime, oldIndex, newIndex));
+    };
+
     return (
         <>
             <NavBar />
@@ -29,24 +71,25 @@ function PageVoting() {
                         </p>
                     </div>
 
-                    <div class="voting_wrapper">
-                        <ul class="voting_container">
-                            <li>Minami-ke (2007)</li>
-                            <li>Natsume’s Book of Friends (2008)</li>
-                            <li>Sayonara Zetsubou Sensei (2008)</li>
-                            <li>Kyouso Giga (2013)</li>
-                            <li>Rokka no Yuusha (2015)</li>
-                            <li>ERASED: Boku dake ga Inai Machi (2016)</li>
-                            <li>Konosuba (2016)</li>
-                            <li>Barakamon (2014)</li>
-                            <li>Overlord (2015)</li>
-                            <li>The Devil is a Part Timer (2013)</li>
-                            <li>Kino no Tabi: The Beautiful World (2003)</li>
-                            <li>Terror in Resonance (2014)</li>
-                        </ul>
-                        <div class="button_container">
+                    <div className="voting_wrapper">
+                        <VotingContainer
+                            onSortEnd={onSortEnd}
+                            helperClass={"voting_item_dragged"}
+                        >
+                            {anime.map((value, index) => {
+                                return (
+                                    <VotingElement
+                                        key={index}
+                                        index={index}
+                                        value={value}
+                                    />
+                                );
+                            })}
+                        </VotingContainer>
+
+                        <div className="button_container">
                             <button
-                                class="button"
+                                className="button"
                                 type="button"
                                 onClick="clicked_button()"
                             >
@@ -56,8 +99,6 @@ function PageVoting() {
                     </div>
                 </section>
             </div>
-
-            <script src="scripts/voting.js"></script>
         </>
     );
 }
