@@ -54,7 +54,8 @@ var newsList = [
                     Please fill out
                     <a
                         href="https://forms.gle/EPamhaSdTsxk5UKKA"
-                        target="blank"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         this form
                     </a>
@@ -77,7 +78,8 @@ var newsList = [
                     The poll for new series is up, and available at{" "}
                     <a
                         href="https://forms.gle/m8gQFJP8E2ATWr2e7"
-                        target="blank"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         https://forms.gle/m8gQFJP8E2ATWr2e7
                     </a>
@@ -101,7 +103,8 @@ var newsList = [
                     The poll for new series is up, and available at{" "}
                     <a
                         href="https://forms.gle/m8gQFJP8E2ATWr2e7"
-                        target="blank"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         https://forms.gle/m8gQFJP8E2ATWr2e7
                     </a>
@@ -203,7 +206,8 @@ var newsList = [
                     for now), and available at{" "}
                     <a
                         href="https://goo.gl/forms/fOpWCTHIN78sNaPf1"
-                        target="blank"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         https://goo.gl/forms/fOpWCTHIN78sNaPf1
                     </a>
@@ -248,7 +252,8 @@ var newsList = [
                     for now), at{" "}
                     <a
                         href="https://goo.gl/forms/7Dy6ZnSYQF5xOTM23"
-                        target="blank"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         https://goo.gl/forms/7Dy6ZnSYQF5xOTM23
                     </a>
@@ -311,7 +316,8 @@ var newsList = [
                     poll can be accessed here:{" "}
                     <a
                         href="https://goo.gl/forms/BeWXB4WzXYieOKrq2"
-                        target="blank"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         https://goo.gl/forms/BeWXB4WzXYieOKrq2
                     </a>
@@ -1462,7 +1468,8 @@ var newsList = [
                                         pollcode.com{" "}
                                         <a
                                             href="http://pollcode.com/"
-                                            target="blank"
+                                            target="_blank"
+                                            rel="noreferrer"
                                         >
                                             <font color="navy">free polls</font>
                                         </a>
