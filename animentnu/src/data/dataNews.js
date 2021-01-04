@@ -42,14 +42,14 @@ var dataNews = [
                     semester.
                 </p>
                 <p>
-                    Please fill out
+                    Please fill out{" "}
                     <a
                         href="https://forms.gle/EPamhaSdTsxk5UKKA"
                         target="_blank"
                         rel="noreferrer"
                     >
                         this form
-                    </a>
+                    </a>{" "}
                     by the end of the week to make your votes count
                 </p>
             </>
@@ -164,11 +164,11 @@ var dataNews = [
                     following series:
                 </p>
                 <ul>
-                    <li>- Mushishi</li>
-                    <li>- Black Lagoon</li>
-                    <li>- Gakkougurashi!</li>
+                    <li>Mushishi</li>
+                    <li>Black Lagoon</li>
+                    <li>Gakkougurashi!</li>
                     <li>
-                        - When Supernatural Battles Became Commonplace (replaces
+                        When Supernatural Battles Became Commonplace (replaces
                         Gakkougurashi after mid-point)
                     </li>
                 </ul>
