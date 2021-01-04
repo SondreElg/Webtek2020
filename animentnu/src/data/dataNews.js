@@ -2,7 +2,7 @@
  * List of all news on the page
  * The list is sorted from newest to oldest
  */
-var newsList = [
+var dataNews = [
     {
         content: (
             <>
@@ -2918,4 +2918,4 @@ var newsList = [
     },
 ];
 
-export default newsList;
+export default dataNews;

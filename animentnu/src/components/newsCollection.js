@@ -1,6 +1,6 @@
 import { useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
-import newsList from "../newsInfo";
+import dataNews from "../data/dataNews";
 import NewsItem from "./newsItem";
 
 function NewsCollection(props) {
@@ -36,7 +36,7 @@ function NewsCollection(props) {
 }
 
 NewsCollection.defaultProps = {
-    newsItems: newsList,
+    newsItems: dataNews,
     firstN: -1,
     itemCountIncrease: 20,
 };

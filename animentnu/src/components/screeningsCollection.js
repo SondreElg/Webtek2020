@@ -1,6 +1,6 @@
-import animeInfo from "../animeInfo";
+import dataAnime from "../data/dataAnime";
 import ScreeningContainer from "./screeningContainer";
-import episodesInfo from "../episodesInfo";
+import dataEpisodes from "../data/dataEpisodes";
 
 function ScreeningsCollection(props) {
     const { episodesInfo, startDate, dayIncr, onlyNext } = props;
@@ -23,7 +23,7 @@ function ScreeningsCollection(props) {
         let animeThisScreening = [];
         Object.keys(episodesInfo).forEach((key) => {
             const episodesPerScreening = episodesInfo[key].incr;
-            const totalEpisodes = animeInfo[key].episodes;
+            const totalEpisodes = dataAnime[key].episodes;
             const startEpisode =
                 episodesInfo[key].start + episodesPerScreening * counter;
 
@@ -71,7 +71,7 @@ function ScreeningsCollection(props) {
 }
 
 ScreeningsCollection.defaultProps = {
-    episodesInfo: episodesInfo,
+    episodesInfo: dataEpisodes,
     startDate: new Date(2020, 7, 26),
     dayIncr: 7,
     onlyNext: false,

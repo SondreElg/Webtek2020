@@ -1,15 +1,15 @@
-import imgHataraku from "./images/hataraku.png";
-import imgMinami from "./images/minami.png";
-import imgRokka from "./images/rokka.png";
-import imgShirobako from "./images/shirobako.png";
-import imgTokikake from "./images/tokikake.png";
-import imgZetsubou from "./images/zetsubou.png";
+import imgHataraku from "../images/hataraku.png";
+import imgMinami from "../images/minami.png";
+import imgRokka from "../images/rokka.png";
+import imgShirobako from "../images/shirobako.png";
+import imgTokikake from "../images/tokikake.png";
+import imgZetsubou from "../images/zetsubou.png";
 
 /**
  * Dictionary containing information about each anime for this semester
  * Key is a nickname for the anime and points to a list of information
  */
-const animeInfo = {
+const dataAnime = {
     Rokka: {
         title: "Rokka -Braves of the Six Flowers-",
         synopsis: (
@@ -201,4 +201,4 @@ const animeInfo = {
     },
 };
 
-export default animeInfo;
+export default dataAnime;
