@@ -1,15 +1,6 @@
-const newsContent = 0;
-const newsAuthor = 1;
-const newsDate = 2;
-
 /**
  * List of all news on the page
  * The list is sorted from newest to oldest
- * Each entry is a dictionary in the following format
- *
- * 0 = The body of the news post
- * 1 = The author of the news post
- * 2 = The date of the news post
  */
 var newsList = [
     {
@@ -2928,4 +2919,3 @@ var newsList = [
 ];
 
 export default newsList;
-export { newsAuthor, newsContent, newsDate };
