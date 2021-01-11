@@ -1,0 +1,40 @@
+/* Styles for screenings */
+#screenings_container,
+#semester_container {
+    min-width: 400px;
+}
+
+.screening_container {
+    max-width: 800px;
+    padding-bottom: 10px;
+    margin: auto;
+    font-size: x-large;
+}
+
+.anime_screening {
+    height: 120px;
+    background-color: #1f293c;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.anime_screening:hover {
+    background-color: #202020;
+    cursor: pointer;
+}
+
+.anime_screening > img {
+    height: 120px;
+    width: 85px;
+    float: left;
+}
+
+.anime_episodes {
+    font-size: larger;
+    position: absolute;
+    margin: 0;
+    width: calc(100% - 85px);
+    left: 85px;
+    top: 50%;
+    transform: translateY(-50%);
+}

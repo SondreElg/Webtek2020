@@ -1,10 +1,10 @@
 import animeInfo from "../animeInfo";
-import ScreeningContainer from "./screeningContainer";
+import ScreeningContainer from "./animeContainer";
 import episodesInfo from "../episodesInfo";
 
 function ScreeningsCollection(props) {
     const { episodesInfo, startDate, dayIncr, onlyNext } = props;
-    const today = new Date(2020, 8, 30);
+    const today = new Date(2020, 8, 30);    //Change this to 'new Date()' when done testing
 
     let counter = 0;
     var allScreenings = [];
@@ -65,12 +65,13 @@ function ScreeningsCollection(props) {
                 date={value[0].date.toDateString()}
                 time={"19:30"}
                 location={"Discord"}
+                class={"anime_screening"}   // TODO: change based on caller
             />
         );
     });
 }
 
-ScreeningsCollection.defaultProps = {
+ScreeningsCollection.defaultProps = {   // not sure how this works, but we should be able to easily change startDate without changing the code in the future
     episodesInfo: episodesInfo,
     startDate: new Date(2020, 7, 26),
     dayIncr: 7,

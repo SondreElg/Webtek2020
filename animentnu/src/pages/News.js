@@ -1,6 +1,7 @@
 import Footer from "../components/footer";
 import NavBar from "../components/navbar";
 import NewsCollection from "../components/newsCollection";
+import "../css/popup.css";
 
 function PageNews() {
     return (

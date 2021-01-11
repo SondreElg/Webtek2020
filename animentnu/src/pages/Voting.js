@@ -1,4 +1,8 @@
 import NavBar from "../components/navbar";
+import { VotingContainer } from "../components/animeContainer";
+import getVotingInfo from "../votingInfo";
+import "../css/voting.css";
+import "../css/popup.css";
 
 function PageVoting() {
     return (
@@ -24,35 +28,15 @@ function PageVoting() {
                             most. Likewise, the title at the bottom of the list
                             will be considered the title you want to see the
                             least. After reordering the list to your liking, you
-                            can submit the answerby clicking on the "submit
+                            can submit the answer by clicking on the "submit
                             vote" button.
                         </p>
                     </div>
 
-                    <div class="voting_wrapper">
-                        <ul class="voting_container">
-                            <li>Minami-ke (2007)</li>
-                            <li>Natsume’s Book of Friends (2008)</li>
-                            <li>Sayonara Zetsubou Sensei (2008)</li>
-                            <li>Kyouso Giga (2013)</li>
-                            <li>Rokka no Yuusha (2015)</li>
-                            <li>ERASED: Boku dake ga Inai Machi (2016)</li>
-                            <li>Konosuba (2016)</li>
-                            <li>Barakamon (2014)</li>
-                            <li>Overlord (2015)</li>
-                            <li>The Devil is a Part Timer (2013)</li>
-                            <li>Kino no Tabi: The Beautiful World (2003)</li>
-                            <li>Terror in Resonance (2014)</li>
-                        </ul>
-                        <div class="button_container">
-                            <button
-                                class="button"
-                                type="button"
-                                onClick="clicked_button()"
-                            >
-                                Submit vote
-                            </button>
-                        </div>
+                    <div id="voting_wrapper">
+                        <VotingContainer
+                            animeList={getVotingInfo}
+                        />
                     </div>
                 </section>
             </div>

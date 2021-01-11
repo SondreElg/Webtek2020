@@ -1,6 +1,9 @@
 import NavBar from "../components/navbar";
 import NewsCollection from "../components/newsCollection";
-import ScreeningsCollection from "../components/screeningsCollection";
+import ScreeningsCollection from "../components/animeCollection";
+import "../css/frontpage.css";
+import "../css/screenings.css";
+import "../css/popup.css";
 
 function PageFront() {
     return (

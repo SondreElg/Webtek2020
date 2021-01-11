@@ -1,0 +1,41 @@
+/* Styles for frontpage */
+#frontpage_container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#frontpage_welcome {
+    width: 70%;
+    padding-top: 10px;
+}
+
+#frontpage_news,
+#frontpage_nextscreening {
+    width: 40%;
+    min-width: 400px;
+}
+
+#latest_news_header > h2,
+#next_screening_header > h2 {
+    text-align: left;
+}
+
+@media (max-width: 895px) {
+    .frontpage_container {
+        /* Make next screening appear below latest news */
+        display: block;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    #frontpage_welcome,
+    #frontpage_news,
+    #frontpage_nextscreening {
+        /* Make next screening appear below latest news */
+        width: 80%;
+        margin: 0 auto;
+    }
+}

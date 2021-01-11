@@ -33,9 +33,9 @@ function NavBar() {
         <>
             <div id="navbar">
                 <div id="main_navbar">
-                    <div className="nav-items">
-                        <div className="nav-header">
-                            <Link className="nav-title" to="/">
+                    <div class="nav-items">
+                        <div class="nav-header">
+                            <Link class="nav-title" to="/">
                                 <img
                                     src={imgLogo}
                                     alt="Logo"
@@ -43,7 +43,7 @@ function NavBar() {
                                 />
                             </Link>
                             <a
-                                className="nav-discord-image"
+                                class="nav-discord-image"
                                 href="https://discord.com/invite/3SQwHyZ"
                                 target="_blank"
                                 rel="noreferrer"
@@ -56,7 +56,7 @@ function NavBar() {
                             </a>
                         </div>
                         <div
-                            className="nav-sandwhichbtn"
+                            class="nav-sandwhichbtn"
                             onClick={toggleChecked}
                         >
                             <label htmlFor="nav-check" onClick={toggleChecked}>
@@ -71,18 +71,18 @@ function NavBar() {
                             checked={checked}
                             onChange={() => {}}
                         />
-                        <div className="nav-links">
+                        <div class="nav-links">
                             <Link to="/screenings">Screenings</Link>
                             <Link to="/voting">Voting</Link>
                             <Link to="/news">Newsfeed</Link>
                             <Link to="/about">About us</Link>
                             <a
-                                className="signup-link"
+                                class="signup-link"
                                 onClick={() => setVisibilityPopupSignup(true)}
                             >
                                 Sign up
                             </a>
-                            <div className="discord-link">
+                            <div class="discord-link">
                                 <a
                                     href="https://discord.com/invite/3SQwHyZ"
                                     target="_blank"

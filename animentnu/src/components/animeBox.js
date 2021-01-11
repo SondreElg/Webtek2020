@@ -2,8 +2,8 @@ import { useState } from "react";
 import animeInfo from "../animeInfo";
 import PopupSynopsis from "./popupSynopsis";
 
-function Screening(props) {
-    const anime = animeInfo[props.animeKey];
+function Screening(props) { // split into screening and voting
+    const anime = animeInfo[props.title];
     const episodes = props.episodes;
     const [visibilityPopupSynopsis, setVisibilityPopupSynopsis] = useState(
         false
@@ -20,18 +20,18 @@ function Screening(props) {
             episodes[episodes.length - 1]
         }`;
     }
-
+    
     return (
         <>
             <div
-                className="anime_screening"
+                class={props.className}
                 onClick={() => {
                     setVisibilityPopupSynopsis(true);
                 }}
             >
-                <img id={anime.imgsrc} src={anime.imgsrc} alt={anime.title} />
-                <h2 className="anime_episodes">
-                    {anime.title}
+                <img id={props.coverImage} src={props.coverImage} alt={anime} />
+                <h2 class="anime_episodes">
+                    {anime}
                     <br />
                     {episodesString}
                 </h2>

@@ -1,0 +1,23 @@
+/* Styling for voting page */
+.voting_wrapper {
+    margin-top: 50px;
+}
+
+.voting_container {
+    padding: 0;
+}
+
+.voting_container > li {
+    width: 70%;
+    margin: 5px auto;
+    padding: 10px;
+    background-color: #1f293c;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    list-style: decimal;
+    cursor: move;
+}
+
+li:active {
+    opacity: 0.7;
+}

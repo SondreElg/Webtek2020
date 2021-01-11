@@ -1,4 +1,5 @@
 import NavBar from "../components/navbar";
+import "../css/popup.css";
 
 function PageAbout() {
     return (

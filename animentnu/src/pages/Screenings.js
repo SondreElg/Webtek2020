@@ -1,7 +1,9 @@
 import Footer from "../components/footer";
 import NavBar from "../components/navbar";
-import ScreeningContainer from "../components/screeningContainer";
-import ScreeningsCollection from "../components/screeningsCollection";
+import ScreeningContainer from "../components/animeContainer";
+import ScreeningsCollection from "../components/animeCollection";
+import "../css/screenings.css";
+import "../css/popup.css";
 
 function PageScreenings() {
     const animeListSemester = [
@@ -17,14 +19,14 @@ function PageScreenings() {
         <>
             <NavBar />
 
-            <div id="semester_container" className="page_container">
+            <div id="semester_container" class="page_container">
                 <section>
-                    <header className="page_title">
+                    <header class="page_title">
                         <h1>Shows of the semester</h1>
                         <hr />
                     </header>
 
-                    <div className="info_content">
+                    <div class="info_content">
                         <p>
                             Here you can find an overview of what we're watching
                             this semester, and the details of upcoming
@@ -38,17 +40,18 @@ function PageScreenings() {
                             date={"Wednesdays"}
                             time={"19:30"}
                             location={"Discord"}
+                            class={"anime_screening"}
                         />
                     </div>
                 </section>
 
                 <section>
-                    <header className="page_title">
+                    <header class="page_title">
                         <h1>Upcoming screenings</h1>
                         <hr />
                     </header>
 
-                    <div id="screenings_container" className="page_container">
+                    <div id="screenings_container" class="page_container">
                         <ScreeningsCollection />
                     </div>
                     <Footer />

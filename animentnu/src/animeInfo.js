@@ -5,6 +5,16 @@ import imgShirobako from "./images/shirobako.png";
 import imgTokikake from "./images/tokikake.png";
 import imgZetsubou from "./images/zetsubou.png";
 
+const screeeningAnime = {
+    20955: 'Rokka',
+    15809: 'Hataraku',
+    2963: 'Minami',
+    2605: 'Zetsubou',
+    20812: 'Shirobako',
+    2236: 'Tokikake'
+};
+
+
 /**
  * Dictionary containing information about each anime for this semester
  * Key is a nickname for the anime and points to a list of information
